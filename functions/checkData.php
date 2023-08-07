@@ -6,7 +6,7 @@
         $totalNum = 5;
         print_r($_POST);
     }else{
-        echo "invalid request";
+        echo "invalid requested";
     }
     $action = new checkDataDAO();
     $action->checkDataFunctions($answerData,$totalNum);
