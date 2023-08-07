@@ -10,6 +10,5 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="assest/css/styles.css" />
-    <?php define("Base_Url", "localhost:");  ?>
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
