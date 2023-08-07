@@ -1,49 +1,100 @@
 <?php include("includes/header.php"); ?>
+<body>
 
 <div class="container-fluid border-bottom">
     <div class="fixed-top">
-        <h1 class="text-center">header - Thinker Ville Logo</h1>
+        <div class="d-flex justify-content-center mt-1">
+            <img src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width:400px; height: 60px;">
+        </div>
     </div>
 </div>
 
 <!-- main container -->
 <div class="container">
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-        <div class="col-6">
-            <div class="d-flex justify-content-between">
-                <h3>5/10</h3>
-                <h3 class="text-muted">12:14</h3>
-            </div>
-            <div class="card">
-                <div class="card-body p-4">
-                    <h5>1. This is a card</h5><br>
-                    <div style="">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                Default radio
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                Default checked radio
-                            </label>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="fw-bold border border-3 border-primary text-primary">EASY</h3><br>
+                        <img src="" alt="ThinkerVilleEasy" />
+                        <p>10 items for 15 min.</p>
+                        <div class="d-grid">
+                            <button class="btn btn-warning btn-lg rounded-5 text-white" type="button"><i class="fa-regular fa-circle-play"></i> Start Exam</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-between mt-4">
-                <button type="button" class="btn btn-warning btn-lg">Previous</button>
-                <button type="button" class="btn btn-warning btn-lg">Next</button>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="fw-bold border border-3 border-primary text-primary">MEDIUM</h3><br>
+                        <img src="" alt="ThinkerVilleEasy" />
+                        <p>25 items for 30 min.</p>
+                        <div class="d-grid">
+                            <button class="btn btn-warning btn-lg rounded-5 text-white" type="button"><i class="fa-regular fa-circle-play"></i> Start Exam</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="fw-bold border border-3 border-primary text-primary">HARD</h3><br>
+                        <img src="" alt="ThinkerVilleEasy" />
+                        <p>50 items for 1 hour</p><br>
+                        <div class="d-grid">
+                            <button class="btn btn-warning btn-lg rounded-5 text-white" type="button"><i class="fa-regular fa-circle-play"></i> Start Exam</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="fixed-bottom border-top">
-        <h1 class="text-center">Footer - Thinker Ville</h1>
+    <!-- main container -->
+    <div class="container h-100">
+        <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+            <div class="col-6">
+                <div class="d-flex justify-content-between">
+                    <h5>1/5</h5>
+                    <h5 class="text-muted"><span class="hr">01</span>:<span class="min">12</span>:<span class="sec">14</span></h5>
+                </div>
+                <input type="text" id="totalNumber" name="totalNumber" disabled>
+                <!-- Your pager content will go here -->   
+                <div class="card">
+                    <div class="card-body">
+                        <div id="contentContainer">
+                            <center>
+                                <div id="spinner-wait"class="spinner-grow text-info" role="status">
+                                    <span class="visually-hidden">Loading...</span>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <button class="btn btn-warning mr-2 text-white" onclick="showPrevious()" id="prevButton">Previous</button>
+                            <button class="btn btn-warning text-white" onclick="showNext()" id="nextButton">Next</button>
+                            <button class="btn btn-warning text-white" onclick="checkData()" id="submitButton">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="container-fluid">
+        <div class="fixed-bottom">
+            <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
+        </div>
+    </div>
+    <!-- <div class="container-fluid">
+        <div class="fixed-bottom border-top">
+            <h1 class="text-center">Footer - Thinker Ville</h1>
+        </div>
+    </div> -->  
+</body>
 <?php include("includes/footer.php"); ?>
