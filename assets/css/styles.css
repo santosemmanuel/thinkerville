@@ -340,3 +340,6 @@ footer .wave#wave1{
     }
 }
 
+#wrap_id{
+    white-space:pre-wrap;
+}
