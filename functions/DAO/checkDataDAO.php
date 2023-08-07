@@ -1,7 +1,7 @@
 <?php
     include "BaseDAO.php";
     class checkDataDAO extends BaseDAO {
-        function checkDataFunctions($answerData){
-            echo $answerData;
+        function checkDataFunctions($decode_data){
+            echo $decode_data;
         }
     }

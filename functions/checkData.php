@@ -1,10 +1,9 @@
 <?php
 include "DAO/checkDataDAO.php";
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+if (isset($_POST["userInputData"]) && is_array($_POST["userInputData"])) {
     $answerData = $_POST["userInputData"];
-} else {
-        echo "invalid request";
 }
+
 $action = new checkDataDAO();
 $action->checkDataFunctions($answerData);

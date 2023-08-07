@@ -34,17 +34,16 @@
             "totalNum" : totalNum
         };
         $.ajax({
-            url: 'functions/checkData.php',
-            type: 'POST',
+            type: "POST",
+            url: "functions/checkData.php",
             data: wordObj,
             processData: false,
             contentType: false,
             success: function (data) {
-                alert(JSON.stringify(userInputData));
                 alert(data);
             },
             error: function () {
-                alert('Error occurred while sending data. Please try again.');
+                alert("Error occurred while sending data. Please try again.");
             }
         });
     }
