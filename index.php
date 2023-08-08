@@ -6,11 +6,11 @@
     <header class="header fixed-top" id="header">
         <img src="assets/images/Favicon_5.png" alt="ThinkerVilleLogo" srcset="" style="width:50px; height: 50px;">
         <a href="#" class="navbar-brand" style="margin-left: -18%">ThinkerVille</a>
-        <div class="menu-btn"><i class="burger fa fa-bars"></i></div>
+        <div class="menu-btn"><i class="burger fa-solid fa-bars"></i></div>
         <div class="navigation">
             <div class="navigation-items">
                 <a class="nav-a" href="#home">Home</a>
-                <a class="nav-a" href="#assesment">Take a Quiz</a>
+                <a class="nav-a" href="levelselection.php">Take a Quiz</a>
                 <a class="nav-a" href="#about">About</a>
                 <a class="nav-a" href="#contact">Contact Us</a>
             </div>
@@ -55,7 +55,6 @@
                 <div class="row mb-5">
                     <div class="col-md-4">
                         <center>
-
                             <h6>Email</h6>
                             <p>ThinkerVille@gmail.com</p>
                         </center>
@@ -105,6 +104,7 @@
         </div>
 
     </section>
+    <!-- <i class="fa fa-mobile" aria-hidden="true"></i> -->
     <!-- End Contact Us-->
 
 
