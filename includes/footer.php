@@ -8,6 +8,19 @@
 <script type="text/javascript" src="assets/js/index.js"></script>
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="assets/js/page-content.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+
+<?php
+
+$uri = $_SERVER['REQUEST_URI'];
+$arr_uri = explode("/", $uri);
+
+if ($arr_uri[2] == "assesment.php") {
+    # code...
+    echo "<script type='text/javascript' src='assets/js/script.js'></script>";
+}
+
+?>
+
+</body>
 
 </html>

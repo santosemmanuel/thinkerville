@@ -52,34 +52,37 @@
     <section id="contact">
         <div class="row">
             <div class="col-md-6">
-                <div class="row mb-5">
+                <div class="row mb-4">
                     <div class="col-md-4">
                         <center>
-                            <h6>Email</h6>
-                            <p>ThinkerVille@gmail.com</p>
-                        </center>
-
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <h6>Mobile</h6>
-                            <p>0909099989</p>
+                            <i class="fa-solid fa-envelope contact-icon"></i>
+                            <h5 class="fw-bolder text-white">Email</h6>
+                                <p class="fw-light contact-text">ThinkerVille@gmail.com</p>
                         </center>
                     </div>
                     <div class="col-md-4">
                         <center>
-                            <i class="fa-solid fa-location-dot"></i>
-                            <h6>Address</h6>
-                            <p>Tacloban</p>
+                            <i class="fa-solid fa-mobile contact-icon" aria-hidden="true"></i>
+                            <h5 class="fw-bolder text-white">Mobile</h6>
+                                <p class="fw-light contact-text">0909099989</p>
+                        </center>
+                    </div>
+                    <div class="col-md-4">
+                        <center>
+                            <i class="fa-solid fa-location-dot contact-icon"></i>
+                            <h5 class="fw-bolder text-white">Address</h6>
+                                <p class="fw-lighter contact-text">Tacloban</p>
                         </center>
                     </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125215.83383223036!2d124.96398929999998!3d11.2617915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33087727ff2f99dd%3A0xc3fb64480f0c8751!2sTacloban%20City%2C%20Leyte!5e0!3m2!1sen!2sph!4v1691277216364!5m2!1sen!2sph" width="500" height="350" style="border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsive-iframe"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125215.83383223036!2d124.96398929999998!3d11.2617915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33087727ff2f99dd%3A0xc3fb64480f0c8751!2sTacloban%20City%2C%20Leyte!5e0!3m2!1sen!2sph!4v1691277216364!5m2!1sen!2sph" width="500" height="500" style="border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsive-iframe"></iframe>
             </div>
             <div class="col-md-6 p-4">
                 <div class="card ">
                     <div class="card-body">
-                        <form class="row g-4 p-2">
+                        <h5 class="p-1"><i class="fa-solid fa-message"></i>&nbsp;Message Us</h5>
+                        <hr>
+                        <form class="row g-4 p-2 mb-3">
                             <div class="col-md-6">
                                 <label for="inputFullName" class="form-label">Full Name</label>
                                 <input type="text" class="form-control" id="inputFulName">
@@ -94,7 +97,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="d-grid gap-2">
-                                    <button type="submit" class="btn btn-warning text-white"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
+                                    <button type="submit" class="btn btn-warning btn-lg text-white"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -104,14 +107,12 @@
         </div>
 
     </section>
-    <!-- <i class="fa fa-mobile" aria-hidden="true"></i> -->
+
     <!-- End Contact Us-->
 
 
-    <div class="container-fluid">
-        <div class="">
-            <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
-        </div>
-    </div>
+    <footer class="container-fluid" id="thinkerFooter">
+        <p class="text-center fw-lighter">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
+    </footer>
 
     <?php include("includes/footer.php"); ?>
