@@ -131,7 +131,7 @@ section{
 }
 
 .home .content p{
-    margin-bottom: 65px;
+    margin-bottom: 45px;
 } 
 
 .home .content a{
@@ -331,6 +331,15 @@ footer{
 
 #contact {
     background: #1877F2;
+}
+
+#AboutTitle {
+    text-align: Left;
+    color:#1877F2;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-size: 70px
 }
 
 

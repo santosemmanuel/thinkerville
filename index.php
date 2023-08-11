@@ -24,7 +24,7 @@
             <h2>Take A Quiz with</h2>
             <img src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width:550px; height: 100px;">
             <p style="width: 80%" class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#about">Take a Quiz</a>
+            <buttan class="btn btn-warning btn-lg rounded-5 text-white px-5" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</button>
         </div>
         <div class="media-icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -37,16 +37,20 @@
     <!-- About -->
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
-
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="assets/images/3963180.jpg" alt="" srcset="" style="width: 400px; height: 350px">
+                </div>
+                <div class="col-md-7">
+                    <h1 id="AboutTitle">ThinkerVille</h1>
+                    <hr cla>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere culpa dolores provident? Aut illo odio facere fugiat! Fugiat doloremque amet velit assumenda excepturi libero illo nemo optio officia blanditiis!</p>
+                    <button class="btn btn-warning btn-lg rounded-5 text-white mt-4 px-3" type="button"><i class="fa-solid fa-globe"></i> Visit Site</button>
+                </div>
+            </div>
         </div>
     </section>
     <!-- End About -->
-
-    <!-- Assesment -->
-    <section id="assesment">
-
-    </section>
-    <!-- End Assesment -->
 
     <!-- Contact Us -->
     <section id="contact">
@@ -80,8 +84,8 @@
             <div class="col-md-6 p-4">
                 <div class="card ">
                     <div class="card-body">
-                        <h5 class="p-1"><i class="fa-solid fa-message"></i>&nbsp;Message Us</h5>
-                        <hr>
+                        <h5 class="p-1 fw-bold">Message Us</h5>
+
                         <form class="row g-4 p-2 mb-3">
                             <div class="col-md-6">
                                 <label for="inputFullName" class="form-label">Full Name</label>

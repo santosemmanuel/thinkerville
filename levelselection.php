@@ -12,39 +12,43 @@
 <div class="container">
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
+            <div class="col-md-12">
+                <div class="card bg-primary" style="width: 500px;">
                     <div class="card-body">
-                        <h3 class="fw-bold border border-3 border-primary text-primary">EASY</h3><br>
-                        <img src="" alt="ThinkerVilleEasy" />
-                        <p>10 items for 15 min.</p>
-                        <div class="d-grid">
-                            <button class="btn btn-warning btn-lg rounded-5 text-white" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</button>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div style="font-size: 20px">
+                                <i class="text-white fa-solid fa-star"></i>
+                                <i class="text-white fa-regular fa-star"></i>
+                                <i class="text-white fa-regular fa-star"></i>
+                            </div>
+                            <p class="text-white" style="font-size: 15px">10 items for 15 minutes</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="fw-bold border border-3 border-primary text-primary">MEDIUM</h3><br>
-                        <img src="" alt="ThinkerVilleEasy" />
-                        <p>25 items for 30 min.</p>
-                        <div class="d-grid">
-                            <button class="btn btn-warning btn-lg rounded-5 text-white" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</button>
+                        <button class="btn btn-warning btn-lg rounded-5 text-white w-100 d-flex justify-content-between fw-bolder" type="button">
+                            EASY<i class="fa-regular fa-circle-play h4 mt-1"></i>
+                        </button>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div style="font-size: 20px">
+                                <i class="text-white fa-solid fa-star"></i>
+                                <i class="text-white fa-solid fa-star"></i>
+                                <i class="text-white fa-regular fa-star"></i>
+                            </div>
+                            <p class="text-white" style="font-size: 15px">25 items for 30 minutes</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="fw-bold border border-3 border-primary text-primary">HARD</h3><br>
-                        <img src="" alt="ThinkerVilleEasy" />
-                        <p>50 items for 1 hour</p>
-                        <div class="d-grid">
-                            <button class="btn btn-warning btn-lg rounded-5 text-white" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</button>
+                        <button class="btn btn-warning btn-lg rounded-5 text-white w-100 d-flex justify-content-between fw-bolder" type="button">
+                            MIDIUM<i class="fa-regular fa-circle-play h4 mt-1"></i>
+                        </button>
+                        <div class="d-flex justify-content-between mt-3">
+                            <div style="font-size: 20px">
+                                <i class="text-white fa-solid fa-star"></i>
+                                <i class="text-white fa-solid fa-star"></i>
+                                <i class="text-white fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-white" style="font-size: 15px">50 items for 1 hour</p>
                         </div>
+                        <button class="btn btn-warning btn-lg rounded-5 text-white w-100 d-flex justify-content-between fw-bolder" type="button">
+                            HARD<i class="fa-regular fa-circle-play h4 mt-1"></i>
+                        </button>
+
                     </div>
                 </div>
             </div>
