@@ -17,7 +17,7 @@
                 $i = $iteration++;
                 echo "<div class='card-body2'>";
                 echo "<div class='card-title'><h5>Question No. $i of $totalQuestions</h5></div>";
-                echo "<p class='card-text lead'><span>".$row[1]."</span></p>";
+                echo "<p class='card-text lead' style='white-space:pre-wrap;'><span>".$row[1]."</span></p>";
                 
                 $row_answer_id = $row[0];
                 $this->openConn();
@@ -28,7 +28,7 @@
 
                 while($row_answer = $stmt_answer->fetch()){
                     echo "<div class='form-check'>";
-                    echo "<label class='form-check-label' for='flexRadioDefault'><input class='form-check-input' type='radio' name='question_num_$i' id='answer_id_$i' value='$row_answer[1]'>";
+                    echo "<label class='form-check-label' for='flexRadioDefault'><input class='form-check-input' type='radio' name='question_num_$i' value='$row_answer[0]'>";
                     echo "$row_answer[1]</label>";
                     echo "</div>";
                 }

@@ -1,9 +1,5 @@
     $(function(){
         $("#totalNumber").hide();
-        $("#spinner-wait").delay(500).fadeOut();
-        window.onbeforeunload = function() {
-            return "Data will be lost if you leave the page, are you sure?";
-        };
         var update = function(){      //** timer
             $(".sec").each(function(){
                 var count = parseInt($(this).html());
@@ -25,7 +21,7 @@
             $("#wrap_id input[name='question_num_"+i+"']").each(function(){
                 var answerName = $(this).attr('name');
                 var answerValue = $("input[name='"+answerName+"']:checked").val();
-                userInputRow[answerName] = answerValue;
+                userInputRow[i] = answerValue;
             });
             userInputData.push(userInputRow);
         }
@@ -37,10 +33,8 @@
             type: "POST",
             url: "functions/checkData.php",
             data: wordObj,
-            processData: false,
-            contentType: false,
             success: function (data) {
-                alert(data);
+                alert(JSON.stringify(data));
             },
             error: function () {
                 alert("Error occurred while sending data. Please try again.");
@@ -66,6 +60,3 @@
             }
         }
     }
-
-
-

@@ -1,9 +1,8 @@
 <?php
-include "DAO/checkDataDAO.php";
-
-if (isset($_POST["userInputData"]) && is_array($_POST["userInputData"])) {
+    include "DAO/checkDataDAO.php";
     $answerData = $_POST["userInputData"];
-}
+    $totalNum = $_POST["totalNum"];
+    $data = $answerData;
 
-$action = new checkDataDAO();
-$action->checkDataFunctions($answerData);
+    $action = new checkDataDAO();
+    $action->checkDataFunctions($data, $totalNum);
