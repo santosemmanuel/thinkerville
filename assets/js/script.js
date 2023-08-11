@@ -26,7 +26,7 @@
             userInputData.push(userInputRow);
         }
         var wordObj = {
-            "userInputData" : userInputData, 
+            "userInputData" : userInputData,
             "totalNum" : totalNum
         };
         $.ajax({
