@@ -13,7 +13,7 @@
     <!-- main container -->
     <div class="container h-100">
         <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-            <div class="col-6">
+            <div class="col-6" id="card-questionaire">
                 <div class="d-flex justify-content-between">
                     <h5>1/5</h5>
                     <h5 class="text-muted"><span class="hr">01</span>:<span class="min">12</span>:<span class="sec">14</span></h5>

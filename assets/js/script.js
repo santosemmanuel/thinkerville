@@ -34,7 +34,8 @@
             url: "functions/checkData.php",
             data: wordObj,
             success: function (data) {
-                alert(JSON.stringify(data));
+                $("#card-questionaire").fadeIn(1000).html(data);
+
             },
             error: function () {
                 alert("Error occurred while sending data. Please try again.");

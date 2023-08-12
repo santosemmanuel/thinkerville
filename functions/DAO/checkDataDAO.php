@@ -34,6 +34,31 @@
                     }
                 }
             }
-            echo "Correct: ".$correct." Wrong: ".$wrong." Average: ".floatval($correct/$i*100)."%";
+            $ave = floatval($correct/$i*100);
+            $message = "";
+            if($ave <= 75){
+                $message = "<div class='col-md-8 mr-auto'>
+                                <div id='pass'>
+                                    <h1 class='text-center fw-bold text-danger'>UNFORTUNATELY</h1>
+                                    <p class='text-center'>You've <strong class='text-danger'>FAILED</strong> the Quiz with an average score of</p>
+                                    <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>".$ave."%</h1>
+                                    <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia facere dolorum? Illo rerum quibusdam
+                                        natus dicta eius, sequi eum ipsa iusto officia vero molestias error cum, saepe dolore delectus.</p>
+                                    </div>
+                                <center>
+                                    <buttan class='btn btn-warning btn-lg rounded-5 text-white px-5' type='button'><i class='fa-regular fa-circle-play'></i> Retake Quiz</button>
+                                </center>
+                            </div>";
+            }else{
+                $message = "<div id='pass'>
+                                <h1 class='text-center fw-bold text-success'>CONGRATULATIONS!</h1>
+                                <p class='text-center'>You've <strong class='text-success'>PASSED</strong> the Quiz with an average score of</p>
+                                <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>".$ave."%</h1>
+                                <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia facere dolorum? Illo rerum quibusdam
+                                    natus dicta eius, sequi eum ipsa iusto officia vero molestias error cum, saepe dolore delectus.
+                                </p>
+                            </div>";
+            }
+            echo $message;
         }
     }
