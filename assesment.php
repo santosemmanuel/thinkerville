@@ -34,9 +34,11 @@
                 <div class="container mt-3">
                     <div class="row">
                         <div class="col-12">
-                            <button class="btn btn-warning mr-2 text-white" onclick="showPrevious()" id="prevButton">Previous</button>
-                            <button class="btn btn-warning text-white" onclick="showNext()" id="nextButton">Next</button>
-                            <button class="btn btn-warning text-white" onclick="checkData()" id="submitButton">Submit</button>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-warning mr-2 text-white" onclick="showPrevious()" id="prevButton">Previous</button>
+                                <button class="btn btn-warning text-white" onclick="showNext()" id="nextButton">Next</button>
+                                <button class="btn btn-warning text-white" onclick="checkData()" id="submitButton">Submit</button>
+                            </div>
                         </div>
                     </div>
                 </div>
