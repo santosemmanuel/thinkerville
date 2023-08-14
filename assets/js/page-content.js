@@ -35,6 +35,7 @@
                     currentIndex = 0;
                     showCurrentCard();
                     updateButtonStates();
+                    reloadMessage();
                 },
                 error: function() {
                     alert(data);
@@ -54,6 +55,7 @@
                     currentIndex = 0;
                     showCurrentCard();
                     updateButtonStates();
+                    reloadMessage();
                 },
                 error: function() {
                     alert(data);
@@ -73,6 +75,7 @@
                     currentIndex = 0;
                     showCurrentCard();
                     updateButtonStates();
+                    reloadMessage();
                 },
                 error: function() {
                     alert(data);
@@ -83,6 +86,12 @@
         function updateButtonStates() {
             $('#prevButton').prop('disabled', currentIndex === 0);
             $('#nextButton').prop('disabled', currentIndex === totalCards - 1);
+        }
+
+        function reloadMessage(){
+            window.onbeforeunload = function() {
+                return "Data will be lost if you leave the page, are you sure?";
+            };
         }
         
         // Initial load of data

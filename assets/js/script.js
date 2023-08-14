@@ -1,4 +1,7 @@
-    $(function(){
+$(function(){
+    window.onbeforeunload = function() {
+        return "Data will be lost if you leave the page, are you sure?";
+      };
         $("#totalNumber").hide();
         $("#card-questionaire").hide();
         
@@ -37,7 +40,6 @@
             data: wordObj,
             success: function (data) {
                 $("#card-questionaire").fadeIn(1000).html(data);
-
             },
             error: function () {
                 alert("Error occurred while sending data. Please try again.");
