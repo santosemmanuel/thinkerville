@@ -16,7 +16,7 @@
             <div class="col-6" id="card-questionaire">
                 <div class="d-flex justify-content-between">
                     <h5>1/5</h5>
-                    <h5 class="text-muted"><span class="hr">01</span>:<span class="min">12</span>:<span class="sec">14</span></h5>
+                    <h5 class="text-muted"><span class="hr">01</span>:<span class="min">00</span>:<span class="sec">00</span></h5>
                 </div>
                 <input type="text" id="totalNumber" name="totalNumber" disabled>
                 <!-- Your pager content will go here -->

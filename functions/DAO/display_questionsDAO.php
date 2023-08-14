@@ -16,7 +16,7 @@
             while($row = $stmt->fetch()){
                 $i = $iteration++;
                 echo "<div class='card-body2'>";
-                echo "<div class='card-title'><h5>Question No. $i of $totalQuestions</h5></div>";
+                echo "<div class='card-title'><h5><strong>Question No. $i of $totalQuestions</strong></h5></div>";
                 echo "<p class='card-text lead' style='white-space:pre-wrap;'><span>".$row[1]."</span></p>";
                 
                 $row_answer_id = $row[0];

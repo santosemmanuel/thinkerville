@@ -3,8 +3,8 @@
     class checkDataDAO extends BaseDAO {
         function checkDataFunctions($data, $totalNum){
             $user_answer = $data;
-            $correct="0";
-            $wrong="0";
+            $correct = floatval(0.0);
+            $wrong = floatval(0.0);
             $iteration=1;
             $score=0;
             foreach($data as $key => $value){
@@ -34,7 +34,7 @@
                     }
                 }
             }
-            $ave = floatval($correct/$i*100);
+            $ave = floatval(($correct/$i)*100.00);
             $message = "";
             if($ave <= 75){
                 $message = "<div id='pass'>
@@ -46,7 +46,7 @@
                                 </p>
                             </div>
                             <center>
-                                <buttan class='btn btn-warning btn-lg rounded-5 text-white px-5' type='button'><i class='fa-regular fa-circle-play'></i> Retake Quiz</button>
+                                <button class='btn btn-warning btn-lg rounded-5 text-white px-5' type='button'><i class='fa-regular fa-circle-play'></i> Retake Quiz</button>
                             </center>";
             }else{
                 $message = "<div id='pass'>
@@ -56,7 +56,10 @@
                                 <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia facere dolorum? Illo rerum quibusdam
                                     natus dicta eius, sequi eum ipsa iusto officia vero molestias error cum, saepe dolore delectus.
                                 </p>
-                            </div>";
+                            </div>
+                            <center>
+                                <button class='btn btn-warning btn-lg rounded-5 text-white px-5' type='button'><i class='fa-regular fa-circle-play'></i> Return Home</button>
+                            </center>";
             }
             echo $message;
         }
