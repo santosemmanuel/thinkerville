@@ -2,8 +2,8 @@
     include "BaseDAO.php";
 
     class displayQuestionsDAO extends BaseDAO {
-        function displayQuestions() {
-            $totalQuestions = "5";
+        function displayQuestions($item_num) {
+            $totalQuestions = $item_num;
             
             $this->openConn();
             $stmt = $this->dbh->prepare("SELECT * FROM tbl_questions ORDER BY RAND() LIMIT ?");
@@ -12,7 +12,13 @@
             $this->closeConn();
 
             $iteration = 1;
+            echo "<div class='d-flex justify-content-between'>
+                    <h5>1/5</h5>
+                    <h5 class='text-muted'><span class='hr'>01</span>:<span class='min'>00</span>:<span class='sec'>00</span></h5>
+                </div>";
+            echo"<div class='card'><div class='card-body'>";
             echo "<form id='wrap_id'>";
+            
             while($row = $stmt->fetch()){
                 $i = $iteration++;
                 echo "<div class='card-body2'>";
@@ -35,5 +41,17 @@
                 echo "</div>";
             }
             echo "</form>";
+            echo "</div></div>";
+            echo "<div class='container mt-3'>
+                    <div class='row'>
+                        <div class='col-12'>
+                            <div class='d-flex justify-content-between'>
+                                <button class='btn btn-warning mr-2 text-white' onclick='showPrevious()' id='prevButton'>Previous</button>
+                                <button class='btn btn-warning text-white' onclick='showNext()' id='nextButton'>Next</button>
+                                <button class='btn btn-warning text-white' onclick='checkData()' id='submitButton'>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>";
         }
     }

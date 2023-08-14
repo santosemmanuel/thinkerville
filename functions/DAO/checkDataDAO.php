@@ -34,7 +34,8 @@
                     }
                 }
             }
-            $ave = floatval(($correct/$i)*100.00);
+            $number = floatval(($correct/$i)*100.00);
+            $ave = number_format($number, 2, '.','');
             $message = "";
             if($ave <= 75){
                 $message = "<div id='pass'>

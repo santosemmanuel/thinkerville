@@ -22,9 +22,47 @@
             updateButtonStates();
         }
 
-        function loadData(index) {
+        function loadDataEasy(index) {
             $.ajax({
-                url: 'functions/display_questions.php',
+                url: 'functions/display_questions_easy.php',
+                type: 'POST',
+                data: { index: index },
+                dataType: 'html',
+                success: function(data) {
+                    $('#contentContainer').delay(550).fadeIn().html(data);
+                    totalCards = $('.card-body2').length;
+                    $("input[name='totalNumber']").val(totalCards);
+                    currentIndex = 0;
+                    showCurrentCard();
+                    updateButtonStates();
+                },
+                error: function() {
+                    alert(data);
+                }
+            });
+        }
+        function loadDataMedium(index) {
+            $.ajax({
+                url: 'functions/display_questions_medium.php',
+                type: 'POST',
+                data: { index: index },
+                dataType: 'html',
+                success: function(data) {
+                    $('#contentContainer').delay(550).fadeIn().html(data);
+                    totalCards = $('.card-body2').length;
+                    $("input[name='totalNumber']").val(totalCards);
+                    currentIndex = 0;
+                    showCurrentCard();
+                    updateButtonStates();
+                },
+                error: function() {
+                    alert(data);
+                }
+            });
+        }
+        function loadDataHard(index) {
+            $.ajax({
+                url: 'functions/display_questions_hard.php',
                 type: 'POST',
                 data: { index: index },
                 dataType: 'html',
@@ -46,6 +84,24 @@
             $('#prevButton').prop('disabled', currentIndex === 0);
             $('#nextButton').prop('disabled', currentIndex === totalCards - 1);
         }
-
+        
         // Initial load of data
-        loadData(currentIndex);
+        $(function(){
+            $("#easy-btn").click(function(){
+                $("#leveSelection").hide();
+                loadDataEasy(currentIndex);
+                $("#card-questionaire").show();
+            });
+            $("#medium-btn").click(function(){
+                $("#leveSelection").hide();
+                loadDataMedium(currentIndex);
+                $("#card-questionaire").show();
+            });
+            $("#hard-btn").click(function(){
+                $("#leveSelection").hide();
+                loadDataHard(currentIndex);
+                $("#card-questionaire").show();
+            });
+        });
+
+        
