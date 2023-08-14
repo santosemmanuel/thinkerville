@@ -4,6 +4,15 @@
     class displayQuestionsDAO extends BaseDAO {
         function displayQuestions($item_num) {
             $totalQuestions = $item_num;
+            $timer = "";
+
+            if($totalQuestions == 5){
+                $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";
+            }else if($totalQuestions == 7){
+                $timer = "<span class='hr'>00</span>:<span class='min'>30</span>:<span class='sec'>00</span>";
+            }else{
+                $timer = "<span class='hr'>01</span>:<span class='min'>00</span>:<span class='sec'>00</span>";
+            }
             
             $this->openConn();
             $stmt = $this->dbh->prepare("SELECT * FROM tbl_questions ORDER BY RAND() LIMIT ?");
@@ -14,7 +23,7 @@
             $iteration = 1;
             echo "<div class='d-flex justify-content-between'>
                     <h5>1/5</h5>
-                    <h5 class='text-muted'><span class='hr'>01</span>:<span class='min'>00</span>:<span class='sec'>00</span></h5>
+                    <h5 class='text-muted'>$timer</h5>
                 </div>";
             echo"<div class='card'><div class='card-body'>";
             echo "<form id='wrap_id'>";
