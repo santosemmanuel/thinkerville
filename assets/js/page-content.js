@@ -38,7 +38,7 @@
                     reloadMessage();
                 },
                 error: function() {
-                    alert(data);
+                    alert("Error occured while sending data. Please try again.");
                 }
             });
         }
@@ -58,7 +58,7 @@
                     reloadMessage();
                 },
                 error: function() {
-                    alert(data);
+                    alert("Error occured while sending data. Please try again.");
                 }
             });
         }
@@ -78,7 +78,7 @@
                     reloadMessage();
                 },
                 error: function() {
-                    alert(data);
+                    alert("Error occured while sending data. Please try again.");
                 }
             });
         }
@@ -99,17 +99,17 @@
             $("#easy-btn").click(function(){
                 $("#leveSelection").hide();
                 loadDataEasy(currentIndex);
-                $("#card-questionaire").show();
+                $("#card-questionaire").fadeIn();
             });
             $("#medium-btn").click(function(){
                 $("#leveSelection").hide();
                 loadDataMedium(currentIndex);
-                $("#card-questionaire").show();
+                $("#card-questionaire").fadeIn();
             });
             $("#hard-btn").click(function(){
                 $("#leveSelection").hide();
                 loadDataHard(currentIndex);
-                $("#card-questionaire").show();
+                $("#card-questionaire").fadeIn();
             });
         });
 

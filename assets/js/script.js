@@ -1,7 +1,4 @@
 $(function(){
-    window.onbeforeunload = function() {
-        return "Data will be lost if you leave the page, are you sure?";
-      };
         $("#totalNumber").hide();
         $("#card-questionaire").hide();
         
@@ -39,7 +36,7 @@ $(function(){
             url: "functions/checkData.php",
             data: wordObj,
             success: function (data) {
-                $("#card-questionaire").fadeIn(1000).html(data);
+                $("#card-questionaire").html(data);
             },
             error: function () {
                 alert("Error occurred while sending data. Please try again.");
@@ -59,8 +56,7 @@ $(function(){
                 $(".min").html(59);
                 $(".sec").html(59);
             }else{
-                $("#question_id").hide();
-                $("#score-card").delay(500).fadeIn();
+                checkData();
                 pass;
             }
         }
