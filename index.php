@@ -10,7 +10,7 @@
         <div class="navigation">
             <div class="navigation-items">
                 <a class="nav-a" href="#home">Home</a>
-                <a class="nav-a" href="levelselection.php">Take a Quiz</a>
+                <a class="nav-a" href="assesment.php">Take a Quiz</a>
                 <a class="nav-a" href="#about">About</a>
                 <a class="nav-a" href="#contact">Contact Us</a>
             </div>
