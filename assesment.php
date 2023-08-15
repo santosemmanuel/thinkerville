@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6" id="card-questionaire">
+            <div class="col-8" id="card-questionaire">
                 <input type="text" id="totalNumber" name="totalNumber" disabled>
                 <!-- Your pager content will go here -->
                 <div id="contentContainer">
@@ -73,4 +73,4 @@
             <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
         </div>
     </div>
-<?php include("includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>

@@ -342,6 +342,6 @@ footer {
     align-content: center;
 }
 
-#pass{
-  margin-top: -20%;
+.card .question_card{
+  min-height: 200px;
 }

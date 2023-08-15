@@ -1,4 +1,5 @@
 <?php include("includes/header.php"); ?>
+
 <body>
 
     <!-- Header -->
@@ -23,7 +24,7 @@
             <h2>Take A Quiz with</h2>
             <img src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width:550px; height: 100px;">
             <p style="width: 80%" class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <buttan class="btn btn-warning btn-lg rounded-5 text-white px-5" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</button>
+            <a href="assesment.php" class="btn btn-warning btn-lg rounded-5 text-white px-5" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</a>
         </div>
         <div class="media-icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
