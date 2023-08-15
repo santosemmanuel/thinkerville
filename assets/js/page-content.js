@@ -86,6 +86,13 @@
         function updateButtonStates() {
             $('#prevButton').prop('disabled', currentIndex === 0);
             $('#nextButton').prop('disabled', currentIndex === totalCards - 1);
+            if(currentIndex === totalCards - 1) {
+                $('#nextButton').hide();
+                $('#submitButton').show();
+            } else {
+                $('#nextButton').show();
+                $('#submitButton').hide();
+            }
         }
 
         function reloadMessage(){

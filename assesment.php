@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6" id="card-questionaire">
+            <div class="col-8" id="card-questionaire">
                 <input type="text" id="totalNumber" name="totalNumber" disabled>
                 <!-- Your pager content will go here -->
                 <div id="contentContainer">

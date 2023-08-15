@@ -341,3 +341,7 @@ footer {
 #result_content {
     align-content: center;
 }
+
+.card .question_card{
+  min-height: 200px;
+}
