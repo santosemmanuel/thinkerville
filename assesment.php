@@ -73,4 +73,4 @@
             <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
         </div>
     </div>
-<?php include("includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
