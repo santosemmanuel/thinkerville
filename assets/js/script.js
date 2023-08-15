@@ -33,7 +33,6 @@ $(function(){
         }
         if(dataCheck == "Empty"){
             alert("The task is currently marked as unfinished and requires further attention.");
-            event.preventDefault();
         }else{
             var wordObj = {
                 "userInputData" : userInputData,

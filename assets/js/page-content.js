@@ -1,6 +1,7 @@
         var currentIndex = 0;
         var totalCards = 0;
 
+
         function hideAllCards() {
             $('.card-body2').hide();
         }
@@ -20,6 +21,10 @@
             currentIndex = Math.min(totalCards - 1, currentIndex + 1);
             showCurrentCard();
             updateButtonStates();
+
+            if (currentIndex === totalCards - 1) {
+                $("#submitButton").show();
+            }
         }
 
         function loadDataEasy(index) {
@@ -86,6 +91,7 @@
         function updateButtonStates() {
             $('#prevButton').prop('disabled', currentIndex === 0);
             $('#nextButton').prop('disabled', currentIndex === totalCards - 1);
+            $('#submitButton').toggle(currentIndex === numCards - 1);
         }
 
         function reloadMessage(){
@@ -96,6 +102,7 @@
         
         // Initial load of data
         $(function(){
+            $("#submitButton").hide();
             $("#easy-btn").click(function(){
                 $("#leveSelection").hide();
                 loadDataEasy(currentIndex);
