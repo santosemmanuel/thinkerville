@@ -2,13 +2,13 @@
 include "BaseDAO.php";
 class checkDataDAO extends BaseDAO
 {
-    function checkDataFunctions($data, $totalNum)
-    {
+    function checkDataFunctions($data, $totalNum){
         $user_answer = $data;
         $correct = floatval(0.0);
         $wrong = floatval(0.0);
         $iteration = 1;
         $score = 0;
+        $i=0;
         foreach ($data as $key => $value) {
             $i = $iteration++;
             foreach ($value as $item) {
