@@ -9,7 +9,7 @@ class displayQuestionsDAO extends BaseDAO
         $timer = "";
 
         if ($totalQuestions == 5) {
-            $timer = "<span class='hr'>00</span>:<span class='min'>00</span>:<span class='sec'>03</span>";
+            $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";
         } else if ($totalQuestions == 7) {
             $timer = "<span class='hr'>00</span>:<span class='min'>30</span>:<span class='sec'>00</span>";
         } else {
