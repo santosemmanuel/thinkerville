@@ -27,7 +27,7 @@ class displayQuestionsDAO extends BaseDAO
                 <h5 class='text-muted'>$timer</h5>
             </div>";
         echo "<div class='card'><div class='card-body'>";
-        
+
         echo "<form id='wrap_id'>";
         while ($row = $stmt->fetch()) {
             $i = $iteration++;
@@ -41,9 +41,9 @@ class displayQuestionsDAO extends BaseDAO
             $stmt_answer->bindParam(1, $row_answer_id);
             $stmt_answer->execute();
             $this->closeConn();
-            
+
             while ($row_answer = $stmt_answer->fetch()) {
-                echo "<div class='form-check'><label class='form-check-label' for='flexRadioDefault'><input class='form-check-input' type='radio' name='question_num_$i' value='$row_answer[0]'>$row_answer[1]</label></div>";
+                echo "<div class='form-check'><label class='form-check-label' for='flexRadioDefault_$row_answer[0]'><input class='form-check-input' type='radio' name='question_num_$i' value='$row_answer[0]' id='flexRadioDefault_$row_answer[0]'>$row_answer[1]</label></div>";
             }
             echo "</div>";
         }
