@@ -80,7 +80,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #1877f2;
+  /* background: #1877f2; */
 }
 
 .home:before {
