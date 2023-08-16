@@ -24,9 +24,10 @@ $(function(){
             $("#wrap_id input[name='question_num_"+i+"']").each(function(){
                 var answerName = $(this).attr('name');
                 var answerValue = $("input[name='"+answerName+"']:checked").val();
-                userInputRow[i] = answerValue;
                 if(answerValue == null){
-                    dataCheck = "Empty";
+                    userInputRow[i] = "Not answered";
+                }else{
+                    userInputRow[i] = answerValue;
                 }
             });
             userInputData.push(userInputRow);
@@ -52,6 +53,41 @@ $(function(){
         }
     }
 
+    function timerEnd(){
+        var totalNum = parseInt($("input[name='totalNumber']").val());
+        var userInputData = [];
+        var dataCheck = "";
+        for (let i=1; i<=totalNum; i++){
+            var userInputRow = {};
+            $("#wrap_id input[name='question_num_"+i+"']").each(function(){
+                var answerName = $(this).attr('name');
+                var answerValue = $("input[name='"+answerName+"']:checked").val();
+                
+                if(answerValue == null){
+                    userInputRow[i] = "0";
+                }else{
+                    userInputRow[i] = answerValue;
+                }
+            });
+            userInputData.push(userInputRow);
+        }
+        var wordObj = {
+            "userInputData" : userInputData,
+            "totalNum" : totalNum
+        };
+        $.ajax({
+            type: "POST",
+            url: "functions/checkData.php",
+            data: wordObj,
+            success: function (data) {
+                $("#card-questionaire").html(data);
+            },
+            error: function () {
+                alert("Error occurred while sending data. Please try again.");
+            }
+        });
+    }
+
     function dec_min(){
         min = parseInt($(".min").html());
         if(min != 0){
@@ -64,8 +100,7 @@ $(function(){
                 $(".min").html(59);
                 $(".sec").html(59);
             }else{
-                checkData();
-                pass;
+                timerEnd();   
             }
         }
     }
