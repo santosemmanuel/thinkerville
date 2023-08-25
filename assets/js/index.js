@@ -1,39 +1,26 @@
-    const menuBtn = document.querySelector(".menu-btn")
-    const navigation = document.querySelector(".navigation");
+  
+    window.addEventListener('DOMContentLoaded', event => {
+        
+        // Open the side navigation
+        const sidebarToggle = document.body.querySelector('#sidebarOpen');
 
-
-    menuBtn.addEventListener("click", () => {
-        menuBtn.classList.toggle("active");
-        navigation.classList.toggle('active');
-    })
-    
-
-    const onscroll = (el, listener) => {
-        el.addEventListener('scroll', listener)
-    }
-
-    let selectHeader = document.querySelector('#header')
-    let selectBrand = document.querySelector('.brand');
-    let selectBurger = document.querySelector('.burger');
-    let selectNavigation = document.querySelectorAll('.nav-a');
-    if (selectHeader) {
-        const headerScrolled = () => {
-            if (window.scrollY > 100) {
-                selectHeader.classList.add('header-scrolled')
-                selectBrand.style.color = "#222";
-                for (let index = 0; index < selectNavigation.length; index++) {  
-                    selectNavigation[index].style.color = "#222";
-                }
-                selectBurger.style.color = "#222";
-            } else {
-                selectHeader.classList.remove('header-scrolled')
-                selectBrand.style.color = "#fff";
-                for (let index = 0; index < selectNavigation.length; index++) {  
-                    selectNavigation[index].style.color = "";
-                }
-                selectBurger.style.color = "";
-            }
+        if (sidebarToggle ) {
+            sidebarToggle.addEventListener('click', event => {
+                event.preventDefault();
+                document.body.classList.remove('sb-sidenav-toggled');
+                sidebarToggle.classList.add('d-none');
+            });
         }
-        window.addEventListener('load', headerScrolled)
-        onscroll(document, headerScrolled)
-    }
+
+        // Close the side navigation
+        const sidebarClose = document.body.querySelector('#sidebarClose');
+        if(sidebarClose) {
+            sidebarClose.addEventListener('click', event => {
+                event.preventDefault();
+                document.body.classList.add('sb-sidenav-toggled');
+                sidebarToggle.classList.remove('d-none');
+            });
+            
+        }
+
+    });

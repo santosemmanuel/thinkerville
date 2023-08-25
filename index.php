@@ -1,122 +1,119 @@
 <?php include("includes/header.php"); ?>
-
-<body>
-
-    <!-- Header -->
-    <header class="header fixed-top" id="header">
-        <img src="assets/images/Favicon_5.png" alt="ThinkerVilleLogo" srcset="" style="width:50px; height: 50px;">
-        <a href="#" class="navbar-brand" style="margin-left: -18%">ThinkerVille</a>
-        <div class="menu-btn"><i class="burger fa-solid fa-bars"></i></div>
-        <div class="navigation">
-            <div class="navigation-items">
-                <a class="nav-a" href="#home">Home</a>
-                <a class="nav-a" href="assesment.php">Take a Quiz</a>
-                <a class="nav-a" href="#about">About</a>
-                <a class="nav-a" href="#contact">Contact Us</a>
+<div class="d-flex" id="wrapper">
+    <!-- Sidebar-->
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-white p-3 border-end" id="sidebar-wrapper" style="width: 305px;">
+        <div class="pb-3 mb-3 border-bottom">
+            <div style="width: 100%;" class="">
+                <a href=" https://getbootstrap.com/" class="link-dark text-decoration-none">
+                    <svg class="bi me-2" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <img src="assets/images/ThinkerVille Logo black.png" alt="thinkerville" srcset="" class="mr-5" style="width: 180px; height: 30px">
+                </a>
+            </div>
+            <div class="">
+                <i class="fa-solid fa-xmark fs-5 text-primary" style="float:right; margin-top: -8%" id="sidebarClose"></i>
             </div>
         </div>
-    </header>
-    <!--End Header-->
-
-    <!-- Home -->
-    <section class="home" id="home" style="background-image: url('assets/images/TV_Background.png'); background-size: 100% 100%; background-repeat:no-repeat">
-        <div class="content">
-            <h2>Take A Quiz with</h2>
-            <img src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width:550px; height: 100px;">
-            <p style="width: 80%" class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="assesment.php" class="btn btn-warning btn-lg rounded-5 text-white px-5" type="button"><i class="fa-regular fa-circle-play"></i> Start Quiz</a>
-        </div>
-        <div class="media-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    </section>
-    <!-- End Home-->
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="col-md-5">
-                    <img src="assets/images/3963180.jpg" alt="" srcset="" style="width: 400px; height: 350px">
+        <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                    About Civil Service Exam
+                </button>
+                <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded ml-2">What is the Civil Service Exam</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Why should I take the Civil Service Exam</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Who is eligible to take the Civil Service Exam</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">What are the different types of Civil Service Exams</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">What is the format of the Civil Service Exam</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">How can I prepare for the Civil Service Exam</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Are there study guides or resources available for the Civil Service Exam</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-7">
-                    <h1 id="AboutTitle">ThinkerVille</h1>
-                    <hr cla>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere culpa dolores provident? Aut illo odio facere fugiat! Fugiat doloremque amet velit assumenda excepturi libero illo nemo optio officia blanditiis!</p>
-                    <button class="btn btn-warning btn-lg rounded-5 text-white mt-4 px-3" type="button"><i class="fa-solid fa-globe"></i> Visit Site</button>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Application Process
+                </button>
+                <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Overview</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Weekly</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Monthly</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Annually</a></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- End About -->
-
-    <!-- Contact Us -->
-    <section id="contact">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row mb-4">
-                    <div class="col-md-4">
-                        <center>
-                            <i class="fa-solid fa-envelope contact-icon"></i>
-                            <h5 class="fw-bolder text-white">Email</h6>
-                                <p class="fw-light contact-text">ThinkerVille@gmail.com</p>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <i class="fa-solid fa-mobile contact-icon" aria-hidden="true"></i>
-                            <h5 class="fw-bolder text-white">Mobile</h6>
-                                <p class="fw-light contact-text">0909099989</p>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <i class="fa-solid fa-location-dot contact-icon"></i>
-                            <h5 class="fw-bolder text-white">Address</h6>
-                                <p class="fw-lighter contact-text">Tacloban</p>
-                        </center>
-                    </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                    Scoring and Accommodations
+                </button>
+                <div class="collapse" id="orders-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">New</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Processed</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Shipped</a></li>
+                        <li><a href="https://getbootstrap.com/docs/5.0/examples/sidebars/#" class="link-dark rounded">Returned</a></li>
+                    </ul>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125215.83383223036!2d124.96398929999998!3d11.2617915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33087727ff2f99dd%3A0xc3fb64480f0c8751!2sTacloban%20City%2C%20Leyte!5e0!3m2!1sen!2sph!4v1691277216364!5m2!1sen!2sph" width="500" height="500" style="border-radius: 25px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsive-iframe"></iframe>
-            </div>
-            <div class="col-md-6 p-4">
-                <div class="card ">
-                    <div class="card-body">
-                        <h5 class="p-1 fw-bold">Message Us</h5>
-
-                        <form class="row g-4 p-2 mb-3">
-                            <div class="col-md-6">
-                                <label for="inputFullName" class="form-label">Full Name</label>
-                                <input type="text" class="form-control" id="inputFulName">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
-                            </div>
-                            <div class="col-12">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <div class="d-grid gap-2">
-                                    <button type="submit" class="btn btn-warning btn-lg text-white"><i class="fa fa-paper-plane" aria-hidden="true"></i> Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+            </li>
+            <li class="border-top my-3"></li>
+        </ul>
+        <div class="dropdown mt-auto">
+            <div class="dropdown">
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i>Start Quiz
+                    </button>
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item text-center" href="#">EASY</a></li>
+                        <li><a class="dropdown-item text-center" href="#">MEDIUM</a></li>
+                        <li><a class="dropdown-item text-center" href="#">HARD</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
 
-    </section>
+    <!-- Page content wrapper-->
+    <div id="page-content-wrapper">
+        <!-- Top navigation-->
+        <nav class="p-3 navbar navbar-expand-lg navbar-light border-0">
+            <div class="container-fluid">
+                <i class="fa-solid fa-bars-staggered fs-5 text-primary d-none" id="sidebarOpen"></i>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#!">Action</a>
+                                <a class="dropdown-item" href="#!">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#!">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container-fluid px-5 pt-2">
+            <h1 class="mt-4">Simple Sidebar</h1>
+            <p>The starting state of the menu will appear collapsed on smaller screens, and will appear
+                non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+            <p>
+                Make sure to keep all page content within the
+                <code>#page-content-wrapper</code>
+                . The top navbar is optional, and just for demonstration. Just create an element with the
+                <code>#sidebarToggle</code>
+                ID which will toggle the menu when clicked.
+            </p>
+        </div>
+    </div>
+</div>
 
-    <!-- End Contact Us-->
-
-
-    <footer class="container-fluid" id="thinkerFooter">
-        <p class="text-center fw-lighter">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
-    </footer>
-
-    <?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>

@@ -21,10 +21,6 @@
             currentIndex = Math.min(totalCards - 1, currentIndex + 1);
             showCurrentCard();
             updateButtonStates();
-
-            if (currentIndex === totalCards - 1) {
-                $("#submitButton").show();
-            }
         }
 
         function loadDataEasy(index) {
@@ -91,6 +87,13 @@
         function updateButtonStates() {
             $('#prevButton').prop('disabled', currentIndex === 0);
             $('#nextButton').prop('disabled', currentIndex === totalCards - 1);
+            if (currentIndex === totalCards - 1) {
+                $("#submitButton").show();
+                $("#nextButton").hide();
+            } else {
+                $("#nextButton").show();
+                $("#submitButton").hide();
+            }
         }
 
         function reloadMessage(){

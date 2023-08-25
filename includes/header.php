@@ -15,3 +15,5 @@
     <link rel="stylesheet" href="css/alert-style/alertify.css">
     <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
+
+<body>
