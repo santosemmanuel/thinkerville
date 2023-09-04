@@ -9,6 +9,7 @@
                 event.preventDefault();
                 document.body.classList.remove('sb-sidenav-toggled');
                 sidebarToggle.classList.add('d-none');
+                document.body.querySelector('#page-content-wrapper').id = 'page-content-wrapped';
             });
         }
 
@@ -19,6 +20,7 @@
                 event.preventDefault();
                 document.body.classList.add('sb-sidenav-toggled');
                 sidebarToggle.classList.remove('d-none');
+                document.body.querySelector('#page-content-wrapped').id = 'page-content-wrapper';
             });
             
         }
