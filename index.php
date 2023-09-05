@@ -112,18 +112,225 @@
             <div id="">
                 <h1 class="mt-5 fw-bold">Am I qualified to take the Civil Service Exam?</h1>
                 <div class="px-4 py-3">
-                    <p>Everyone is qualified to take the Civil Service Examination regardless of your educational attainment as long as you met the following: </p>
-                    <p>
-                        Opting for the Sub-professional level equips you for clerical and entry-level roles, whereas conquering the Professional level not only awards you 2nd level eligibility but also paves your way towards supervisory and managerial positions (2nd level positions).
-                        The choice between the Professional and Sub-professional levels lies in your hands.
-                    </p>
+                    <p style="text-align: justify">Everyone is qualified to take the Civil Service Examination <mark><i>regardless of your educational attainment</i></mark> as long as you met the following: </p>
+                    <ul>
+                        <li class="mb-1">You must be a Filipino citizen, at least 18 years of age at the time of filing the application.</li>
+                        <li class="mb-1">You must be of good moral character, have no criminal record, or have not been convicted of an offense involving moral turpitude.</li>
+                        <li class="mb-1">Must not have been dishonorably discharged from the military, police, fire, or jail service or even dismissed for cause from any civilian position in the government.</li>
+                        <li class="mb-1">Must not have taken the same level of career service examination either through PPT or CSC Computerized Examination (CSC COMEX) within three (3) months from the last examination taken.</li>
+                    </ul>
                 </div>
             </div>
 
+            <div id="">
+                <h1 class="mt-5 fw-bold">What is the examination coverage of the CSE?</h1>
+                <div class="px-4 py-3">
+                    <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level, the subjects comprise
+                        Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability, and General Information. Explore the specifics outlined below:</p>
+                    <table class="table table-bordered">
+                        <thead style="background-color: #253C78; color:white">
+                            <th class="text-center fw-bolder" width="50%">Professional</th>
+                            <th class="text-center" width="50%">Sub-Professional</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-3">
+                                    <p>In English and Filipino:</p>
+                                    <br>
+                                    <strong class="mb-1">Numerical Ability</strong>
+                                    <ul>
+                                        <li class="mt-1">Basic Operations</li>
+                                        <li class="mt-1">Word Problems</li>
+                                    </ul>
+                                    <br>
+                                    <strong class="mb-1">Analytical Ability</strong>
+                                    <ul>
+                                        <li class="mt-1">Word association</li>
+                                        <li class="mt-1">Identifying assumptions and conclusions</li>
+                                        <li class="mt-1">Logic</li>
+                                        <li class="mt-1">Data Interpretation</li>
+                                    </ul>
+                                    <br>
+                                    <strong class="mb-1">Verbal Ability</strong>
+                                    <ul>
+                                        <li class="mt-1">Grammar and Correct Usage</li>
+                                        <li class="mt-1">Vocabulary</li>
+                                        <li class="mt-1">Paragraph Organization</li>
+                                        <li class="mt-1">Reading Comprehension</li>
+                                    </ul>
+                                </td>
+                                <td class="p-3">
+                                    <p>In English and Filipino:</p>
+                                    <br>
+                                    <strong class="mb-1">Ability</strong>
+                                    <ul>
+                                        <li class="mt-1">Basic Operations</li>
+                                        <li class="mt-1">Word Problems</li>
+                                    </ul>
+                                    <br>
+                                    <strong class="mb-1">Clerical Ability</strong>
+                                    <ul>
+                                        <li class="mt-1">Filing</li>
+                                        <li class="mt-1">Spelling</li>
+                                    </ul>
+                                    <br>
+                                    <strong class="mb-1">Verbal Ability</strong>
+                                    <ul>
+                                        <li class="mt-1">Grammar and Correct Usage</li>
+                                        <li class="mt-1">Vocabulary</li>
+                                        <li class="mt-1">Paragraph Organization</li>
+                                        <li class="mt-1">Reading Comprehension</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="p-3" colspan="2">
+                                    <strong class="mb-1">General Information</strong>
+                                    <ul>
+                                        <li class="mt-1">Philippine Constitution</li>
+                                        <li class="mt-1">Code of Conduct for Public Officials and Employees (R.A. 6713)</li>
+                                        <li class="mt-1">Peace and Human Rights Issues and Concepts</li>
+                                        <li class="mt-1">Environmental Management and Protection</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="">
+                <h1 class="mt-5 fw-bold">What is the CSE passing rate?</h1>
+                <div class="px-4 py-3">
+                    <p style="text-align: justify">To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
+                </div>
+            </div>
+
+            <div id="">
+                <h1 class="mt-5 fw-bold">Civil Service Exam Schedule and Application</h1>
+                <div class="px-4 py-3">
+                    <p style="text-align: justify">For 2023, here’s the schedule:</p>
+                    <table class="table table-bordered">
+                        <thead style="background-color: #253C78; color:white">
+                            <th class="text-center fw-bolder">Start of Application</th>
+                            <th class="text-center fw-bolder">End of Application</th>
+                            <th class="text-center fw-bolder">Date of Examination</th>
+                            <th class="text-center fw-bolder">Release of Result</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>December 22, 2022</td>
+                                <td>January 25, 2023</td>
+                                <td>March 26, 2023</td>
+                                <td>May 25, 2023</td>
+                            </tr>
+                            <tr>
+                                <td>May 22, 2023</td>
+                                <td>June 21, 2023</td>
+                                <td>August 20, 2023</td>
+                                <td>November 3, 2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="fw-bolder my-4">Time allotment & number of items</p>
+                    <table class="table table-bordered">
+                        <thead style="background-color: #253C78; color:white">
+                            <th class="text-center fw-bolder">Level</th>
+                            <th class="text-center fw-bolder">No. of hours</th>
+                            <th class="text-center fw-bolder">No. of Items</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Professional</td>
+                                <td>3 hours and 10 minutes</td>
+                                <td>170 items</td>
+                            </tr>
+                            <tr>
+                                <td>Subprofessional</td>
+                                <td>2 hours and 40 minutes</td>
+                                <td>165 items</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="">
+                <h1 class="mt-5 fw-bold">Application Process & Requirements</h1>
+                <div class="px-4 py-3">
+                    <p style="text-align: justify">For you to be allowed to take the Civil Service Examination, follow the steps below:</p>
+                    <ol>
+                        <li class="mt-1">Go to the nearest Civil Service Commission Office. They are open from Monday to Friday from 8:00 AM to 5:00PM (except for holidays).</li>
+                        <li class="mt-1">
+                            Submit the Requirements
+                            <ul>
+                                <li class="mt-1">Application form <a href="" style="text-decoration: none;">(click here to get it)</a></li>
+                                <li class="mt-1">4 identical ID pictures (passport size, white background)</li>
+                                <li class="mt-1">
+                                    Original and photocopy of school, company or government issued IDs
+                                    <ul>
+                                        <li class="mt-1">Passport</li>
+                                        <li class="mt-1">Driver’s License</li>
+                                        <li class="mt-1">SSS ID</li>
+                                        <li class="mt-1">GSIS ID</li>
+                                        <li class="mt-1">Philhealth ID</li>
+                                        <li class="mt-1">Current Company/Office ID</li>
+                                        <li class="mt-1">Current School ID</li>
+                                        <li class="mt-1">Postal ID</li>
+                                        <li class="mt-1">BIR ID (TIN)</li>
+                                        <li class="mt-1">Barangay ID</li>
+                                        <li class="mt-1">Voter’s ID</li>
+                                        <li class="mt-1">Police Clearance</li>
+                                    </ul>
+                                </li>
+                                <li class="mt-1">PSA birth certificate (if ID has no birth date)</li>
+                                <li class="mt-1">Pay registration fee at the cashier (Php 500.00)</li>
+                            </ul>
+                        </li>
+                        <li class="mt-1">Wait for your school assignment (examination venue).</li>
+                        <li class="mt-1">Take the test on the designated day. <mark><i>(Remember to bring all the requirements and follow all the required protocols on the examination day. Check our FAQs to get the list)</i></mark></li>
+                        <li class="mt-1">Wait for the result. <mark><i>(We’ll post the result <a href="#" style="text-decoration: none;">here</a>)</i></mark></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div id="">
+                <h1 class="mt-5 fw-bold">FAQs: Frequently Asked Questions</h1>
+                <div class="px-4 py-3">
+                    <ul>
+                        <li class="mt-1 fs-5">Can I take the Civil Service Exam if I haven't completed college or high school?<br>
+                            <div class="m-3 fs-6">
+                                <i>Yes. You can take the Civil Service Exam regardless of your educational attainment.</i>
+                            </div>
+                        </li>
+                        <li class="mt-1 fs-5">Where can I find my school assignment for the Civil Service Exam?<br>
+                            <div class="m-3 fs-6">
+                                <i>The school assignment is available 2 weeks before examination day at the CSC website <a href="#" style="text-decoration: none;">www.csc.gov.ph</a></i>
+                            </div>
+                        </li>
+                        <li class="mt-1 fs-5">What is the appropriate attire for the Civil Service Exam, and what clothing items are not allowed?</li>
+                        <li class="mt-1 fs-5">Are calculators allowed to be used during the Civil Service Exams?<br>
+                            <div class="m-3 fs-6">
+                                <i>The use of calculators as aids during the exam is prohibited. When candidates sit for the Civil Service Examination, they are expected to rely solely on their mental calculations and
+                                    problem-solving skills without the assistance of electronic devices like calculators.</i>
+                            </div>
+                        </li>
+                        <li class="mt-1 fs-5">What are the required documents and items I need to bring for the Civil Service Exam?</li>
+                        <li class="mt-1 fs-5">What are the important reminders for the day of the Civil Service Examination?</li>
+                        <li class="mt-1 fs-5">Who are exempted from taking the Civil Service Exams, and what criteria make them eligible for exemption?</li>
+                        <li class="mt-1 fs-5">What benefits do individuals receive upon passing the Civil Service Exam?</li>
+                        <li class="mt-1 fs-5">How many times can take the Civil Service Exam?</li>
+                        <li class="mt-1 fs-5">Does Civil Service eligibility have an expiration date, and how is it regarded by government agencies during job applications?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="my-3">
+                <p>Civil Service eligibility does not come with an expiration date. Moreover, government agencies tend to favor this certification when considering candidates for positions.</p>
+            </div>
 
 
         </div>
     </div>
 </div>
-
 <?php include("includes/footer.php"); ?>
