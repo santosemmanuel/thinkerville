@@ -1,7 +1,6 @@
 <?php
 include "BaseDAO.php";
-class checkDataDAO extends BaseDAO
-{
+class checkDataDAO extends BaseDAO {
     function checkDataFunctions($data, $totalNum){
         $user_answer = $data;
         $correct = floatval(0.0);
@@ -25,7 +24,7 @@ class checkDataDAO extends BaseDAO
                     $stmt_question->execute();
                     $this->closeConn();
                     while ($row_question_list = $stmt_question->fetch()) {
-                        $answer_string = $row_question_list[3];
+                        $answer_string = $row_question_list[4];
 
                         if ($answer_string === $row_answer_list[1]) {
                             $correct++;

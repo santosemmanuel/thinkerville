@@ -70,8 +70,8 @@
                         <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i>Start Quiz
                     </button>
                     <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item text-center" href="#">EASY</a></li>
-                        <li><a class="dropdown-item text-center" href="#">HARD</a></li>
+                        <li><a class="dropdown-item text-center" style="cursor: pointer;" id="easy-select">EASY</a></li>
+                        <li><a class="dropdown-item text-center"style="cursor: pointer;" id="hard-select">HARD</a></li>
                     </ul>
                 </div>
             </div>
@@ -96,8 +96,7 @@
         </nav>
         <!-- Page content-->
         <div class="container-fluid px-5 pt-2">
-
-            <div id="">
+            <div id="div-content">
                 <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
                 <div class="px-4 py-3">
                     <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission. Its successful completion opens the doors for individuals to engage in full-time,
@@ -107,9 +106,6 @@
                         The choice between the Professional and Sub-professional levels lies in your hands.
                     </p>
                 </div>
-            </div>
-
-            <div id="">
                 <h1 class="mt-5 fw-bold">Am I qualified to take the Civil Service Exam?</h1>
                 <div class="px-4 py-3">
                     <p>Everyone is qualified to take the Civil Service Examination regardless of your educational attainment as long as you met the following: </p>
@@ -119,11 +115,20 @@
                     </p>
                 </div>
             </div>
-
-
-
+            <div class="container-fluid px-5 pt-2" id="card-questionaire">
+                <input type="text" id="totalNumber" name="totalNumber" disabled>
+                <!-- Your pager content will go here -->
+                <div id="contentContainer">
+                    <center>
+                        <div id="spinner-wait" class="spinner-grow text-info" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 
 <?php include("includes/footer.php"); ?>

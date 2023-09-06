@@ -105,8 +105,8 @@
         // Initial load of data
         $(function(){
             $("#submitButton").hide();
-            $("#easy-btn").click(function(){
-                $("#leveSelection").hide();
+            $("#easy-select").click(function(){
+                $("#div-content").hide();
                 loadDataEasy(currentIndex);
                 $("#card-questionaire").fadeIn();
             });
@@ -115,8 +115,8 @@
                 loadDataMedium(currentIndex);
                 $("#card-questionaire").fadeIn();
             });
-            $("#hard-btn").click(function(){
-                $("#leveSelection").hide();
+            $("#hard-select").click(function(){
+                $("#div-content").hide();
                 loadDataHard(currentIndex);
                 $("#card-questionaire").fadeIn();
             });
