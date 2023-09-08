@@ -75,7 +75,7 @@
                     </button>
                     <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item text-center" style="cursor: pointer;" id="easy-select">EASY</a></li>
-                        <li><a class="dropdown-item text-center"style="cursor: pointer;" id="hard-select">HARD</a></li>
+                        <li><a class="dropdown-item text-center" style="cursor: pointer;" id="hard-select">HARD</a></li>
                     </ul>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item active"><a class="nav-link" href=""><i class="fa-solid fa-house"></i> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!"><i class="fa-regular fa-circle-play"></i> Take a Quiz</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/groups/425962664769033"><i class="fa-solid fa-users"></i> Join Community</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/groups/425962664769033" target="_blank"><i class="fa-solid fa-users"></i> Join Community</a></li>
                     </ul>
                 </div>
             </div>
@@ -101,7 +101,6 @@
 
         <!-- Page content-->
         <div class="container-fluid px-5 pt-2">
-            <div id="div-content">
             <div id="AboutCSE1">
                 <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
                 <div class="px-4 py-3">
@@ -213,8 +212,7 @@
                     <p style="text-align: justify">To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
                 </div>
             </div>
-            <div class="container-fluid px-5 pt-2" id="card-questionaire">
-            
+
             <div id="AppProcess1">
                 <h1 class="mt-5 fw-bold">Civil Service Exam Schedule and Application</h1>
                 <div class="px-4 py-3">
@@ -267,6 +265,7 @@
                     </div>
                 </div>
             </div>
+
             <div id="AppProcess2">
                 <h1 class="mt-5 fw-bold">Application Process & Requirements</h1>
                 <div class="px-4 py-3">
@@ -465,26 +464,28 @@
                     </ol>
                 </div>
             </div>
-    </div>
-</div>
+        </div>
 
-  <div class="container-fluid px-5 pt-2" id="card-questionaire">
-                <input type="text" id="totalNumber" name="totalNumber" disabled>
-                <!-- Your pager content will go here -->
-                <div id="contentContainer">
-                    <center>
-                        <div id="spinner-wait" class="spinner-grow text-info" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </center>
-            <div class="my-5">
+        <div class="my-5">
+            <center>
+                <h2 class="fw-bolder">CHALLENGE YOURSELF NOW!</h2>
+            </center>
+        </div>
+
+        <div class="container-fluid px-5 pt-2" id="card-questionaire">
+            <input type="text" id="totalNumber" name="totalNumber" disabled>
+            <!-- Your pager content will go here -->
+            <div id="contentContainer">
                 <center>
-                    <h2 class="fw-bolder">CHALLENGE YOURSELF NOW!</h2>
+                    <div id="spinner-wait" class="spinner-grow text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
                 </center>
             </div>
-
         </div>
+
     </div>
+
 </div>
 <?php include("includes/footer.php"); ?>
 <script>
