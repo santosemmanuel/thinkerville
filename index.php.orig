@@ -101,8 +101,12 @@
 
         <!-- Page content-->
         <div class="container-fluid px-5 pt-2">
+<<<<<<< HEAD
             <div id="div-content">
+=======
+
             <div id="AboutCSE1">
+>>>>>>> f232e99ca518bfd7ee834cf804c5273ccc523e8d
                 <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
                 <div class="px-4 py-3">
                     <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission. Its successful completion opens the doors for individuals to engage in full-time,
@@ -112,9 +116,12 @@
                         The choice between the Professional and Sub-professional levels lies in your hands.
                     </p>
                 </div>
+<<<<<<< HEAD
+=======
             </div>
 
             <div id="AboutCSE2">
+>>>>>>> f232e99ca518bfd7ee834cf804c5273ccc523e8d
                 <h1 class="mt-5 fw-bold">Am I qualified to take the Civil Service Exam?</h1>
                 <div class="px-4 py-3">
                     <p style="text-align: justify">Everyone is qualified to take the Civil Service Examination <mark><i>regardless of your educational attainment</i></mark> as long as you met the following: </p>
@@ -206,6 +213,19 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
+            <div class="container-fluid px-5 pt-2" id="card-questionaire">
+                <input type="text" id="totalNumber" name="totalNumber" disabled>
+                <!-- Your pager content will go here -->
+                <div id="contentContainer">
+                    <center>
+                        <div id="spinner-wait" class="spinner-grow text-info" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </center>
+                </div>
+            </div>
+=======
 
             <div id="AboutCSE4">
                 <h1 class="mt-5 fw-bold">What is the CSE passing rate?</h1>
@@ -213,8 +233,7 @@
                     <p style="text-align: justify">To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
                 </div>
             </div>
-            <div class="container-fluid px-5 pt-2" id="card-questionaire">
-            
+
             <div id="AppProcess1">
                 <h1 class="mt-5 fw-bold">Civil Service Exam Schedule and Application</h1>
                 <div class="px-4 py-3">
@@ -267,6 +286,7 @@
                     </div>
                 </div>
             </div>
+
             <div id="AppProcess2">
                 <h1 class="mt-5 fw-bold">Application Process & Requirements</h1>
                 <div class="px-4 py-3">
@@ -465,28 +485,23 @@
                     </ol>
                 </div>
             </div>
-    </div>
-</div>
 
-  <div class="container-fluid px-5 pt-2" id="card-questionaire">
-                <input type="text" id="totalNumber" name="totalNumber" disabled>
-                <!-- Your pager content will go here -->
-                <div id="contentContainer">
-                    <center>
-                        <div id="spinner-wait" class="spinner-grow text-info" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </center>
             <div class="my-5">
                 <center>
                     <h2 class="fw-bolder">CHALLENGE YOURSELF NOW!</h2>
                 </center>
             </div>
 
+>>>>>>> f232e99ca518bfd7ee834cf804c5273ccc523e8d
         </div>
     </div>
 </div>
 <?php include("includes/footer.php"); ?>
 <script>
 
+<<<<<<< HEAD
+
+<?php include("includes/footer.php"); ?>
+=======
 </script>
+>>>>>>> f232e99ca518bfd7ee834cf804c5273ccc523e8d

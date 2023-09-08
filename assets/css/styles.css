@@ -10804,6 +10804,7 @@ fieldset:disabled .btn {
   /* min-height: 100vh;
   margin-left: -15rem;
   transition: margin 0.25s ease-out; */
+  width: 400px;
   height: 100%;
   position: fixed;
   z-index: 1;
@@ -10835,7 +10836,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
   }
@@ -10845,10 +10846,54 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -25rem;
+  }
+  #AboutCSE1,
+  #AboutCSE2,
+  #AboutCSE3,
+  #AboutCSE4,
+  #AppProcess1,
+  #AppProcess2,
+  #FAQ1,
+  #FAQ2,
+  #FAQ3,
+  #FAQ4,
+  #FAQ5,
+  #FAQ6,
+  #FAQ7,
+  #FAQ8,
+  #FAQ9,
+  #FAQ10 {
+    scroll-margin-top: 10rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -25rem;
+  }
+  #sidebar-wrapper {
+    /* min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out; */
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
   }
 }
 
-@media (min-width: 360px) {
+@media only screen and (max-width: 360px) {
   #sidebar-wrapper {
     margin-left: 0;
   }
@@ -10858,6 +10903,52 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -25rem;
+  }
+  #sidebar-wrapper {
+    /* min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out; */
+    width: 360px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  #AboutCSE1 {
+    scroll-margin-top: 0px;
+  }
+  #AboutCSE2 {
+    scroll-margin-top: -280px;
+  }
+  #AboutCSE3 {
+    scroll-margin-top: -650px;
+  }
+  #AboutCSE4 {
+    scroll-margin-top: -850px;
+  }
+  #AppProcess1 {
+    scroll-margin-top: -850px;
+  }
+  #AppProcess2 {
+    scroll-margin-top: -1000px;
+  }
+  #FAQ1 {
+    scroll-margin-top: -1870px;
+  }
+  #FAQ2,
+  #FAQ3,
+  #FAQ4,
+  #FAQ5,
+  #FAQ6,
+  #FAQ7,
+  #FAQ8,
+  #FAQ9,
+  #FAQ10 {
   }
 }
 
@@ -10903,9 +10994,16 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-top: 0.125rem;
   margin-left: 1.25rem;
   text-decoration: none;
+  color: white;
 }
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
+  background-color: white;
+  color: black;
+}
+
+.btn-toggle-nav > li > a.active-item {
+  color: black;
   background-color: white;
 }
 
