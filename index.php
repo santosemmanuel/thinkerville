@@ -74,8 +74,8 @@
                         <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i>Start Quiz
                     </button>
                     <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item text-center" style="cursor: pointer;" id="easy-select">EASY</a></li>
-                        <li><a class="dropdown-item text-center" style="cursor: pointer;" id="hard-select">HARD</a></li>
+                        <li><a class="dropdown-item text-center" style="cursor: pointer;" href="assesment_easy.php">EASY</a></li>
+                        <li><a class="dropdown-item text-center" style="cursor: pointer;" href="assesment_hard.php">HARD</a></li>
                     </ul>
                 </div>
             </div>
@@ -471,19 +471,6 @@
                 <h2 class="fw-bolder">CHALLENGE YOURSELF NOW!</h2>
             </center>
         </div>
-
-        <div class="container-fluid px-5 pt-2" id="card-questionaire">
-            <input type="text" id="totalNumber" name="totalNumber" disabled>
-            <!-- Your pager content will go here -->
-            <div id="contentContainer">
-                <center>
-                    <div id="spinner-wait" class="spinner-grow text-info" role="status">
-                        <span class="visually-hidden">Loading...</span>
-                    </div>
-                </center>
-            </div>
-        </div>
-
     </div>
 
 </div>

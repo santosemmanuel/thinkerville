@@ -103,7 +103,7 @@
         }
 
         // Initial load of data
-        loadDataEasy(currentIndex);
+        loadDataHard(currentIndex);
         $(function(){
             $("#card-questionaire").fadeIn();
             $("#medium-btn").click(function(){

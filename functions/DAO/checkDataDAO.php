@@ -24,7 +24,7 @@ class checkDataDAO extends BaseDAO {
                     $stmt_question->execute();
                     $this->closeConn();
                     while ($row_question_list = $stmt_question->fetch()) {
-                        $answer_string = $row_question_list[4];
+                        $answer_string = $row_question_list[5];
 
                         if ($answer_string === $row_answer_list[1]) {
                             $correct++;
