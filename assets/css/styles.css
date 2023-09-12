@@ -10940,14 +10940,22 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   #FAQ1 {
     scroll-margin-top: -1870px;
   }
-  #FAQ2,
-  #FAQ3,
-  #FAQ4,
-  #FAQ5,
-  #FAQ6,
-  #FAQ7,
-  #FAQ8,
-  #FAQ9,
+  #FAQ2 {
+  }
+  #FAQ3 {
+  }
+  #FAQ4 {
+  }
+  #FAQ5 {
+  }
+  #FAQ6 {
+  }
+  #FAQ7 {
+  }
+  #FAQ8 {
+  }
+  #FAQ {
+  }
   #FAQ10 {
   }
 }
