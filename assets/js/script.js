@@ -1,6 +1,5 @@
 $(function(){
         $("#totalNumber").hide();
-        $("#card-questionaire").hide();
         
         var update = function(){      //** timer
             $(".sec").each(function(){
