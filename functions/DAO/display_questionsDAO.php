@@ -54,9 +54,9 @@ class displayQuestionsDAO extends BaseDAO
                     <div class='row'>
                         <div class='col-12'>
                             <div class='d-flex justify-content-between'>
-                                <button class='btn btn-warning btn-lg text-white' onclick='showPrevious()' id='prevButton'><i class='fa-solid fa-arrow-left'></i>&nbsp;Previous</button>
-                                <button class='btn btn-warning btn-lg text-white' onclick='showNext()' id='nextButton'>Next&nbsp;<i class='fa-solid fa-arrow-right'></i></button>
-                                <button class='btn btn-warning btn-lg text-white' onclick='checkData()' id='submitButton' style='display: none'><i class='fa-solid fa-paper-plane'></i>&nbsp;Submit</button>
+                                <button class='btn btn-lg text-white' onclick='showPrevious()' id='prevButton' style='background-color: #253C78;'><i class='fa-solid fa-arrow-left'></i>&nbsp;Previous</button>
+                                <button class='btn btn-lg text-white' onclick='showNext()' id='nextButton' style='background-color: #253C78;'>Next&nbsp;<i class='fa-solid fa-arrow-right'></i></button>
+                                <button class='btn btn-lg text-white' onclick='checkData()' id='submitButton' style='display: none; background-color: #253C78;'><i class='fa-solid fa-paper-plane'></i>&nbsp;Submit</button>
                             </div>
                         </div>
                     </div>

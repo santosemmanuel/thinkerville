@@ -51,16 +51,16 @@
                     </button>
                     <div class="collapse" id="orders-collapse">
                         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                            <li class="my-2 list-item"><a href="#FAQ1" class="rounded">Can I take the Civil Service Exam if I haven't completed college or high school?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ2" class="rounded">Where can I find my school assignment for the Civil Service Exam?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ3" class="rounded">What is the appropriate attire for the Civil Service Exam, and what clothing items are not allowed?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ4" class="rounded">Are calculators allowed to be used during the Civil Service Exams?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ5" class="rounded">What are the required documents and items I need to bring for the Civil Service Exam?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ6" class="rounded">What are the important reminders for the day of the Civil Service Examination?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ7" class="rounded">Who are exempted from taking the Civil Service Exams, and what criteria make them eligible for exemption?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ8" class="rounded">What benefits do individuals receive upon passing the Civil Service Exam?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ9" class="rounded">How many times can take the Civil Service Exam?</a></li>
-                            <li class="my-2 list-item"><a href="#FAQ10" class="rounded">Does Civil Service eligibility have an expiration date, and how is it regarded by government agencies during job applications?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ1" class="rounded scroll-link">Can I take the Civil Service Exam if I haven't completed college or high school?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ2" class="rounded scroll-link">Where can I find my school assignment for the Civil Service Exam?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ3" class="rounded scroll-link">What is the appropriate attire for the Civil Service Exam, and what clothing items are not allowed?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ4" class="rounded scroll-link">Are calculators allowed to be used during the Civil Service Exams?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ5" class="rounded scroll-link">What are the required documents and items I need to bring for the Civil Service Exam?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ6" class="rounded content-link">What are the important reminders for the day of the Civil Service Examination?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ7" class="rounded scroll-link">Who are exempted from taking the Civil Service Exams, and what criteria make them eligible for exemption?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ8" class="rounded scroll-link">What benefits do individuals receive upon passing the Civil Service Exam?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ9" class="rounded scroll-link">How many times can take the Civil Service Exam?</a></li>
+                            <li class="my-2 list-item"><a href="#FAQ10" class="rounded scroll-link">Does Civil Service eligibility have an expiration date, and how is it regarded by government agencies during job applications?</a></li>
                         </ul>
                     </div>
                 </li>
@@ -83,7 +83,7 @@
     </div>
 
     <!-- Page content wrapper-->
-    <div id="page-content-wrapped">
+    <div id="page-content-wrapped" style="position: relative">
         <!-- Top navigation-->
         <nav id="navbar_top" class="p-3 navbar navbar-expand-lg navbar-light bg-light border-0">
             <div class="container-fluid">
@@ -309,7 +309,7 @@
                 </div>
             </div>
 
-            <div id="FAQ1">
+            <div>
                 <h1 class="mt-5 fw-bold">FAQs: Frequently Asked Questions</h1>
                 <div class="px-4 py-3">
                     <ol>

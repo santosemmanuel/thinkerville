@@ -19,8 +19,7 @@ if ($arr_uri[2] == "assesment_easy.php") {
     # code...
     echo "<script type='text/javascript' src='assets/js/script.js'></script>
         <script type='text/javascript' src='assets/js/page-content.js'></script>";
-    
-}else if($arr_uri[2] == "assesment_hard.php"){
+} else if ($arr_uri[2] == "assesment_hard.php") {
     echo "<script type='text/javascript' src='assets/js/script.js'></script>
         <script type='text/javascript' src='assets/js/page-content-hard.js'></script>";
 }

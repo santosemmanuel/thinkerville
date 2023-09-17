@@ -10923,40 +10923,49 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     scroll-margin-top: 0px;
   }
   #AboutCSE2 {
-    scroll-margin-top: -280px;
+    scroll-margin-top: 0px;
   }
   #AboutCSE3 {
-    scroll-margin-top: -650px;
+    scroll-margin-top: -40rem;
   }
   #AboutCSE4 {
-    scroll-margin-top: -850px;
+    scroll-margin-top: -60rem;
   }
   #AppProcess1 {
-    scroll-margin-top: -850px;
+    scroll-margin-top: -70rem;
   }
   #AppProcess2 {
-    scroll-margin-top: -1000px;
+    scroll-margin-top: -80rem;
   }
   #FAQ1 {
-    scroll-margin-top: -1870px;
+    scroll-margin-top: -100rem;
   }
   #FAQ2 {
+    scroll-margin-top: -110rem;
   }
   #FAQ3 {
+    scroll-margin-top: -130rem;
   }
   #FAQ4 {
+    scroll-margin-top: -140rem;
   }
   #FAQ5 {
+    scroll-margin-top: -190rem;
   }
   #FAQ6 {
+   
   }
   #FAQ7 {
+    scroll-margin-top: 0px;
   }
   #FAQ8 {
+    scroll-margin-top: -2030px;
   }
-  #FAQ {
+  #FAQ9 {
+    scroll-margin-top: -2040px;
   }
   #FAQ10 {
+    scroll-margin-top: -2050px;
   }
 }
 
