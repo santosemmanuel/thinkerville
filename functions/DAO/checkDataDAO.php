@@ -41,26 +41,40 @@ class checkDataDAO extends BaseDAO {
         if ($ave <= 75) {
             $message = "<div id='failed'>
                                 <h1 class='text-center fw-bold text-danger'>UNFORTUNATELY</h1>
-                                <p class='text-center'>You've <strong class='text-danger'>FAILED</strong> the Quiz with an average score of</p>
-                                <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>" . $ave . "%</h1>
-                                <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia facere dolorum? Illo rerum quibusdam
-                                    natus dicta eius, sequi eum ipsa iusto officia vero molestias error cum, saepe dolore delectus.
-                                </p>
+                                <p class='text-center h3'>You did <strong class='text-danger'>NOT PASS</strong> this test &#128543</p>
+                                <div class='row my-5'>
+                                    <div class='col'>
+                                        <h1 class='text-center my-4 fw-bolder' >Percentage</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>" . $ave . "%</h1>
+                                    </div>
+                                    <div class='col'>
+                                        <h1 class='text-center my-4 fw-bolder'>Score</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>0/10</h1>
+                                    </div>
+                                </div>
                             </div>
                             <center>
-                                <button class='btn btn-warning btn-lg rounded-5 text-white px-5' type='button'><i class='fa-regular fa-circle-play'></i> Retake Quiz</button>
+                                <button class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</button>
+                                <button class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</button>
                             </center>";
         } else {
             $message = "<canva id='confetti'></canva><div id='pass' class='mt-4'>
                                 <h1 class='text-center fw-bold text-success'>CONGRATULATIONS!</h1>
-                                <p class='text-center'>You've <strong class='text-success'>PASSED</strong> the Quiz with an average score of</p>
-                                <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>" . $ave . "%</h1>
-                                <p class='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officia facere dolorum? Illo rerum quibusdam
-                                    natus dicta eius, sequi eum ipsa iusto officia vero molestias error cum, saepe dolore delectus.
-                                </p>
+                                <p class='text-center h3'>Well done! You've <strong class='text-success'>SUCCESSFULLY PASSED</strong> this test &#128522</p>
+                                <div class='row my-5'>
+                                    <div class='col'>
+                                        <h1 class='text-center my-4 fw-bolder'>Percentage</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>" . $ave . "%</h1>
+                                    </div>
+                                    <div class='col'>
+                                        <h1 class='text-center my-4 fw-bolder'>Score</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>0/10</h1>
+                                    </div>
+                                </div>
                             </div>
                             <center>
-                                <button class='btn btn-warning btn-lg rounded-5 text-white px-5' type='button'><i class='fa-regular fa-circle-play'></i> Return Home</button>
+                                <button class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</button>
+                                <button class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</button>
                             </center>
                             <script src='assets/js/congratulations.js' type='text/javascript'></script>
                             ";
