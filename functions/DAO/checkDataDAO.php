@@ -49,7 +49,7 @@ class checkDataDAO extends BaseDAO {
                                     </div>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder'>Score</h1>
-                                        <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>0/10</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>$correct/$i</h1>
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ class checkDataDAO extends BaseDAO {
                                     </div>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder'>Score</h1>
-                                        <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>0/10</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>$correct/$i</h1>
                                     </div>
                                 </div>
                             </div>
