@@ -1,25 +1,21 @@
 <?php
 include "BaseDAO.php";
 
-class displayQuestionsDAO extends BaseDAO
-{
-    function displayQuestions($item_num, $item_level)
-    {
+class displayQuestionsDAO extends BaseDAO {
+
+    function displayQuestions($item_num) {
         $totalQuestions = $item_num;
         $timer = "";
 
-        if ($totalQuestions == 5 && $item_level == "Easy") {
+        if ($totalQuestions == 5) {
             $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";
-            $question_level = "Easy";
         } else {
             $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";
-            $question_level = "Hard";
         }
 
         $this->openConn();
-        $stmt = $this->dbh->prepare("SELECT * FROM tbl_questions WHERE question_level = ? ORDER BY RAND() LIMIT ?");
-        $stmt->bindParam(1, $question_level);
-        $stmt->bindParam(2, $totalQuestions, PDO::PARAM_INT);
+        $stmt = $this->dbh->prepare("SELECT * FROM tbl_questions ORDER BY RAND() LIMIT ?");
+        $stmt->bindParam(1, $totalQuestions, PDO::PARAM_INT);
         $stmt->execute();
         $this->closeConn();
 

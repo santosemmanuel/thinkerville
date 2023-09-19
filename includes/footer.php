@@ -15,7 +15,7 @@
 $uri = $_SERVER['REQUEST_URI'];
 $arr_uri = explode("/", $uri);
 
-if ($arr_uri[2] == "assesment_easy.php") {
+if ($arr_uri[2] == "assesment.php") {
     # code...
     echo "<script type='text/javascript' src='assets/js/script.js'></script>
         <script type='text/javascript' src='assets/js/page-content.js'></script>";

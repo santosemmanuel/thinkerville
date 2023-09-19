@@ -70,13 +70,9 @@
         <div class="dropdown mt-auto">
             <div class="dropdown">
                 <div class="d-grid">
-                    <button class="btn btn-lg dropdown-toggle text-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #253C78;">
+                    <a class="btn btn-lg text-white" type="button" id="dropdownMenuButton1" href="assesment.php" aria-expanded="false" style="background-color: #253C78;">
                         <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i>Start Quiz
-                    </button>
-                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item text-center" style="cursor: pointer;" href="assesment_easy.php">EASY</a></li>
-                        <li><a class="dropdown-item text-center" style="cursor: pointer;" href="assesment_hard.php">HARD</a></li>
-                    </ul>
+                    </a>
                 </div>
             </div>
         </div>
