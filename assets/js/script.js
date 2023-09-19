@@ -1,18 +1,6 @@
 $(function(){
         $("#totalNumber").hide();
-        
-        var update = function(){      //** timer
-            $(".sec").each(function(){
-                var count = parseInt($(this).html());
-                if(count !== 0){
-                    $(this).html(count - 1);
-                }else{
-                    dec_min();
-                }
-            });
-        };
-        setInterval(update, 1000);
-    });
+
 
     function checkData(){
         $("#submitButton").hide();
@@ -90,19 +78,4 @@ $(function(){
         });
     }
 
-    function dec_min(){
-        min = parseInt($(".min").html());
-        if(min != 0){
-            $(".min").html(min - 1);
-            $(".sec").html(59);
-        }else{
-            hr = parseInt($(".hr").html());
-            if(hr !== 0){
-                $(".hr").html(hr - 1);
-                $(".min").html(59);
-                $(".sec").html(59);
-            }else{
-                timerEnd();   
-            }
-        }
-    }
+});

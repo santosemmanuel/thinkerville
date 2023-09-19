@@ -22,12 +22,14 @@
                 </center>
             </div>
         </div>
+        
     </div>
 </div>
+
 <div class="container-fluid">
     <div class="fixed-bottom">
         <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
     </div>
 </div>
-
+<script type="text/javascript" src="assets/js/timer.js"></script>
 <?php include("includes/footer.php"); ?>
