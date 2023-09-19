@@ -15,6 +15,8 @@ $(function(){
     });
 
     function checkData(){
+        $("#submitButton").hide();
+        $("#checkButton").show();
         var totalNum = parseInt($("input[name='totalNumber']").val());
         var userInputData = [];
         var dataCheck = "";
@@ -34,6 +36,7 @@ $(function(){
         if(dataCheck == "Empty"){
             alert("The task is currently marked as unfinished and requires further attention.");
         }else{
+            
             var wordObj = {
                 "userInputData" : userInputData,
                 "totalNum" : totalNum

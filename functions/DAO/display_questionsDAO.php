@@ -53,6 +53,7 @@ class displayQuestionsDAO extends BaseDAO {
                                 <button class='btn btn-lg text-white' onclick='showPrevious()' id='prevButton' style='background-color: #253C78;'><i class='fa-solid fa-arrow-left'></i>&nbsp;Previous</button>
                                 <button class='btn btn-lg text-white' onclick='showNext()' id='nextButton' style='background-color: #253C78;'>Next&nbsp;<i class='fa-solid fa-arrow-right'></i></button>
                                 <button class='btn btn-lg text-white' onclick='checkData()' id='submitButton' style='display: none; background-color: #253C78;'><i class='fa-solid fa-paper-plane'></i>&nbsp;Submit</button>
+                                <button class='btn btn-lg text-white disabled' id='checkButton' style='background-color: #253C78; display: none;'><div class='spinner-border spinner-border-sm'></div>&nbsp;Checking...</button>
                             </div>
                         </div>
                     </div>

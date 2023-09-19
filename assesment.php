@@ -12,7 +12,7 @@
 <div class="container-fluid h-100" style="background-color: #F8F9FA">
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
         <div class="col-8" id="card-questionaire">
-            <input type="text" id="totalNumber" name="totalNumber" disabled>
+            <input type="text" id="totalNumber" style="display:none;" name="totalNumber" disabled>
             <!-- Your pager content will go here -->
             <div id="contentContainer">
                 <center>
