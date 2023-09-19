@@ -3,11 +3,11 @@ include "BaseDAO.php";
 
 class displayQuestionsDAO extends BaseDAO {
 
-    function displayQuestions($item_num) {
+    function displayQuestions($item_num){
         $totalQuestions = $item_num;
-        $timer = "";
+        $timer = "10";
 
-        if ($totalQuestions == 5) {
+        if ($totalQuestions == 8) {
             $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";
         } else {
             $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";

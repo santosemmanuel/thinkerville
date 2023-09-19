@@ -16,7 +16,7 @@
             <!-- Your pager content will go here -->
             <div id="contentContainer">
                 <center>
-                    <div id="spinner-wait" class="spinner-grow text-info" role="status">
+                    <div id="spinner-wait" class="spinner-grow text-danger" role="status">
                         <span class="visually-hidden">Loading...</span>
                     </div>
                 </center>
