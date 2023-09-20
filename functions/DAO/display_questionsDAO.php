@@ -5,9 +5,8 @@ class displayQuestionsDAO extends BaseDAO {
 
     function displayQuestions($item_num){
         $totalQuestions = $item_num;
-        $timer = "10";
 
-        $timer = "<div id='timer'>00:05</div>";
+        $timer = "<span class='hr'>00</span>:<span class='min'>15</span>:<span class='sec'>00</span>";
 
         $this->openConn();
         $stmt = $this->dbh->prepare("SELECT * FROM tbl_questions ORDER BY RAND() LIMIT ?");
