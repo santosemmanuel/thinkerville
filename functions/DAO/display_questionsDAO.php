@@ -28,7 +28,7 @@ class displayQuestionsDAO extends BaseDAO {
         echo "<form id='wrap_id'>";
         while ($row = $stmt->fetch()) {
             $i = $iteration++;
-            echo "<div class='card-body2' style='max-height: 300px; padding: 20px'>";
+            echo "<div class='card-body2' style='padding: 20px; overflow-y: auto'>";
             echo "<div class='card-title mb-3'><h6 class='fw-bold text-primary'>Question No. $i of $totalQuestions</h6></div>";
             echo "<p class='card-text fs-6 mb-4 lead' style='white-space:pre-wrap;'><span>" . $row[1] . "</span></p>";
 
@@ -50,7 +50,7 @@ class displayQuestionsDAO extends BaseDAO {
                     <div class='row'>
                         <div class='col-12'>
                             <div class='d-flex justify-content-between'>
-                                <button class='btn btn-lg text-white' onclick='showPrevious()' id='prevButton' style='background-color: #253C78;'><i class='fa-solid fa-arrow-left'></i>&nbsp;Previous</button>
+                                <button class='btn btn-lg text-white' onclick='showPrevious()' id='prevButton' style='background-color: #253C78;'><i class='fa-solid fa-arrow-left'></i>&nbsp;</button>
                                 <button class='btn btn-lg text-white' onclick='showNext()' id='nextButton' style='background-color: #253C78;'>Next&nbsp;<i class='fa-solid fa-arrow-right'></i></button>
                                 <button class='btn btn-lg text-white' onclick='checkData()' id='submitButton' style='display: none; background-color: #253C78;'><i class='fa-solid fa-paper-plane'></i>&nbsp;Submit</button>
                             </div>

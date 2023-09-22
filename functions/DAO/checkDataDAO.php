@@ -39,9 +39,10 @@ class checkDataDAO extends BaseDAO {
         $ave = number_format($number, 2, '.', '');
         $message = "";
         if ($ave <= 75) {
-            $message = "<div id='failed'>
+            $message = "<div id='failed' class='my-2'>
                                 <h1 class='text-center fw-bold text-danger'>UNFORTUNATELY</h1>
                                 <p class='text-center h3'>You did <strong class='text-danger'>NOT PASS</strong> this test &#128543</p>
+                                
                                 <div class='row my-5'>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder' >Percentage</h1>
@@ -55,12 +56,13 @@ class checkDataDAO extends BaseDAO {
                             </div>
                             <center>
                                 <button class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</button>
-                                <button class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</button>
-                            </center>";
+                                <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</a>
+                            </center> ";
         } else {
-            $message = "<canva id='confetti'></canva><div id='pass' class='mt-4'>
+            $message = "<div id='pass' class='mt-4'>
                                 <h1 class='text-center fw-bold text-success'>CONGRATULATIONS!</h1>
                                 <p class='text-center h3'>Well done! You've <strong class='text-success'>SUCCESSFULLY PASSED</strong> this test &#128522</p>
+                                <canva id='confetti'></canva>
                                 <div class='row my-5'>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder'>Percentage</h1>
@@ -74,10 +76,9 @@ class checkDataDAO extends BaseDAO {
                             </div>
                             <center>
                                 <button class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</button>
-                                <button class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</button>
-                            </center>
-                            <script src='assets/js/congratulations.js' type='text/javascript'></script>
-                            ";
+                                <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</button>
+                            </center>  
+                            <script src='assets/js/congratulations.js' type='text/javascript'></script>";
         }
         echo $message;
     }

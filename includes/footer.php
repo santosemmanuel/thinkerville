@@ -8,7 +8,6 @@
 
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-<script src="assets/js/congratulations.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>
 <?php
 

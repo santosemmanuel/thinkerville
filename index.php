@@ -99,7 +99,7 @@
         <div class="container-fluid px-5 pt-2">
             <div id="AboutCSE1">
                 <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content">
                     <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission. Its successful completion opens the doors for individuals to engage in full-time,
                         permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional.</p>
                     <p style="text-align: justify">
@@ -111,7 +111,7 @@
 
             <div id="AboutCSE2">
                 <h1 class="mt-5 fw-bold">Am I qualified to take the Civil Service Exam?</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content">
                     <p style="text-align: justify">Everyone is qualified to take the Civil Service Examination <mark><i>regardless of your educational attainment</i></mark> as long as you met the following: </p>
                     <ul>
                         <li class="mb-1">You must be a Filipino citizen, at least 18 years of age at the time of filing the application.</li>
@@ -125,7 +125,7 @@
 
             <div id="AboutCSE3">
                 <h1 class="fw-bold">What is the examination coverage of the CSE?</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content">
                     <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level, the subjects comprise
                         Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability, and General Information. Explore the specifics outlined below:</p>
                     <div class="table-responsive">
@@ -204,14 +204,14 @@
 
             <div id="AboutCSE4">
                 <h1 class="mt-5 fw-bold">What is the CSE passing rate?</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content">
                     <p style="text-align: justify">To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
                 </div>
             </div>
 
             <div id="AppProcess1">
                 <h1 class="mt-5 fw-bold">Civil Service Exam Schedule and Application</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content">
                     <p style="text-align: justify">For 2023, here’s the schedule:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
@@ -264,7 +264,7 @@
 
             <div id="AppProcess2">
                 <h1 class="mt-5 fw-bold">Application Process & Requirements</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content px-4 py-3">
                     <p style="text-align: justify">For you to be allowed to take the Civil Service Examination, follow the steps below:</p>
                     <ol>
                         <li class="mt-1">Go to the nearest Civil Service Commission Office. They are open from Monday to Friday from 8:00 AM to 5:00PM (except for holidays).</li>
@@ -307,7 +307,7 @@
 
             <div>
                 <h1 class="mt-5 fw-bold">FAQs: Frequently Asked Questions</h1>
-                <div class="px-4 py-3">
+                <div class="cse-content px-4 py-3">
                     <ol>
                         <li id="FAQ1" class="mt-1 fs-5">Can I take the Civil Service Exam if I haven't completed college or high school?<br>
                             <div class="m-3 fs-6">
@@ -461,7 +461,6 @@
                 </div>
             </div>
         </div>
-
         <div class="my-5">
             <center>
                 <h2 class="fw-bolder">CHALLENGE YOURSELF NOW!</h2>

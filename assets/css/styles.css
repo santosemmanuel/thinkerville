@@ -1,9 +1,11 @@
 @charset "UTF-8";
+
 /*!
 * Start Bootstrap - Simple Sidebar v6.0.6 (https://startbootstrap.com/template/simple-sidebar)
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
 */
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10836,138 +10838,10 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;
 }
 
-@media only screen and (min-width: 768px) {
-  #sidebar-wrapper {
-    margin-left: 0;
-  }
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
-  }
-  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
-    margin-left: -25rem;
-  }
-  #AboutCSE1,
-  #AboutCSE2,
-  #AboutCSE3,
-  #AboutCSE4,
-  #AppProcess1,
-  #AppProcess2,
-  #FAQ1,
-  #FAQ2,
-  #FAQ3,
-  #FAQ4,
-  #FAQ5,
-  #FAQ6,
-  #FAQ7,
-  #FAQ8,
-  #FAQ9,
-  #FAQ10 {
-    scroll-margin-top: 10rem;
-  }
-}
-@media only screen and (max-width: 414px) {
-  #sidebar-wrapper {
-    margin-left: 0;
-  }
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
-  }
-  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
-    margin-left: -25rem;
-  }
-  #sidebar-wrapper {
-    /* min-height: 100vh;
-    margin-left: -15rem;
-    transition: margin 0.25s ease-out; */
-    width: 400px;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
+.cse-content {
+  padding: 24px 16px;
 }
 
-@media only screen and (min-width: 360px) {
-  #sidebar-wrapper {
-    margin-left: 0;
-  }
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
-  }
-  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
-    margin-left: -25rem;
-  }
-  #sidebar-wrapper {
-    /* min-height: 100vh;
-    margin-left: -15rem;
-    transition: margin 0.25s ease-out; */
-    width: 360px;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-
-  #AboutCSE1 {
-    scroll-margin-top: 0px;
-  }
-  #AboutCSE2 {
-    scroll-margin-top: 0px;
-  }
-  #AboutCSE3 {
-    scroll-margin-top: -40rem;
-  }
-  #AboutCSE4 {
-    scroll-margin-top: -60rem;
-  }
-  #AppProcess1 {
-    scroll-margin-top: -70rem;
-  }
-  #AppProcess2 {
-    scroll-margin-top: -80rem;
-  }
-  #FAQ1 {
-    scroll-margin-top: -100rem;
-  }
-  #FAQ2 {
-    scroll-margin-top: -110rem;
-  }
-  #FAQ3 {
-    scroll-margin-top: -130rem;
-  }
-  #FAQ4 {
-    scroll-margin-top: -140rem;
-  }
-  #FAQ5 {
-    scroll-margin-top: -190rem;
-  }
-  #FAQ6 {
-   
-  }
-  #FAQ7 {
-    scroll-margin-top: 0px;
-  }
-  #FAQ8 {
-    scroll-margin-top: -2030px;
-  }
-  #FAQ9 {
-    scroll-margin-top: -2040px;
-  }
-  #FAQ10 {
-    scroll-margin-top: -2050px;
-  }
-}
 
 /* other */
 
@@ -11039,3 +10913,188 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 .btn-primary {
   background-color: var(--bs-primary);
 }
+
+#prevButton:after{
+  content: "Previous";
+}
+
+.card-body2 {
+  height: 300px;
+}
+
+@media only screen and (max-width: 414px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -25rem;
+  }
+  #sidebar-wrapper {
+    /* min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out; */
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  #prevButton:after {
+    content: "Prev";
+  }
+  #question_header {
+    margin-bottom: 30px;
+  }
+  .card-body2 {
+    height: 500px;
+  }
+  #header_Logo {
+    width:200px; 
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -25rem;
+  }
+  #sidebar-wrapper {
+    /* min-height: 100vh;
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out; */
+    width: 360px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .cse-content {
+    padding: 0px;
+  }
+  #AboutCSE1 {
+    scroll-margin-top: 0px;
+  }
+  #AboutCSE2 {
+    scroll-margin-top: 0px;
+  }
+  #AboutCSE3 {
+    scroll-margin-top: -40rem;
+  }
+  #AboutCSE4 {
+    scroll-margin-top: -60rem;
+  }
+  #AppProcess1 {
+    scroll-margin-top: -70rem;
+  }
+  #AppProcess2 {
+    scroll-margin-top: -80rem;
+  }
+  #FAQ1 {
+    scroll-margin-top: -100rem;
+  }
+  #FAQ2 {
+    scroll-margin-top: -110rem;
+  }
+  #FAQ3 {
+    scroll-margin-top: -130rem;
+  }
+  #FAQ4 {
+    scroll-margin-top: -140rem;
+  }
+  #FAQ5 {
+    scroll-margin-top: -190rem;
+  }
+  #FAQ6 {
+   
+  }
+  #FAQ7 {
+    scroll-margin-top: 0px;
+  }
+  #FAQ8 {
+    scroll-margin-top: -2030px;
+  }
+  #FAQ9 {
+    scroll-margin-top: -2040px;
+  }
+  #FAQ10 {
+    scroll-margin-top: -2050px;
+  }
+
+  #prevButton:after {
+    content: "Prev";
+  }
+
+  .card-body2 {
+    height: 500px;
+  }
+  #header_Logo {
+    width:200px; 
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -25rem;
+  }
+  #AboutCSE1,
+  #AboutCSE2,
+  #AboutCSE3,
+  #AboutCSE4,
+  #AppProcess1,
+  #AppProcess2,
+  #FAQ1,
+  #FAQ2,
+  #FAQ3,
+  #FAQ4,
+  #FAQ5,
+  #FAQ6,
+  #FAQ7,
+  #FAQ8,
+  #FAQ9,
+  #FAQ10 {
+    scroll-margin-top: 10rem;
+  }
+
+  #prevButton:after {
+    content: "Previous";
+  }
+
+  .card-body2 {
+    height: 300px;
+  }
+
+  #header_Logo {
+    width:400px; 
+    height: 60px;
+  }
+}
+
+/* 992px */
