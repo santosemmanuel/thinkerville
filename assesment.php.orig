@@ -11,9 +11,15 @@
 <!-- main container -->
 <div class="container-fluid h-100" style="background-color: #F8F9FA">
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+<<<<<<< HEAD
     
         <div class="col-xs-12 col-md-8 mt-2" id="card-questionaire">
        
+            <input type="text" id="totalNumber" name="totalNumber" disabled>
+=======
+        <div class="col-8" id="card-questionaire">
+            <input type="text" id="totalNumber" style="display:none;" name="totalNumber" disabled>
+>>>>>>> c8ce04974c3a00308a4d4a1d112ce2211ee1271b
             <!-- Your pager content will go here -->
             <div id="contentContainer">
                 <center>
