@@ -13,7 +13,7 @@
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
     
         <div class="col-xs-12 col-md-8 mt-2" id="card-questionaire">
-       
+        <input type="text" id="totalNumber" name="totalNumber" disabled>
             <!-- Your pager content will go here -->
             <div id="contentContainer">
                 <center>
@@ -28,7 +28,7 @@
 </div>
 
 <div class="container-fluid">
-    <div class="fixed-bottom">
+    <div class="">
         <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
     </div>
 </div>

@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
     $("#totalNumber").hide();
     $("#card-questionaire").hide();
     
