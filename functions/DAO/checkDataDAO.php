@@ -55,7 +55,7 @@ class checkDataDAO extends BaseDAO {
                                 </div>
                             </div>
                             <center>
-                                <button class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</button>
+                                <a href = 'assesment.php' class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</a>
                                 <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</a>
                             </center> ";
         } else {
@@ -75,8 +75,8 @@ class checkDataDAO extends BaseDAO {
                                 </div>
                             </div>
                             <center>
-                                <button class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</button>
-                                <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</button>
+                                <a href = 'assesment.php' class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</a>
+                                <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</a>
                             </center>  
                             <script src='assets/js/congratulations.js' type='text/javascript'></script>";
         }
