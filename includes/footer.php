@@ -8,7 +8,6 @@
 
 <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
 <?php
 
 $uri = $_SERVER['REQUEST_URI'];
@@ -18,9 +17,6 @@ if ($arr_uri[2] == "assesment.php") {
     # code...
     echo "<script type='text/javascript' src='assets/js/script.js'></script>
         <script type='text/javascript' src='assets/js/page-content.js'></script>";
-} else if ($arr_uri[2] == "assesment_hard.php") {
-    echo "<script type='text/javascript' src='assets/js/script.js'></script>
-        <script type='text/javascript' src='assets/js/page-content-hard.js'></script>";
 }
 
 ?>
