@@ -30,9 +30,7 @@
         <p style="margin-left: 20%"><img src="assets/images/Red_Check.png" class="red_check"/> Comprehebsive Test & Quizzers</p>
       </div>
       <div class="col-6">
-        <video src="movie.ogg" controls width="370" height="210">
-          Your browser does not support the video tag.
-        </video>
+        <div id="display-vid"></div>
       </div>
     </div>
 
@@ -95,3 +93,4 @@
   var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
   myModal.show();
 </script>
+<script type="text/javascript" src="assets/js/script.js"></script>

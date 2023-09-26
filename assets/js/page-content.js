@@ -43,46 +43,6 @@
                 }
             });
         }
-        function loadDataMedium(index) {
-            $.ajax({
-                url: 'functions/display_questions_medium.php',
-                type: 'POST',
-                data: { index: index },
-                dataType: 'html',
-                success: function(data) {
-                    $('#contentContainer').delay(550).fadeIn().html(data);
-                    totalCards = $('.card-body2').length;
-                    $("input[name='totalNumber']").val(totalCards);
-                    currentIndex = 0;
-                    showCurrentCard();
-                    updateButtonStates();
-                    reloadMessage();
-                },
-                error: function() {
-                    alert("Error occured while sending data. Please try again.");
-                }
-            });
-        }
-        function loadDataHard(index) {
-            $.ajax({
-                url: 'functions/display_questions_hard.php',
-                type: 'POST',
-                data: { index: index },
-                dataType: 'html',
-                success: function(data) {
-                    $('#contentContainer').delay(550).fadeIn().html(data);
-                    totalCards = $('.card-body2').length;
-                    $("input[name='totalNumber']").val(totalCards);
-                    currentIndex = 0;
-                    showCurrentCard();
-                    updateButtonStates();
-                    reloadMessage();
-                },
-                error: function() {
-                    alert("Error occured while sending data. Please try again.");
-                }
-            });
-        }
 
         function updateButtonStates() {
             $('#prevButton').prop('disabled', currentIndex === 0);

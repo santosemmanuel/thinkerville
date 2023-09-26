@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(function(){
     $("#totalNumber").hide();
     $("#card-questionaire").hide();
     
@@ -13,6 +13,17 @@ $(document).ready(function(){
         });
     };
     setInterval(update, 1000);
+
+    $.ajax({
+        type: "POST",
+        url: "functions/display-vid.php",
+        success: function (data) {
+            $("#display-vid").html(data);
+        },
+        error: function () {
+            alert("Error occurred while displaying the video. Please try again.");
+        }
+    });    
 });
 
 function checkData(){
