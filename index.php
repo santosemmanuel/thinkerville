@@ -100,11 +100,11 @@
             <div id="AboutCSE1">
                 <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission. Its successful completion opens the doors for individuals to engage in full-time,
-                        permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional.</p>
+                    <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission. 
+                    Its successful completion opens the doors for individuals to engage in full-time, permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional. </p>
                     <p style="text-align: justify">
-                        Opting for the Sub-professional level equips you for clerical and entry-level roles, whereas conquering the Professional level not only awards you 2nd level eligibility but also paves your way towards supervisory and managerial positions (2nd level positions).
-                        The choice between the Professional and Sub-professional levels lies in your hands.
+                    Opting for the Sub-professional level equips you for clerical and entry-level roles, whereas conquering the Professional level not only awards you 2nd level eligibility but also paves your way towards 
+                    supervisory and managerial positions (2nd level positions). The choice between the Professional and Sub-professional levels lies in your hands.
                     </p>
                 </div>
             </div>
@@ -126,8 +126,9 @@
             <div id="AboutCSE3">
                 <h1 class="fw-bold">What is the examination coverage of the CSE?</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level, the subjects comprise
-                        Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability, and General Information. Explore the specifics outlined below:</p>
+                    <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level, 
+                    the subjects comprise Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability, 
+                    and General Information. Explore the specifics outlined below:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead style="background-color: #253C78; color:white">
@@ -164,7 +165,7 @@
                                     <td class="p-3">
                                         <p>In English and Filipino:</p>
                                         <br>
-                                        <strong class="mb-1">Ability</strong>
+                                        <strong class="mb-1">Numerical Ability</strong>
                                         <ul>
                                             <li class="mt-1">Basic Operations</li>
                                             <li class="mt-1">Word Problems</li>
@@ -243,7 +244,7 @@
                             <thead style="background-color: #253C78; color:white">
                                 <th class="text-center fw-bolder">Level</th>
                                 <th class="text-center fw-bolder">No. of hours</th>
-                                <th class="text-center fw-bolder">No. of Items</th>
+                                <th class="text-center fw-bolder">No. of items</th>
                             </thead>
                             <tbody>
                                 <tr>
