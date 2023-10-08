@@ -3,8 +3,8 @@ include "BaseDAO.php";
 class checkDataDAO extends BaseDAO {
     function checkDataFunctions($data, $totalNum){
         $user_answer = $data;
-        $correct = floatval(0.0);
-        $wrong = floatval(0.0);
+        $correct = 0;
+        $wrong = 0;
         $iteration = 1;
         $score = 0;
         $i=0;
@@ -35,9 +35,13 @@ class checkDataDAO extends BaseDAO {
                 }
             }
         }
-        $number = floatval(($correct / $i) * 100);
-        $ave = number_format($number, 2, '.', '');
-        $message = "";
+        $number = $correct / $i * 100;
+        if (is_float($number) && floor($number) != $number){
+            $ave = number_format($number, 2);
+        }else{
+            $ave = $number;
+        }
+
         if ($ave <= 75) {
             $message = "<div id='failed' class='my-2'>
                                 <h1 class='text-center fw-bold text-danger'>UNFORTUNATELY</h1>

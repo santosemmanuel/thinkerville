@@ -19,6 +19,8 @@ $(function(){
         url: "functions/display-vid.php",
         success: function (data) {
             $("#display-vid").html(data);
+            document.querySelector('video').setAttribute("controlslist", "nodownload");
+            $('#vid-player').bind('contextmenu',function() { return false; });
         },
         error: function () {
             alert("Error occurred while displaying the video. Please try again.");

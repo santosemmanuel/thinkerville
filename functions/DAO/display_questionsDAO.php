@@ -25,7 +25,7 @@ class displayQuestionsDAO extends BaseDAO {
             $i = $iteration++;
             echo "<div class='card-body2' style='padding: 20px; overflow-y: auto'>";
             echo "<div class='card-title mb-3'><h6 class='fw-bold text-primary'>Question No. $i of $totalQuestions</h6></div>";
-            echo "<p class='card-text fs-6 mb-4 lead' style='white-space:pre-wrap;'><span>" . $row[1] . "</span></p>";
+            echo "<p class='card-text fs-6 mb-4 lead' style='white-space:;'><span>" . $row[1] . "</span></p>";
 
             $row_answer_id = $row[0];
             $this->openConn();
