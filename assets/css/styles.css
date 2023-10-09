@@ -10885,11 +10885,11 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-top: 0.125rem;
   margin-left: 1.25rem;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
-  background-color: white;
+  background-color: #f7d965;
   color: black;
 }
 

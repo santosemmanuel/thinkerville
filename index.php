@@ -1,14 +1,14 @@
 <?php include("includes/header.php"); ?>
 <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
-    <div class="d-flex flex-column flex-shrink-0 p-3 p-3 border-end" id="sidebar-wrapper" style="background-color: #BB4430; z-index:2000">
+    <div class="d-flex flex-column flex-shrink-0 p-3 p-3 border-end" id="sidebar-wrapper" style="background-color: #F5FEFD; z-index:2000">
         <div class="pb-3 mb-3 border-bottom">
             <div style="width: 100%;" class="">
                 <a href="#" class="text-decoration-none">
                     <svg class="bi me-2" width="30" height="24">
                         <use xlink:href="#bootstrap"></use>
                     </svg>
-                    <img src="assets/images/ThinkerVille Logo white with icon.png" alt="thinkerville" srcset="" class="mr-5" style="width: 200px; height: 30px">
+                    <img src="assets/images/ThinkerVille_04.png" alt="thinkerville" srcset="" class="mr-5" style="width: 250px; height: 40px">
                 </a>
             </div>
             <div class="">
@@ -18,7 +18,7 @@
         <ul class="list-unstyled ps-0">
             <div id="scroll-SideContent">
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed text-white" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-black" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                         About Civil Service Exam
                     </button>
                     <div class="collapse show" id="home-collapse">
@@ -35,7 +35,7 @@
                     </div>
                 </li>
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-black" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
                         Application Process
                     </button>
                     <div class="collapse" id="dashboard-collapse">
@@ -46,11 +46,11 @@
                     </div>
                 </li>
                 <li class="mb-1">
-                    <button class="btn btn-toggle align-items-center rounded collapsed text-left" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                    <button class="btn btn-toggle align-items-center rounded collapsed text-left text-black" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
                         Frequently Asked Questions
                     </button>
                     <div class="collapse" id="orders-collapse">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small text-black">
                             <li class="my-2 list-item"><a href="#FAQ1" class="rounded scroll-link">Can I take the Civil Service Exam if I haven't completed college or high school?</a></li>
                             <li class="my-2 list-item"><a href="#FAQ2" class="rounded scroll-link">Where can I find my school assignment for the Civil Service Exam?</a></li>
                             <li class="my-2 list-item"><a href="#FAQ3" class="rounded scroll-link">What is the appropriate attire for the Civil Service Exam, and what clothing items are not allowed?</a></li>
@@ -70,8 +70,8 @@
         <div class="dropdown mt-auto">
             <div class="dropdown">
                 <div class="d-grid">
-                    <a class="btn btn-lg text-white" type="button" id="dropdownMenuButton1" href="assesment.php" aria-expanded="false" style="background-color: #253C78;">
-                        <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i>Start Quiz
+                    <a class="btn btn-lg" type="button" id="dropdownMenuButton1" href="assesment.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965">
+                        <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i><strong>START QUIZ</strong>
                     </a>
                 </div>
             </div>
@@ -87,9 +87,9 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        <li class="nav-item active"><a class="nav-link" href=""><i class="fa-solid fa-house"></i> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="assesment.php"><i class="fa-regular fa-circle-play"></i> Take a Quiz</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/groups/425962664769033" target="_blank"><i class="fa-solid fa-users"></i> Join Community</a></li>
+                        <li class="nav-item active"><a class="nav-link" style="color: #4084C3;" href=""><i class="fa-solid fa-house mt-1"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/groups/425962664769033" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     and General Information. Explore the specifics outlined below:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
-                            <thead style="background-color: #253C78; color:white">
+                            <thead style="background-color: #4084C3; color:#F7D965">
                                 <th class="text-center fw-bolder" width="50%">Professional</th>
                                 <th class="text-center" width="50%">Sub-Professional</th>
                             </thead>
@@ -216,7 +216,7 @@
                     <p style="text-align: justify">For 2023, here’s the schedule:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
-                            <thead style="background-color: #253C78; color:white">
+                            <thead style="background-color: #4084C3; color:#F7D965">
                                 <th class="text-center fw-bolder">Start of Application</th>
                                 <th class="text-center fw-bolder">End of Application</th>
                                 <th class="text-center fw-bolder">Date of Examination</th>
@@ -241,7 +241,7 @@
                     <p class="fw-bolder my-4">Time allotment & number of items</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
-                            <thead style="background-color: #253C78; color:white">
+                            <thead style="background-color: #4084C3; color:#F7D965">
                                 <th class="text-center fw-bolder">Level</th>
                                 <th class="text-center fw-bolder">No. of hours</th>
                                 <th class="text-center fw-bolder">No. of items</th>

@@ -59,8 +59,8 @@ class checkDataDAO extends BaseDAO {
                                 </div>
                             </div>
                             <center>
-                                <a href = 'assesment.php' class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</a>
-                                <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</a>
+                                <a href = 'assesment.php' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
+                                <a href='endoresments.php' class='btn btn-lg px-5' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-globe'></i> Sentence</a>
                             </center> ";
         } else {
             $message = "<div id='pass' class='mt-4'>
@@ -79,8 +79,8 @@ class checkDataDAO extends BaseDAO {
                                 </div>
                             </div>
                             <center>
-                                <a href = 'assesment.php' class='btn btn-lg text-white px-5 my-1' type='button' style='background-color: #253C78;'><i class='fa-solid fa-repeat'></i> Try Again</a>
-                                <a href='endoresments.php' class='btn btn-lg text-white px-5' type='button' style='background-color: #253C78;'><i class='fa-solid fa-globe'></i> Sentence</a>
+                                <a href = 'assesment.php' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
+                                <a href='endoresments.php' class='btn btn-lg px-5' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-globe'></i> Sentence</a>
                             </center>  
                             <script src='assets/js/congratulations.js' type='text/javascript'></script>";
         }

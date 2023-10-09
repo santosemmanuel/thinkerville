@@ -1,15 +1,15 @@
 <?php include("includes/header.php"); ?>
 
 <div class="container-fluid border-bottom">
-    <div  class="fixed-top" style="background-color: #BB4430;">
+    <div  class="fixed-top bg-light">
         <div class="d-flex justify-content-center p-2">
-            <img id="header_Logo" src="assets/images/ThinkerVille Logo white with icon.png" alt="ThinkerVille" srcset="">
+            <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="">
         </div>
     </div>
 </div>
 
 <!-- main container -->
-<div class="container-fluid h-100" style="background-color: #F8F9FA">
+<div class="container-fluid h-100">
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
     
         <div class="col-xs-12 col-md-8 mt-2" id="card-questionaire">
