@@ -3,7 +3,9 @@
 <div class="container-fluid border-bottom">
     <div  class="fixed-top bg-light">
         <div class="d-flex justify-content-center p-2">
-            <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="">
+            <a href="index.php">
+                <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width: 250px; height: 40px">
+            </a>
         </div>
     </div>
 </div>

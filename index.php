@@ -12,7 +12,7 @@
                 </a>
             </div>
             <div class="">
-                <i class="fa-solid fa-xmark fs-5 text-white" style="float:right; margin-top: -8%;" id="sidebarClose"></i>
+                <i class="fa-solid fa-xmark fs-5" style="float:right; margin-top: -8%; color:#4084C3" id="sidebarClose"></i>
             </div>
         </div>
         <ul class="list-unstyled ps-0">
@@ -87,7 +87,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        <li class="nav-item active"><a class="nav-link" style="color: #4084C3;" href=""><i class="fa-solid fa-house mt-1"></i> Home</a></li>
+
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/groups/425962664769033" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
@@ -96,16 +96,53 @@
         </nav>
 
         <!-- Page content-->
+        <div class="" style="background-image: url('assets/images/White and Orange Modern Abstract Banner.png'); background-size: cover;">
+            <div class="row d-flex align-item-center justify-content-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card shadow rounded" style="margin-top: 20%; margin-bottom: 20%">
+                        <div class="card-body p-5 text-center">
+                            <h2 class="card-title fw-bold">Civil Service Exam Practice Test</h2>
+                            <p class="card-text text-muted">Prepare for your test with realistic questions..</p>
+                            <div class="d-grid">
+                                <a class="btn btn-lg" type="button" id="dropdownMenuButton1" href="assesment.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965">
+                                    <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i><strong>START QUIZ</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container-fluid px-5 pt-2">
-            <div id="AboutCSE1">
-                <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
-                <div class="cse-content">
-                    <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission. 
-                    Its successful completion opens the doors for individuals to engage in full-time, permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional. </p>
-                    <p style="text-align: justify">
-                    Opting for the Sub-professional level equips you for clerical and entry-level roles, whereas conquering the Professional level not only awards you 2nd level eligibility but also paves your way towards 
-                    supervisory and managerial positions (2nd level positions). The choice between the Professional and Sub-professional levels lies in your hands.
-                    </p>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card shadow-sm bg-body rounded mt-5" style="width: 90%">
+                        <div class="card-header" style="background-color: #4084C3;">
+                            <strong style="font-size: 25px; color: white">Announcements</strong>
+                        </div>
+                        <div class="card-body p-4">
+                            <ul>
+                                <li>Announcement - Board of Foreign Service Examinations</li>
+                                <hr>
+                                <li>Announcement No. 18, s. 2023: Invitation/Call for Participants for the 2023 EROPA Conference</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div id="AboutCSE1">
+                        <h1 class="mt-5 fw-bold">What is the Philippine Civil Service Exam?</h1>
+                        <div class="cse-content">
+                            <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission.
+                                Its successful completion opens the doors for individuals to engage in full-time, permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional. </p>
+                            <p style="text-align: justify">
+                                Opting for the Sub-professional level equips you for clerical and entry-level roles, whereas conquering the Professional level not only awards you 2nd level eligibility but also paves your way towards
+                                supervisory and managerial positions (2nd level positions). The choice between the Professional and Sub-professional levels lies in your hands.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -126,9 +163,9 @@
             <div id="AboutCSE3">
                 <h1 class="fw-bold">What is the examination coverage of the CSE?</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level, 
-                    the subjects comprise Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability, 
-                    and General Information. Explore the specifics outlined below:</p>
+                    <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level,
+                        the subjects comprise Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability,
+                        and General Information. Explore the specifics outlined below:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead style="background-color: #4084C3; color:#F7D965">
@@ -464,7 +501,7 @@
         </div>
         <div class="my-5">
             <center>
-                <h2 class="fw-bolder">CHALLENGE YOURSELF NOW!</h2>
+                <h2 class="text-center fw-bolder">CHALLENGE YOURSELF NOW!</h2>
             </center>
         </div>
     </div>

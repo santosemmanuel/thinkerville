@@ -10895,7 +10895,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
 .btn-toggle-nav > li > a.active-item {
   color: black;
-  background-color: white;
+  background-color: #f7d965;
 }
 
 .scrollarea {
@@ -10959,6 +10959,9 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   #header_Logo {
     width:200px; 
     height: 40px;
+  }
+  #endoresment_logo{
+    margin-top: 10%;
   }
 }
 
