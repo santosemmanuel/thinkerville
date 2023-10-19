@@ -87,8 +87,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform"><i class="fas fa-edit mt-1" style="font-size: 17.5px;"></i> Register Here</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/groups/425962664769033" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>

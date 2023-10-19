@@ -1,6 +1,6 @@
 <?php include("includes/header.php"); ?>
 
-<div class="container-fluid border-bottom">
+<div class="container-fluid border-bottom" style="margin-bottom: 10%;">
   <div class="fixed-top bg-light">
     <div class="d-flex justify-content-center p-2">
       <a href="index.php">
@@ -10,43 +10,57 @@
   </div>
 </div>
 
-<div class="container">
-  <div data-aos="zoom-in" data-aos-duration="3000" class="text-center" style="margin-top: 8%">
-    <img src="assets/images/Favicon_5.png" id="endoresment_logo" style="height: 110px; width: 150px">
-    <h1 style="font-size: 30px">Pass the actual Civil Service Exam!</h1>
-    <h1 style="font-size: 70px">75% OFF</h1><br>
+
+<div data-aos="zoom-in" data-aos-duration="3000" style="margin-top: 10%">
+  <div class="container">
+    <h1 class="fw-bolder text-center">HURRY ENROLL NOW! YOU HAVE</h1>
   </div>
-  <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
-    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-      <div data-aos="fade-right" data-aos-duration="3000" class="card shadow bg-body rounded" style="width: 500px">
-        <div class="card-header text-center" style="background-color: #4084C3;">
-          <strong style="font-size: 30px; color: #F7D965;">BEFORE</strong>
+  <div class="container-fluid">
+    <div class="bg-warning" style="background-color: #F7D965">
+      <h5 class="text-center" style="margin-bottom: -0.5%">days &nbsp; hours &nbsp; mins &nbsp; secs</h5>
+      <h1 class="text-center" style="font-size: 45px">00:00:00:00</h1>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <h1 style="font-size: 30px" class="text-center fw-bold">Pass the actual Civil Service Exam!</h1>
+    <div class="bg-danger" style="margin-left: 27.5%; margin-right: 27.5%; margin-bottom: 10%">
+      <h1 style="font-size: 98px; font-weight: 1000" class="text-center text-white">75% OFF</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
+      <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+        <div class="card shadow bg-body rounded" style="width: 500px">
+          <div class="card-header text-center" style="background-color: #4084C3;">
+            <strong style="font-size: 30px; color: #F7D965;">BEFORE</strong>
+          </div>
+          <div class="card-body p-5">
+            <h1 class="card-title text-center" style="font-size: 70px;">&#8369; <del>2,000</del></h1>
+          </div>
         </div>
-        <div class="card-body p-5">
-          <h1 class="card-title text-center" style="font-size: 70px;">&#8369; <del>2,000</del></h1>
+      </div>
+      <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+        <div class="card shadow bg-body rounded" style="width: 500px">
+          <div class="card-header text-center" style="background-color: #4084C3;">
+            <strong style="font-size: 30px; color: #F7D965;">NOW</strong>
+          </div>
+          <div class="card-body p-5">
+            <h1 class="card-title text-center" style="font-size: 70px;">&#8369; 500</h1>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-      <div data-aos="fade-left" data-aos-duration="3000" class="card shadow bg-body rounded" style="width: 500px">
-        <div class="card-header text-center" style="background-color: #4084C3;">
-          <strong style="font-size: 30px; color: #F7D965;">NOW</strong>
-        </div>
-        <div class="card-body p-5">
-          <h1 class="card-title text-center" style="font-size: 70px;">&#8369; 500</h1>
-        </div>
-      </div>
-    </div>
+    <center>
+      <a type="button" class="btn btn-lg text-white px-5" style="background-color: #4084C3;" href="#inclussion">Learn More</a>
+      <center>
   </div>
-  <center>
-    <a data-aos="zoom-in" data-aos-duration="3000"  type="button" class="btn btn-lg text-white px-5" style="background-color: #4084C3;" href="#inclussion">Learn More</a>
-  <center>
 </div>
 
 <div class="container-fuild" style="margin-top: 3%; margin-bottom: 1%; background-color: #4084C3" id="inclussion">
   <div class="container">
     <div class="text-center">
-      <h1 data-aos="zoom-in" data-aos-duration="3000"  class="text-white" style="padding-top: 10%">INCLUSIONS</h1>
+      <h1 data-aos="zoom-in" data-aos-duration="3000" class="text-white" style="padding-top: 10%">INCLUSIONS</h1>
     </div>
     <div class="row my-3 mx-5">
       <div class="col-sm-12 col-md-6">
@@ -81,7 +95,19 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title mt-2">Comprehebsive Test & Quizzers</h5>
+                <h5 class="card-title mt-2">Comprehensive Test & Quizzers</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="500" class="card my-5 shadow-sm rounded">
+          <div class="row g-0">
+            <div class="col-md-2">
+              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 75px; width: 90px" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title mt-2">The 4th Sentence</h5>
               </div>
             </div>
           </div>
@@ -97,7 +123,7 @@
     </div>
     <center>
       <a data-aos="zoom-in" href="#enroll" type="button" class="btn btn-outline-light btn-lg px-5 mb-5" style="background-color: #4084C3; color: #F7D965">Enroll Now</a>
-    <center>
+      <center>
   </div>
 </div>
 
