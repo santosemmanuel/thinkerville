@@ -18,7 +18,7 @@
   <div class="container-fluid">
     <div class="bg-warning" style="background-color: #F7D965">
       <h5 class="text-center" style="margin-bottom: -0.5%">days &nbsp; hours &nbsp; mins &nbsp; secs</h5>
-      <h1 class="text-center" style="font-size: 45px">00:00:00:00</h1>
+      <h1 class="text-center" style="font-size: 45px" id="countdown_promo">00:00:00:00</h1>
     </div>
   </div>
   <div class="container mt-5">
@@ -206,3 +206,4 @@
   myModal.show();
 </script>
 <script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="assets/js/countdown-promo.js"></script>
