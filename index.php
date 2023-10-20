@@ -89,7 +89,7 @@
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform"><i class="fas fa-edit mt-1" style="font-size: 17.5px;"></i> Register Here</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/groups/425962664769033" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/ThinkerVilleEducation" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     <div class="card shadow rounded" style="margin-top: 20%; margin-bottom: 20%">
                         <div class="card-body p-5 text-center">
                             <h2 class="card-title fw-bold">Civil Service Exam Practice Test</h2>
-                            <p class="card-text text-muted">Prepare for your test with realistic questions..</p>
+                            <p class="card-text text-muted">Based on Actual Civil Service Examination</p>
                             <div class="d-grid">
                                 <a class="btn btn-lg" type="button" id="dropdownMenuButton1" href="assesment.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965">
                                     <i class="fa-regular fa-circle-play" style="margin-right: 12px"></i><strong>START QUIZ</strong>
@@ -250,27 +250,24 @@
             <div id="AppProcess1">
                 <h1 class="mt-5 fw-bold">Civil Service Exam Schedule and Application</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">For 2023, here’s the schedule:</p>
+                    <p style="text-align: justify">For 2024, here’s the schedule:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead style="background-color: #4084C3; color:#F7D965">
-                                <th class="text-center fw-bolder">Start of Application</th>
-                                <th class="text-center fw-bolder">End of Application</th>
+                                <th class="text-center fw-bolder">Application Date</th>
                                 <th class="text-center fw-bolder">Date of Examination</th>
                                 <th class="text-center fw-bolder">Release of Result</th>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>December 22, 2022</td>
-                                    <td>January 25, 2023</td>
-                                    <td>March 26, 2023</td>
-                                    <td>May 25, 2023</td>
+                                    <td>Nov. 20, 2023 - Jan 3, 2024</td>
+                                    <td>Mar. 3, 2024</td>
+                                    <td>May 12, 2024</td>
                                 </tr>
                                 <tr>
-                                    <td>May 22, 2023</td>
-                                    <td>June 21, 2023</td>
-                                    <td>August 20, 2023</td>
-                                    <td>November 3, 2023</td>
+                                    <td>May 13, 2024 - Jun 13, 2024</td>
+                                    <td>Aug. 11, 2024</td>
+                                    <td>Oct. 20, 2024</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -338,7 +335,7 @@
                         </li>
                         <li class="mt-1">Wait for your school assignment (examination venue).</li>
                         <li class="mt-1">Take the test on the designated day. <mark><i>(Remember to bring all the requirements and follow all the required protocols on the examination day. Check our FAQs to get the list)</i></mark></li>
-                        <li class="mt-1">Wait for the result. <mark><i>(We’ll post the result <a href="#" style="text-decoration: none;">here</a>)</i></mark></li>
+                        <li class="mt-1">Wait for the result. <mark><i>(Check announcements for updates)</i></mark></li>
                     </ol>
                 </div>
             </div>
@@ -485,7 +482,7 @@
                                     (Non-permanent or job order employees do not have access to these privileges.)</i>
                             </div>
                         </li>
-                        <li id="FAQ9" class="mt-1 fs-5">How many times can take the Civil Service Exam?<br>
+                        <li id="FAQ9" class="mt-1 fs-5">How many times can one take the Civil Service Exam?<br>
                             <div class="m-3 fs-6">
                                 <i>You are allowed to take the civil service exam as many times as necessary. It's important to note, however, that you can only attempt the same level of the exam once every three months.</i>
                             </div>
