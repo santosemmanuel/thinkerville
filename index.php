@@ -83,7 +83,10 @@
         <!-- Top navigation-->
         <nav id="navbar_top" class="p-3 navbar navbar-expand-lg navbar-light bg-light border-0">
             <div class="container-fluid">
-                <i class="fa-solid fa-bars-staggered fs-5 text-primary d-none" id="sidebarOpen"></i>
+            <i class="fa-solid fa-bars-staggered fs-5 text-primary d-none" id="sidebarOpen"></i>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/ThinkerVille_04.png" id="thinkervilleHeaderLogo" alt="thinkerville" style="width: 199px; height: 38px; margin-left: 6%">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
@@ -124,9 +127,9 @@
                         </div>
                         <div class="card-body p-4">
                             <ul>
-                                <li>Announcement - Board of Foreign Service Examinations</li>
+                                <li><a href="https://www.csc.gov.ph/announcements/announcement-board-of-foreign-service-examinations">Announcement - Board of Foreign Service Examinations</a></li>
                                 <hr>
-                                <li>Announcement No. 18, s. 2023: Invitation/Call for Participants for the 2023 EROPA Conference</li>
+                                <li><a href="https://www.csc.gov.ph/examination-advisories/exam-announcements-no-04-s-2023">Examination Announcement No. 04 s. 2023 - CSE PPT Exam Calendar CY 2024</a></li>
                             </ul>
                         </div>
                     </div>

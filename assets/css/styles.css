@@ -10963,6 +10963,15 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   #endoresment_logo{
     margin-top: 10%;
   }
+  
+  video, #vid-player{
+    width: 95%;
+    height: 500%;
+  }
+  #firstSectionEndoresment{
+    margin-top: 25%
+  }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -11054,6 +11063,24 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     width:200px; 
     height: 40px;
   }
+
+  #promo_off{
+    font-size: 30px;
+    font-weight: 1000
+  }
+
+  #firstSectionEndoresment{
+    margin-top: 25%
+  }
+
+  video, #vid-player{
+    width: 95%;
+    height: 500%;
+  }
+
+  #thinkervilleHeaderLogo{
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -11098,10 +11125,27 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     width:400px; 
     height: 60px;
   }
+
+  #promo_off{
+    font-size: 98px; 
+    font-weight: 1000;
+  }
+  
+  #firstSectionEndoresment{
+    margin-top: 10%
+  }
+
+  #thinkervilleHeaderLogo{
+    display: none;
+  }
 }
 
 /* 992px */
 
+video, #vid-player{
+  width: 82%;
+  height: 82%;
+}
 
 .step-wizard-list {
   background: #fff;
@@ -11238,4 +11282,3 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   font-size: 20px;
   border-radius: 10px;
 }
-

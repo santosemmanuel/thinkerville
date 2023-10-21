@@ -11,7 +11,7 @@
 </div>
 
 
-<div data-aos="zoom-in" data-aos-duration="3000" style="margin-top: 10%">
+<div data-aos="zoom-in" data-aos-duration="3000" id="firstSectionEndoresment">
   <div class="container">
     <h1 class="fw-bolder text-center">HURRY ENROLL NOW! YOU HAVE</h1>
   </div>
@@ -24,7 +24,7 @@
   <div class="container mt-5">
     <h1 style="font-size: 30px" class="text-center fw-bold">Pass the actual Civil Service Exam!</h1>
     <div class="bg-danger" style="margin-left: 27.5%; margin-right: 27.5%; margin-bottom: 10%">
-      <h1 style="font-size: 98px; font-weight: 1000" class="text-center text-white">75% OFF</h1>
+      <h1 id="promo_off" class="text-center text-white">75% OFF</h1>
     </div>
   </div>
 
@@ -63,59 +63,61 @@
       <h1 data-aos="zoom-in" data-aos-duration="3000" class="text-white" style="padding-top: 10%">INCLUSIONS</h1>
     </div>
     <div class="row my-3 mx-5">
-      <div class="col-sm-12 col-md-6">
+      <div class="col-md-3">
         <div data-aos="fade-right" data-aos-duration="3000" class="card my-5 shadow-sm rounded">
           <div class="row g-0">
-            <div class="col-md-2">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 75px; width: 90px" alt="...">
+            <div class="col-md-3">
+              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title mt-2">Detailed Video Disscussions</h5>
+                <h5 style="font-size: 16px" class="card-title mt-2">Detailed Video Disscussions</h5>
               </div>
             </div>
           </div>
         </div>
         <div data-aos="fade-right" data-aos-duration="2000" class="card my-5 shadow-sm rounded">
           <div class="row g-0">
-            <div class="col-md-2">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 75px; width: 90px" alt="...">
+            <div class="col-md-3">
+              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%"" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title mt-2">Summarized Lecture Notes</h5>
+                <h5 style="font-size: 16px" class="card-title mt-2">Summarized Lecture Notes</h5>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
         <div data-aos="fade-right" data-aos-duration="1000" class="card my-5 shadow-sm rounded">
           <div class="row g-0">
-            <div class="col-md-2">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 75px; width: 90px" alt="...">
+            <div class="col-md-3">
+              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title mt-2">Comprehensive Test & Quizzers</h5>
+                <h5 style="font-size: 16px" class="card-title mt-2">Comprehensive Test & Quizzers</h5>
               </div>
             </div>
           </div>
         </div>
         <div data-aos="fade-right" data-aos-duration="500" class="card my-5 shadow-sm rounded">
           <div class="row g-0">
-            <div class="col-md-2">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 75px; width: 90px" alt="...">
+            <div class="col-md-3">
+              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title mt-2">The 4th Sentence</h5>
+                <h5 style="font-size: 16px" class="card-title mt-2">The 4th Sentence</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-6 d-flex align-items-center justify-content-center">
+      <div class="col-sm-12 col-md-6 mt-5">
         <div id="display-vid" data-aos="fade-left" data-aos-duration="3000">
-          <video id="vid-player" src="assets/All Videos For Endorsement/Parts of Speech - Noun_2_8.mp4" controls="" width="10" height="210" controlslist="nodownload">
+          <video id="vid-player" src="assets/All Videos For Endorsement/Parts of Speech - Noun_2_8.mp4" controls=""  controlslist="nodownload">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -176,7 +178,6 @@
     </div>
   </div>
 </div>
-
 
 <div class="container-fluid">
   <div class="">

@@ -31,7 +31,7 @@
 
 <div class="container-fluid">
     <div class="">
-        <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
+        <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - ThinkerVille</p>
     </div>
 </div>
 <script type="text/javascript" src="assets/js/timer.js"></script>

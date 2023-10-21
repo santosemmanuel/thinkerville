@@ -47,7 +47,7 @@ class checkDataDAO extends BaseDAO {
                                 <h1 class='text-center fw-bold text-danger'>UNFORTUNATELY</h1>
                                 <p class='text-center h3'>You did <strong class='text-danger'>NOT PASS</strong> this test &#128543</p>
                                 
-                                <div class='row my-5'>
+                                <div class='row my-3'>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder' >Percentage</h1>
                                         <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>" . $ave . "%</h1>
@@ -63,11 +63,11 @@ class checkDataDAO extends BaseDAO {
                                 <a href='endoresments.php' class='btn btn-lg px-5' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-regular fa-circle-check'></i> Pass the CSE</a>
                             </center> ";
         } else {
-            $message = "<div id='pass' class='mt-4'>
+            $message = "<div id='pass' class='my-2'>
                                 <h1 class='text-center fw-bold text-success'>CONGRATULATIONS!</h1>
                                 <p class='text-center h3'>Well done! You've <strong class='text-success'>SUCCESSFULLY PASSED</strong> this test &#128522</p>
                                 <canva id='confetti'></canva>
-                                <div class='row my-5'>
+                                <div class='row my-3'>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder'>Percentage</h1>
                                         <h1 class='text-center my-4 fw-bolder text-success' style='font-size: 70px'>" . $ave . "%</h1>

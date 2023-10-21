@@ -10,7 +10,7 @@ class displayVidDAO extends BaseDAO {
         $this->closeConn();
 
         while ($row = $stmt->fetch()) {
-            echo "<video id='vid-player'src='". $row[1] ."' controls width='370' height='210'>
+            echo "<video id='vid-player'src='". $row[1] ."' controls>
                     Your browser does not support the video tag.
                 </video>";
         }
