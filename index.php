@@ -501,7 +501,7 @@
         </div>
         <div class="my-5">
             <center>
-                <h2 class="text-center fw-bolder">CHALLENGE YOURSELF NOW!</h2>
+                <a href="assesment.php" class="btn btn-link" style="text-decoration: none;"><h2 class="text-center fw-bolder">CHALLENGE YOURSELF NOW!</h2></a>
             </center>
         </div>
     </div>
