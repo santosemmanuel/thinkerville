@@ -15,8 +15,7 @@
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
     
         <div class="col-xs-12 col-md-8 mt-2" id="card-questionaire">
-        <input type="text" id="totalNumber" name="totalNumber" disabled>
-            <!-- Your pager content will go here -->
+        <input type="text" id="totalNumber" style="display:none;" name="totalNumber" disabled>
             <div id="contentContainer">
                 <center>
                     <div id="spinner-wait" class="spinner-grow text-danger" role="status">
