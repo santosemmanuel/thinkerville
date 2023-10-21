@@ -11000,6 +11000,10 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     padding-top: 20px;
   }
 
+  #sidebar-wrapper {
+    display:none;
+  }
+
   .cse-content {
     padding: 0px;
   }

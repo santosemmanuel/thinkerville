@@ -2,8 +2,17 @@ window.addEventListener('DOMContentLoaded', event => {
         
     // Open the side navigation
     const sidebarToggle = document.body.querySelector('#sidebarOpen');
+    const mediaQuery = window.matchMedia("(max-width: 360px)");
 
-    if (sidebarToggle ) {
+    if (mediaQuery.matches) {
+        // The viewport size matches the media query
+        document.body.classList.add('sb-sidenav-toggled');
+        sidebarToggle.classList.remove('d-none');
+        document.body.querySelector('#page-content-wrapped').id = 'page-content-wrapper';
+        document.body.querySelector("#thinkervilleHeaderLogo").style.display = 'block';
+    }
+
+    if (sidebarToggle) {
         sidebarToggle.addEventListener('click', event => {
             event.preventDefault();
             document.body.classList.remove('sb-sidenav-toggled');
