@@ -189,10 +189,10 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header" style="background-color: #4084C3; color: #F7D965">
-        <h5 class="modal-title text-white" id="exampleModalLabel"><i class="fa-solid fa-lightbulb"></i>&nbsp; We have something special just for you!</h5>
+        <h5 class="modal-title" id="exampleModalLabel"><i class="fa-solid fa-lightbulb"></i>&nbsp; We have something special just for you!</h5>
       </div>
       <div class="modal-body p-4 text-center">
-        <h1 class="py-5">Ace the actual <b>CSE</b> for <b>75%</b> OFF!</h1>
+        <h1 class="py-5">Ace the actual <b>CSE</b> for <b class="bg-danger text-white px-1">75% OFF!</b></h1>
         <button type="button" class="btn btn-primary btn-lg mb-5" data-bs-dismiss="modal" aria-label="Close">Check details here</button>
       </div>
     </div>
