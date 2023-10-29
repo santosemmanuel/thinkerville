@@ -50,7 +50,7 @@ class checkDataDAO extends BaseDAO {
                                 <div class='row my-3'>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder' >Percentage</h1>
-                                        <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>" . $ave . "%</h1>
+                                        <h1 class='text-center my-4 fw-bolder text-danger' style='font-size: 70px'>" . round($ave) . "%</h1>
                                     </div>
                                     <div class='col'>
                                         <h1 class='text-center my-4 fw-bolder'>Score</h1>
@@ -80,6 +80,7 @@ class checkDataDAO extends BaseDAO {
                             </div>
                             <center>
                                 <a href = 'assesment.php' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
+                                <a href = '#' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-share'></i> Share</a>
                                 <a href='endoresments.php' class='btn btn-lg px-5' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-regular fa-cricle-check'></i> Pass the CSE</a>
                             </center>  
                             <script src='assets/js/congratulations.js' type='text/javascript'></script>";
