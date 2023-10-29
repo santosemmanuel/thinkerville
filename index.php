@@ -2,17 +2,17 @@
 <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
     <div class="d-flex flex-column flex-shrink-0 p-3 p-3 border-end" id="sidebar-wrapper" style="background-color: #F5FEFD; z-index:2000">
-        <div class="pb-3 mb-3 border-bottom">
+        <div class="pb-3 mb-2 border-bottom">
             <div style="width: 100%;" class="">
                 <a href="#" class="text-decoration-none">
                     <svg class="bi me-2" width="30" height="24">
                         <use xlink:href="#bootstrap"></use>
                     </svg>
-                    <img src="assets/images/ThinkerVille_04.png" alt="thinkerville" srcset="" class="mr-5" style="width: 250px; height: 40px">
+                    <img src="assets/images/ThinkerVille_04.png" alt="thinkerville" srcset="" class="mr-5" style="width: 210px; height: 25px">
                 </a>
             </div>
             <div class="">
-                <i class="fa-solid fa-xmark fs-5" style="float:right; margin-top: -8%; color:#4084C3" id="sidebarClose"></i>
+                <i class="fa-solid fa-xmark fs-5" style="float:right; margin-top: -6%; color:#4084C3" id="sidebarClose"></i>
             </div>
         </div>
         <ul class="list-unstyled ps-0">
@@ -81,11 +81,11 @@
     <!-- Page content wrapper-->
     <div id="page-content-wrapped" style="position: relative">
         <!-- Top navigation-->
-        <nav id="navbar_top" class="p-3 navbar navbar-expand-lg navbar-light bg-light border-0">
+        <nav id="navbar_top" class="p-2 navbar navbar-expand-lg navbar-light bg-light border-0">
             <div class="container-fluid">
-            <i class="fa-solid fa-bars-staggered fs-5 text-primary d-none" id="sidebarOpen"></i>
+                <i class="fa-solid fa-bars-staggered fs-5 text-primary d-none" id="sidebarOpen"></i>
                 <a class="navbar-brand" href="#">
-                    <img src="assets/images/ThinkerVille_04.png" id="thinkervilleHeaderLogo" alt="thinkerville" style="width: 199px; height: 38px; margin-left: 6%">
+                    <img src="assets/images/ThinkerVille_04.png" id="thinkervilleHeaderLogo" alt="thinkerville" style="width: 180px; height: 28px; margin-left: 6%">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
