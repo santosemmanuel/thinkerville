@@ -12,6 +12,8 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.cdnfonts.com/css/cera-round-pro-demo');
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -47,7 +49,7 @@
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 64,132,195;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -56,11 +58,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial",
-    sans-serif;
-  --bs-font-family-serif: fa-livory, "Georgia", "Times New Roman", "Times",
-    serif;
-  --bs-font-monospace: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+  --bs-font-sans-serif: cera-round-pro, Helvetica Neue, Helvetica, Arial, sans-serif;
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
@@ -102,7 +100,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Cera Round Pro DEMO', sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -111,6 +109,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-style: normal;
 }
 
 hr {
@@ -10806,7 +10805,7 @@ fieldset:disabled .btn {
   /* min-height: 100vh;
   margin-left: -15rem;
   transition: margin 0.25s ease-out; */
-  width: 400px;
+  width: 380px;
   height: 100%;
   position: fixed;
   z-index: 1;
@@ -10831,7 +10830,7 @@ fieldset:disabled .btn {
 }
 
 #page-content-wrapped {
-  margin-left: 400px;
+  
 }
 
 body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
@@ -11085,6 +11084,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   #thinkervilleHeaderLogo{
     display: block;
   }
+
+  #StartQuiz1{
+    padding: 15px; 
+    font-size: 25px;
+    font-weight: 100px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -11139,10 +11144,13 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-top: 10%
   }
 
-  #thinkervilleHeaderLogo{
-    display: none;
+  #StartQuiz1 {
+    padding: 20px; 
+    font-size: 33px; 
+    font-weight: 900px;
   }
-}
+  }
+
 
 /* 992px */
 

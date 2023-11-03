@@ -59,8 +59,8 @@ class checkDataDAO extends BaseDAO {
                                 </div>
                             </div>
                             <center>
-                                <a href = 'assesment.php' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
-                                <a href='endoresments.php' class='btn btn-lg px-5' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-regular fa-circle-check'></i> Pass the CSE</a>
+                                <a href = 'assesment.php' class='btn btn-lg px-5 my-1 fw-bold' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
+                                <a href='https://thinkerville.net/login/signup.php' class='btn btn-lg px-5 fw-bold' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-regular fa-circle-check'></i> Pass the CSE</a>
                             </center> ";
         } else {
             $message = "<div id='pass' class='my-2'>
@@ -79,9 +79,9 @@ class checkDataDAO extends BaseDAO {
                                 </div>
                             </div>
                             <center>
-                                <a href = 'assesment.php' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
-                                <a href = '#' class='btn btn-lg px-5 my-1' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-share'></i> Share</a>
-                                <a href='endoresments.php' class='btn btn-lg px-5' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-regular fa-cricle-check'></i> Pass the CSE</a>
+                                <a href = 'assesment.php' class='btn btn-lg px-5 my-1 fw-bold' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-repeat'></i> Try Again</a>
+                                <a href = '#' class='btn btn-lg px-5 my-1 fw-bold' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-solid fa-share'></i> Share</a>
+                                <a href='https://thinkerville.net/login/signup.php' class='btn btn-lg px-5 fw-bold' type='button' style='background-color: #4084C3; color: #F7D695;'><i class='fa-regular fa-cricle-check'></i> Pass the CSE</a>
                             </center>  
                             <script src='assets/js/congratulations.js' type='text/javascript'></script>";
         }

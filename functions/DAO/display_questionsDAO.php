@@ -45,10 +45,10 @@ class displayQuestionsDAO extends BaseDAO {
                     <div class='row'>
                         <div class='col-12'>
                             <div class='d-flex justify-content-between'>
-                                <button class='btn btn-lg' onclick='showPrevious()' id='prevButton' style='background-color: #4084c3; color: #F7D965'><i class='fa-solid fa-arrow-left'></i>&nbsp;</button>
-                                <button class='btn btn-lg' onclick='showNext()' id='nextButton' style='background-color: #4084c3; color: #F7D965'>Next&nbsp;<i class='fa-solid fa-arrow-right'></i></button>
-                                <button class='btn btn-lg' onclick='checkData()' id='submitButton' style='display: none; background-color: #4084c3; color: #F7D965'><i class='fa-solid fa-paper-plane'></i>&nbsp;Submit</button>
-                                <button class='btn btn-lg disabled' id='checkButton' style='background-color: #4084c3; color: #F7D965; display: none;'><div class='spinner-border spinner-border-sm'></div>&nbsp;Checking...</button>
+                                <button class='btn btn-lg fw-bold' onclick='showPrevious()' id='prevButton' style='background-color: #4084c3; color: #F7D965'><i class='fa-solid fa-arrow-left'></i>&nbsp;</button>
+                                <button class='btn btn-lg fw-bold' onclick='showNext()' id='nextButton' style='background-color: #4084c3; color: #F7D965'>Next&nbsp;<i class='fa-solid fa-arrow-right'></i></button>
+                                <button class='btn btn-lg fw-bold' onclick='checkData()' id='submitButton' style='display: none; background-color: #4084c3; color: #F7D965'><i class='fa-solid fa-paper-plane'></i>&nbsp;Submit</button>
+                                <button class='btn btn-lg fw-bold disabled' id='checkButton' style='background-color: #4084c3; color: #F7D965; display: none;'><div class='spinner-border spinner-border-sm'></div>&nbsp;Checking...</button>
                             </div>
                         </div>
                     </div>
