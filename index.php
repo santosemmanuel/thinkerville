@@ -1,4 +1,5 @@
 <?php include("includes/header.php"); ?>
+
 <head>
     <meta property="og:url" content="https://quizzer.thinkerville.net/assesment.php">
     <meta property="og:title" content="Challenge Yourself Now!">
@@ -8,7 +9,7 @@
 <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
     <div class="d-flex flex-column flex-shrink-0 p-3 p-3 border-end" id="sidebar-wrapper" style="background-color: #F5FEFD; z-index:2000;">
-       
+
         <div class="pb-3 mb-2 border-bottom">
             <div style="width: 100%;" class="">
                 <a href="#" class="text-decoration-none">
@@ -113,7 +114,7 @@
                     <div class="card shadow rounded" style="margin-top: 20%; margin-bottom: 20%">
                         <div class="card-body p-5 text-center">
                             <h2 class="card-title fw-bolder">Civil Service Exam Practice Test</h2>
-                            <p class="card-text text-muted">Based on Actual Civil Service Examination</p>
+                            <p class="card-text text-muted">Based on Actual Civil Service Examination Questions</p>
                             <div class="d-grid">
                                 <a class="btn btn-lg mt-3" type="button" id="StartQuiz1" href="assesment.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965;">
                                     <i class="fa fa-circle-play" style="margin-right: 12px;"></i><strong>START QUIZ</strong>
@@ -508,7 +509,9 @@
         </div>
         <div class="my-5">
             <center>
-                <a href="assesment.php" class="btn btn-link" style="text-decoration: none;"><h2 class="text-center fw-bolder">CHALLENGE YOURSELF NOW!</h2></a>
+                <a class="btn btn-lg mt-3" type="button" href="https://thinkerville.net/login/signup.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965; font-size: 30px; padding: 12px 60px">
+                    <i class="fa-regular fa-circle-check" style="margin-right: 12px;"></i><strong>PASS the CSE</strong>
+                </a>
             </center>
         </div>
     </div>
