@@ -10837,11 +10837,6 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-left: 0;
 }
 
-.cse-content {
-  padding: 24px 16px;
-}
-
-
 /* other */
 
 .dropdown-toggle {
@@ -10971,6 +10966,11 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-top: 25%
   }
 
+  .cse-content {
+    margin-left: -5%; 
+    text-align: justify;
+  }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -11090,6 +11090,11 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     font-size: 25px;
     font-weight: 100px;
   }
+
+  .cse-content {
+    margin-left: -5%; 
+    text-align: justify;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -11149,7 +11154,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     font-size: 33px; 
     font-weight: 900px;
   }
+
+  .cse-content {
+    margin-left: 0; 
+    text-align: justify;
   }
+}
 
 
 /* 992px */

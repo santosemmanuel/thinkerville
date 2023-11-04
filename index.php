@@ -303,9 +303,9 @@
 
             <div id="AppProcess2" class="my-5" data-aos="fade-right" data-aos-duration="1500">
                 <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">Application Process & Requirements</h1>
-                <div class="cse-content px-4 py-3">
+                <div class="px-4 py-3">
                     <p style="text-align: justify">For you to be allowed to take the Civil Service Examination, follow the steps below:</p>
-                    <ol>
+                    <ol class="cse-content">
                         <li class="mt-1">Go to the nearest Civil Service Commission Office. They are open from Monday to Friday from 8:00 AM to 5:00PM (except for holidays).</li>
                         <li class="mt-1">
                             Submit the Requirements
