@@ -11159,6 +11159,10 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: 0; 
     text-align: justify;
   }
+
+  #sidebarClose {
+    display: none;
+  }
 }
 
 

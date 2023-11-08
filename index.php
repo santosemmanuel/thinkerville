@@ -136,7 +136,7 @@
                         </div>
                         <div class="card-body p-4">
                             <ul>
-                                <li><a href="https://www.csc.gov.ph/announcements/announcement-board-of-foreign-service-examinations">Announcement - Board of Foreign Service Examinations</a></li>
+                            <li><a href="https://www.csc.gov.ph/examination-advisories/exam-announcements-no-06-s-2023">EXAMINATION ANNOUNCEMENT NO. 06 S. 2023 - CONDUCT OF THE 03 MARCH 2024 CSE PPT CLARIFICATION ON CERTAIN CONCERN</a></li>
                                 <hr>
                                 <li><a href="https://www.csc.gov.ph/examination-advisories/exam-announcements-no-04-s-2023">Examination Announcement No. 04 s. 2023 - CSE PPT Exam Calendar CY 2024</a></li>
                             </ul>
