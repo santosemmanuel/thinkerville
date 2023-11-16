@@ -11011,19 +11011,19 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     scroll-margin-top: 50px;
   }
   #AboutCSE3 {
-    scroll-margin-top: -40rem;
+    scroll-margin-top: 0rem;
   }
   #AboutCSE4 {
-    scroll-margin-top: -60rem;
+    scroll-margin-top: 0rem;
   }
   #AppProcess1 {
-    scroll-margin-top: -70rem;
+    scroll-margin-top: 1rem;
   }
   #AppProcess2 {
-    scroll-margin-top: -80rem;
+    scroll-margin-top: 1rem;
   }
   #FAQ1 {
-    scroll-margin-top: -100rem;
+    scroll-margin-top: 1rem;
 
     font-size: 25px;
     width: 200px;
@@ -11031,13 +11031,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
 
-  #FAQ1 > div {
-    margin-top: 15%;
-    margin-bottom: 15%
-  }
-
   #FAQ2 {
-    scroll-margin-top: -110rem;
+    scroll-margin-top: 1rem;
 
     font-size: 25px;
     margin-left: -12%;
@@ -11045,7 +11040,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ3 {
-    scroll-margin-top: -130rem;
+    scroll-margin-top: 1rem;
 
     font-size: 25px;
     margin-left: -12%;
@@ -11053,7 +11048,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ4 {
-    scroll-margin-top: -140rem;
+    scroll-margin-top: 1rem;
 
     font-size: 25px;
     margin-left: -12%;
@@ -11061,7 +11056,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ5 {
-    scroll-margin-top: -190rem;
+    scroll-margin-top: 1rem;
 
     font-size: 25px;
     margin-left: -12%;
@@ -11069,6 +11064,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ6 {
+    scroll-margin-top: 1rem;
+
     font-size: 25px;
     margin-left: -12%;
     width: 100%;
@@ -11083,7 +11080,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ8 {
-    scroll-margin-top: -2030px;
+    scroll-margin-top: 1px;
 
     font-size: 25px;
     margin-left: -12%;
@@ -11091,7 +11088,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ9 {
-    scroll-margin-top: -2040px;
+    scroll-margin-top: 1px;
 
     font-size: 25px;
     margin-left: -12%;
@@ -11099,7 +11096,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   }
   #FAQ10 {
-    scroll-margin-top: -2050px;
+    scroll-margin-top: 1px;
 
     font-size: 25px;
     margin-left: -12%;
