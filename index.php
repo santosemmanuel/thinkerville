@@ -100,7 +100,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://thinkerville.net/login/signup.php"><i class="fas fa-edit mt-1" style="font-size: 17.5px;"></i> Register Here</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://thinkerville.net/course/view.php?id=8"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
                         <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/ThinkerVilleEducation" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>
@@ -145,11 +145,11 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div id="AboutCSE1" class="my-5">
-                        <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">What is the Philippine Civil Service Exam?</h1>
+                        <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">What is the Philippine Civil Service Exam?</h1>
                         <div class="cse-content">
-                            <p style="text-align: justify">The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission.
+                            <p >The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission.
                                 Its successful completion opens the doors for individuals to engage in full-time, permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional. </p>
-                            <p style="text-align: justify">
+                            <p >
                                 Opting for the Sub-professional level equips you for clerical and entry-level roles, whereas conquering the Professional level not only awards you 2nd level eligibility but also paves your way towards
                                 supervisory and managerial positions (2nd level positions). The choice between the Professional and Sub-professional levels lies in your hands.
                             </p>
@@ -159,9 +159,9 @@
             </div>
 
             <div id="AboutCSE2" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">Am I qualified to take the Civil Service Exam?</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">Am I qualified to take the Civil Service Exam?</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">Everyone is qualified to take the Civil Service Examination <mark><i>regardless of your educational attainment</i></mark> as long as you met the following: </p>
+                    <p>Everyone is qualified to take the Civil Service Examination <mark><i>regardless of your educational attainment</i></mark> as long as you met the following: </p>
                     <ul>
                         <li class="mb-1">You must be a Filipino citizen, at least 18 years of age at the time of filing the application.</li>
                         <li class="mb-1">You must be of good moral character, have no criminal record, or have not been convicted of an offense involving moral turpitude.</li>
@@ -172,9 +172,9 @@
             </div>
 
             <div id="AboutCSE3" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">What is the examination coverage of the CSE?</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">What is the examination coverage of the CSE?</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level,
+                    <p>The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level,
                         the subjects comprise Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability,
                         and General Information. Explore the specifics outlined below:</p>
                     <div class="table-responsive">
@@ -252,16 +252,16 @@
             </div>
 
             <div id="AboutCSE4" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">What is the CSE passing rate?</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">What is the CSE passing rate?</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
+                    <p>To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
                 </div>
             </div>
 
             <div id="AppProcess1" class="my-5" data-aos="fade-right" data-aos-duration="1500">
                 <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">Civil Service Exam Schedule and Application</h1>
                 <div class="cse-content">
-                    <p style="text-align: justify">For 2024, here’s the schedule:</p>
+                    <p>For 2024, here’s the schedule:</p>
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead style="background-color: #4084C3; color:#F7D965">
@@ -309,9 +309,9 @@
             </div>
 
             <div id="AppProcess2" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">Application Process & Requirements</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">Application Process & Requirements</h1>
                 <div class="px-4 py-3">
-                    <p style="text-align: justify">For you to be allowed to take the Civil Service Examination, follow the steps below:</p>
+                    <p>For you to be allowed to take the Civil Service Examination, follow the steps below:</p>
                     <ol class="cse-content">
                         <li class="mt-1">Go to the nearest Civil Service Commission Office. They are open from Monday to Friday from 8:00 AM to 5:00PM (except for holidays).</li>
                         <li class="mt-1">
@@ -352,50 +352,47 @@
             </div>
 
             <div class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">FAQs: Frequently Asked Questions</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">FAQs: Frequently Asked Questions</h1>
                 <div class="cse-content px-4 py-3">
                     <ol>
                         <li id="FAQ1" class="mt-1 fs-5">Can I take the Civil Service Exam if I haven't completed college or high school?<br>
-                            <div class="m-3 fs-6">
-                                <i>Yes. You can take the Civil Service Exam regardless of your educational attainment.</i>
+                            <div class="my-3 fs-6">
+                                Yes. You can take the Civil Service Exam regardless of your educational attainment.
                             </div>
                         </li>
                         <li id="FAQ2" class="mt-1 fs-5">Where can I find my school assignment for the Civil Service Exam?<br>
-                            <div class="m-3 fs-6">
-                                <i>The school assignment is available 2 weeks before examination day at the CSC website
+                            <div class="my-3 fs-6">
+                                The school assignment is available 2 weeks before examination day at the CSC website
                                     <a href="https://www.csc.gov.ph/" style="text-decoration: none;" target="_blank">www.csc.gov.ph</a>
-                                </i>
+                                
                             </div>
                         </li>
                         <li id="FAQ3" class="mt-1 fs-5">What is the appropriate attire for the Civil Service Exam, and what clothing items are not allowed?<br>
-                            <div class="m-3 fs-6">
-                                <i>During the examination, you should wear a proper attire (sleeveless shirt/blouse, short pants or slippers are not allowed). White polo or polo shirt is advised to be used. </i>
+                            <div class="my-3 fs-6">
+                                During the examination, you should wear a proper attire (sleeveless shirt/blouse, short pants or slippers are not allowed). White polo or polo shirt is advised to be used.
                             </div>
                         </li>
                         <li id="FAQ4" class="mt-1 fs-5">Are calculators allowed to be used during the Civil Service Exams?<br>
-                            <div class="m-3 fs-6">
-                                <i>The use of calculators as aids during the exam is prohibited. When candidates sit for the Civil Service Examination, they are expected to rely solely on their mental calculations and
-                                    problem-solving skills without the assistance of electronic devices like calculators.</i>
+                            <div class="my-3 fs-6">
+                                The use of calculators as aids during the exam is prohibited. When candidates sit for the Civil Service Examination, they are expected to rely solely on their mental calculations and
+                                    problem-solving skills without the assistance of electronic devices like calculators.
                             </div>
                         </li>
                         <li id="FAQ5" class="mt-1 fs-5">What are the required documents and items I need to bring for the Civil Service Exam?<br>
-                            <div class="m-3 fs-6">
-                                <i>
-                                    The following items should be brought during the CS Examination:
-                                    <ul>
-                                        <li>Valid ID</li>
-                                        <li>Original PSA Birth Certificate</li>
-                                        <li>Application Receipt with Official Receipt</li>
-                                        <li>Notice of Assignment</li>
-                                        <li>Black ballpen</li>
-                                        <li>Clear transparent container (for water or any food)</li>
-                                    </ul>
-                                </i>
+                            <div class="my-3 fs-6">
+                                The following items should be brought during the CS Examination:
+                                <ul>
+                                    <li>Valid ID</li>
+                                    <li>Original PSA Birth Certificate</li>
+                                    <li>Application Receipt with Official Receipt</li>
+                                    <li>Notice of Assignment</li>
+                                    <li>Black ballpen</li>
+                                    <li>Clear transparent container (for water or any food)</li>
+                                </ul>
                             </div>
                         </li>
                         <li id="FAQ6" class="mt-1 fs-5">What are the important reminders for the day of the Civil Service Examination?<br>
-                            <div class="m-3 fs-6">
-                                <i>
+                            <div class="my-3 fs-6">
                                     Important Reminders on the day of the examination
                                     <ul>
                                         <li>No ID, No Exam.</li>
@@ -403,12 +400,10 @@
                                         <li>Failure to take the exam on schedule means forfeiture of examination fee and slot.</li>
                                         <li>Gadgets, calculators and any printed materials are not allowed.</li>
                                     </ul>
-                                </i>
                             </div>
                         </li>
                         <li id="FAQ7" class="mt-1 fs-5">Who are exempted from taking the Civil Service Exams, and what criteria make them eligible for exemption?<br>
-                            <div class="m-3 fs-6">
-                                <i>
+                            <div class="my-3 fs-6">
                                     The following list comprises all individuals exempted from taking the Civil Service Examination:
                                     <ul>
                                         <li>Bar and Board Exam Passers (in accordance with RA 1080)</li>
@@ -484,23 +479,22 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </i>
                             </div>
                         </li>
                         <li id="FAQ8" class="mt-1 fs-5">What benefits do individuals receive upon passing the Civil Service Exam?<br>
-                            <div class="m-3 fs-6">
-                                <i>Individuals who pass the CSE are granted permanent positions. Consequently, they become eligible for customary benefits such as SSS, Pag-IBIG, PhilHealth, holiday pay, and more.
-                                    (Non-permanent or job order employees do not have access to these privileges.)</i>
+                            <div class="my-3 fs-6">
+                                Individuals who pass the CSE are granted permanent positions. Consequently, they become eligible for customary benefits such as SSS, Pag-IBIG, PhilHealth, holiday pay, and more.
+                                    (Non-permanent or job order employees do not have access to these privileges.)
                             </div>
                         </li>
                         <li id="FAQ9" class="mt-1 fs-5">How many times can one take the Civil Service Exam?<br>
-                            <div class="m-3 fs-6">
-                                <i>You are allowed to take the civil service exam as many times as necessary. It's important to note, however, that you can only attempt the same level of the exam once every three months.</i>
+                            <div class="my-3 fs-6">
+                                You are allowed to take the civil service exam as many times as necessary. It's important to note, however, that you can only attempt the same level of the exam once every three months.
                             </div>
                         </li>
                         <li id="FAQ10" class="mt-1 fs-5">Does Civil Service eligibility have an expiration date, and how is it regarded by government agencies during job applications?<br>
-                            <div class="m-3 fs-6">
-                                <i>Civil Service eligibility does not come with an expiration date. Moreover, government agencies tend to favor this certification when considering candidates for positions.</i>
+                            <div class="my-3 fs-6">
+                                Civil Service eligibility does not come with an expiration date. Moreover, government agencies tend to favor this certification when considering candidates for positions.
                             </div>
                         </li>
                     </ol>

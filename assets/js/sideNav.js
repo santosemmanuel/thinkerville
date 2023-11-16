@@ -59,6 +59,5 @@ $(document).ready(function(){
     $(this).removeClass("d-block");
     $(this).addClass("d-none");
   })
-
-
+  
 });

@@ -10967,8 +10967,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
 
   .cse-content {
-    margin-left: -5%; 
-    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%; 
   }
 
 }
@@ -11003,14 +11003,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     display:none;
   }
 
-  .cse-content {
-    padding: 0px;
-  }
   #AboutCSE1 {
-    scroll-margin-top: 0px;
+    scroll-margin-top: 50px;
   }
+
   #AboutCSE2 {
-    scroll-margin-top: 0px;
+    scroll-margin-top: 50px;
   }
   #AboutCSE3 {
     scroll-margin-top: -40rem;
@@ -11026,33 +11024,97 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
   #FAQ1 {
     scroll-margin-top: -100rem;
+
+    font-size: 25px;
+    width: 200px;
+    margin-left: -25px;
+
   }
+
+  #FAQ1 > div {
+    margin-top: 15%;
+    margin-bottom: 15%
+  }
+
   #FAQ2 {
     scroll-margin-top: -110rem;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ3 {
     scroll-margin-top: -130rem;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ4 {
     scroll-margin-top: -140rem;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ5 {
     scroll-margin-top: -190rem;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ6 {
-   
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ7 {
     scroll-margin-top: 0px;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ8 {
     scroll-margin-top: -2030px;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ9 {
     scroll-margin-top: -2040px;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
   }
   #FAQ10 {
     scroll-margin-top: -2050px;
+
+    font-size: 25px;
+    margin-left: -12%;
+    width: 100%;
+
+  }
+
+  #AboutCSE1 > h1, 
+  #AboutCSE2 > h1, 
+  #AboutCSE3 > h1, 
+  #AboutCSE4 > h1,
+  #AppProcess1 > h1,
+  #AppProcess2 > h1{
+    font-size: 25px;
+    margin-bottom: 10%;
   }
 
   #prevButton:after {
@@ -11092,9 +11154,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
 
   .cse-content {
-    margin-left: -5%; 
-    text-align: justify;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-right: 6%; 
+    padding: 0;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -11108,6 +11173,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -25rem;
   }
+  
   #AboutCSE1,
   #AboutCSE2,
   #AboutCSE3,
@@ -11157,7 +11223,6 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   .cse-content {
     margin-left: 0; 
-    text-align: justify;
   }
 
   #sidebarClose {
