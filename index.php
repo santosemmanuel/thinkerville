@@ -16,7 +16,7 @@
                     <svg class="bi me-2" width="30" height="24">
                         <use xlink:href="#bootstrap"></use>
                     </svg>
-                    <img src="assets/images/ThinkerVille_04.png" alt="thinkerville" srcset="" class="mr-5" style="width: 200px; height: 25px">
+                    <img src="assets/images/ThinkerVille_04.png" alt="thinkerville" srcset="" class="mr-5" style="height: 45px; width: 200px">
                 </a>
             </div>
             <div class="">
@@ -94,24 +94,24 @@
             <div class="container-fluid">
                 <i class="fa-solid fa-bars-staggered fs-5 text-primary" id="sidebarOpen"></i>
                 <a class="navbar-brand" href="#">
-                    <img src="assets/images/ThinkerVille_04.png" id="thinkervilleHeaderLogo" alt="thinkerville" style="width: 180px; height: 28px; margin-left: 6%">
+                    <img src="assets/images/ThinkerVille_04.png" id="thinkervilleHeaderLogo" alt="thinkerville" style="height: 45px; width: 200px; margin-left: 6%; padding: 0; margin-top: 0; margin-bottom: 0">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://thinkerville.net/course/view.php?id=8"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
-                        <li class="nav-item"><a class="nav-link" style="color: #4084C3;" href="https://www.facebook.com/ThinkerVilleEducation" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="https://thinkerville.net/course/view.php?id=8"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="https://www.facebook.com/ThinkerVilleEducation" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <!-- Page content-->
-        <div class="" style="background-image: url('assets/images/White and Orange Modern Abstract Banner.png'); background-size: cover;">
+        <div class="" style="background-image: url('assets/images/White and Orange Modern Abstract Banner.jpg'); background-size: cover;">
             <div class="row d-flex align-item-center justify-content-center">
                 <div class="col-sm-12 col-md-6">
-                    <div class="card shadow rounded" style="margin-top: 20%; margin-bottom: 20%">
+                    <div class="card shadow-lg rounded" style="margin-top: 17%; margin-bottom: 20%">
                         <div class="card-body p-5 text-center">
                             <h2 class="card-title fw-bolder">Civil Service Exam Practice Test</h2>
                             <p class="card-text text-muted">Based on Actual Civil Service Examination Questions</p>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div id="AboutCSE1" class="my-5">
-                        <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">What is the Philippine Civil Service Exam?</h1>
+                        <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3 shadow-sm" style="padding-left: 40px;">What is the Philippine Civil Service Exam?</h1>
                         <div class="cse-content">
                             <p >The Philippine Civil Service Exam, formally referred to as the Career Service Exam, stands as a pivotal qualification assessment administered by the Civil Service Commission.
                                 Its successful completion opens the doors for individuals to engage in full-time, permanent employment within the Philippine government. This biannual examination comes in two tiers – Professional and Sub-professional. </p>
@@ -159,7 +159,7 @@
             </div>
 
             <div id="AboutCSE2" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">Am I qualified to take the Civil Service Exam?</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3 shadow-sm" style="padding-left: 40px;">Am I qualified to take the Civil Service Exam?</h1>
                 <div class="cse-content">
                     <p>Everyone is qualified to take the Civil Service Examination <mark><i>regardless of your educational attainment</i></mark> as long as you met the following: </p>
                     <ul>
@@ -172,7 +172,7 @@
             </div>
 
             <div id="AboutCSE3" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">What is the examination coverage of the CSE?</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3 shadow-sm" style="padding-left: 40px;">What is the examination coverage of the CSE?</h1>
                 <div class="cse-content">
                     <p>The content of the Civil Service Exam varies based on whether you are opting for the Professional or Sub-Professional level. For those taking the Professional level,
                         the subjects comprise Numerical Ability, Analytical Ability, Verbal Ability, and General Information. Conversely, the Sub-Professional level entails Numerical Ability, Clerical Ability, Verbal Ability,
@@ -252,14 +252,14 @@
             </div>
 
             <div id="AboutCSE4" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">What is the CSE passing rate?</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3 shadow-sm" style="padding-left: 40px;">What is the CSE passing rate?</h1>
                 <div class="cse-content">
                     <p>To pass the test, an examinee should get a general rating of at least <mark><strong>80%</strong></mark></p>
                 </div>
             </div>
 
             <div id="AppProcess1" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2" style="padding-left: 40px;">Civil Service Exam Schedule and Application</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 shadow-sm" style="padding-left: 40px;">Civil Service Exam Schedule and Application</h1>
                 <div class="cse-content">
                     <p>For 2024, here’s the schedule:</p>
                     <div class="table-responsive">
@@ -309,7 +309,7 @@
             </div>
 
             <div id="AppProcess2" class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">Application Process & Requirements</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3 shadow-sm" style="padding-left: 40px;">Application Process & Requirements</h1>
                 <div class="px-4 py-3">
                     <p>For you to be allowed to take the Civil Service Examination, follow the steps below:</p>
                     <ol class="cse-content">
@@ -352,7 +352,7 @@
             </div>
 
             <div class="my-5" data-aos="fade-right" data-aos-duration="1500">
-                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3" style="padding-left: 40px;">FAQs: Frequently Asked Questions</h1>
+                <h1 class="fw-bold border-start border-4 bg-light border-info py-2 mb-3 shadow-sm" style="padding-left: 40px;">FAQs: Frequently Asked Questions</h1>
                 <div class="cse-content px-4 py-3">
                     <ol>
                         <li id="FAQ1" class="mt-1 fs-5">Can I take the Civil Service Exam if I haven't completed college or high school?<br>

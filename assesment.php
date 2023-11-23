@@ -4,7 +4,7 @@
     <div  class="fixed-top bg-light">
         <div class="d-flex justify-content-center p-2">
             <a href="index.php">
-                <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width: 250px; height: 40px">
+                <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="" style="width: 200px; height: 50px">
             </a>
         </div>
     </div>
