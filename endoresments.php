@@ -1,205 +1,209 @@
 <?php include("includes/header.php"); ?>
 
-<div class="container-fluid border-bottom" style="margin-bottom: 10%;">
-  <div class="fixed-top bg-light">
-    <div class="d-flex justify-content-center p-2">
-      <a href="index.php">
-        <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="">
-      </a>
-    </div>
-  </div>
-</div>
-
-
-<div data-aos="zoom-in" data-aos-duration="3000" id="firstSectionEndoresment">
-  <div class="container">
-    <h1 class="fw-bolder text-center">HURRY ENROLL NOW! YOU HAVE</h1>
-  </div>
-  <div class="container-fluid">
-    <div class="bg-warning" style="background-color: #F7D965">
-      <h5 class="text-center" style="margin-bottom: -0.5%">days &nbsp; hours &nbsp; mins &nbsp; secs</h5>
-      <h1 class="text-center" style="font-size: 45px" id="countdown_promo">00:00:00:00</h1>
-    </div>
-  </div>
-  <div class="container mt-5">
-    <h1 style="font-size: 30px" class="text-center fw-bold">Pass the actual Civil Service Exam!</h1>
-    <div class="bg-danger" style="margin-left: 27.5%; margin-right: 27.5%; margin-bottom: 10%">
-      <h1 id="promo_off" class="text-center text-white">75% OFF</h1>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2 g-4 my-5">
-      <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-        <div class="card shadow bg-body rounded" style="width: 500px">
-          <div class="card-header text-center" style="background-color: #4084C3;">
-            <strong style="font-size: 30px; color: #F7D965;">BEFORE</strong>
-          </div>
-          <div class="card-body p-5">
-            <h1 class="card-title text-center" style="font-size: 70px;">&#8369; <del>2,000</del></h1>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-        <div class="card shadow bg-body rounded" style="width: 500px">
-          <div class="card-header text-center" style="background-color: #4084C3;">
-            <strong style="font-size: 30px; color: #F7D965;">NOW</strong>
-          </div>
-          <div class="card-body p-5">
-            <h1 class="card-title text-center" style="font-size: 70px;">&#8369; 500</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-    <center>
-      <a type="button" class="btn btn-lg text-white px-5" style="background-color: #4084C3;" href="#inclussion">Learn More</a>
-      <center>
-  </div>
-</div>
-
-<div class="container-fuild" style="margin-top: 3%; margin-bottom: 1%; background-color: #4084C3" id="inclussion">
-  <div class="container">
-    <div class="text-center">
-      <h1 data-aos="zoom-in" data-aos-duration="3000" class="text-white" style="padding-top: 10%">INCLUSIONS</h1>
-    </div>
-    <div class="row my-3 mx-5">
-      <div class="col-md-3">
-        <div data-aos="fade-right" data-aos-duration="3000" class="card my-5 shadow-sm rounded">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 style="font-size: 16px" class="card-title mt-2">Detailed Video Disscussions</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-right" data-aos-duration="2000" class="card my-5 shadow-sm rounded">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%"" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 style="font-size: 16px" class="card-title mt-2">Summarized Lecture Notes</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-3">
-        <div data-aos="fade-right" data-aos-duration="1000" class="card my-5 shadow-sm rounded">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 style="font-size: 16px" class="card-title mt-2">Comprehensive Test & Quizzers</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div data-aos="fade-right" data-aos-duration="500" class="card my-5 shadow-sm rounded">
-          <div class="row g-0">
-            <div class="col-md-3">
-              <img src="assets/images/Check.png" class="img-fluid rounded-start" style="height: 100%; width: 100%" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 style="font-size: 16px" class="card-title mt-2">The 4th Sentence</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 mt-5">
-        <div id="display-vid" data-aos="fade-left" data-aos-duration="3000">
-          <video id="vid-player" src="assets/All Videos For Endorsement/Parts of Speech - Noun_2_8.mp4" controls=""  controlslist="nodownload">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </div>
-    <center>
-      <a data-aos="zoom-in" href="#enroll" type="button" class="btn btn-outline-light btn-lg px-5 mb-5" style="background-color: #4084C3; color: #F7D965">Enroll Now</a>
-      <center>
-  </div>
-</div>
-
-
-<div class="container-fuild" style="margin-top: 0.5%; margin-bottom: 10%; " id="enroll">
-  <div class="container">
-    <div class="text-center">
-      <h1 data-aos="zoom-in" data-aos-duration="3000" style="padding-top: 10%">Enrollment Proccess</h1>
-    </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
-      <div class="col d-flex align-content-center justify-content-center">
-        <div data-aos="fade-up" data-aos-duration="3000" class="card h-100 shadow bg-body rounded" style="width: 80%">
-          <div class="card-header text-center" style="background-color: #4084C3;">
-            <strong style="font-size: 30px; color: #F7D965;">Step 1</strong>
-          </div>
-          <div class="card-body text-center">
-            <i class="fa-regular fa-file-lines m-5 rounded-circle" style="font-size: 90px"></i>
-            <h5 class="card-title fw-bold">Fill up the form</h5>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform" type="button" class="btn btn-link">Click Here</a>
-          </div>
-        </div>
-      </div>
-      <div class="col d-flex align-content-center justify-content-center">
-        <div data-aos="fade-up" data-aos-duration="3000" class="card h-100 shadow bg-body rounded" style="width: 80%">
-          <div class="card-header text-center" style="background-color: #4084C3;">
-            <strong style="font-size: 30px; color: #F7D965;">Step 2</strong>
-          </div>
-          <div class="card-body text-center">
-            <i class="fa-regular fa-credit-card m-5 rounded-circle" style="font-size: 90px"></i>
-            <h5 class="card-title fw-bold">Pay the review fee</h5>
-            <ul class="progress-fee mt-1">
-              <li class="">Bank</li>
-              <li>Gcash - 09283171889</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col d-flex align-content-center justify-content-center">
-        <div data-aos="fade-up" data-aos-duration="3000" class="card h-100 shadow bg-body rounded" style="width: 80%">
-          <div class="card-header text-center" style="background-color: #4084C3;">
-            <strong style="font-size: 30px; color: #F7D965;">Step 3</strong>
-          </div>
-          <div class="card-body text-center">
-            <i class="fa-solid fa-envelope-circle-check m-5 rounded-circle" style="font-size: 90px"></i>
-            <h5 class="card-title fw-bold">Check email for confirmation</h5>
-            <p class="card-text"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="container-fluid">
-  <div class="">
-    <p class="text-center fw-lighter p-2 text-muted">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
+  <div class="d-flex justify-content-start p-2 mb-5">
+    <a href="index.php">
+      <img id="header_Logo" src="assets/images/ThinkerVille_04.png" alt="ThinkerVille" srcset="">
+    </a>
+  </div>
+
+  <div class="row" style="margin-bottom: 10%;">
+    <div class="col-md-6">
+      <h1 style="font-size: 30px; margin-left: 5%" class="fw-bold mt-3">Pass the actual Civil Service Exam!</h1>
+      <p style="font-size: 20px; margin-left: 5%" class="mt-4">Avail our Year-end Sale for</p>
+      <div class="bg-danger" style="margin-left: 5%; padding-left: 20px; padding-left: 20px; margin-right: 24%; margin-bottom: 1%">
+        <h1 id="promo_off" class="text-white">85% OFF!!</h1>
+      </div>
+      <p style="font-size:15px; margin-left: 5%" class="text-muted mb-5">Get the most thorough, Detailed, Adaptable, <br>and Cost-effective CSE online review.</p>
+      <button style="margin-left: 5%" type="button" class="btn btn-lg btn-warning fw-bold">Learn more</button>
+    </div>
+    <div class="col-md-6">
+      <img src="assets/images/endorsement_pic.png" alt="endoresepic" srcset="" id="endoresepic">
+    </div>
+  </div>
+
+
+  <div class="container mb-3">
+    <div class="row" id="promoSection">
+      <div class="col-md-6">
+        <div class="card shadow rounded border border-3">
+          <div class="card-body" style="width: 525px;">
+            <div class=" d-flex justify-content-between">
+              <div>
+              <h5 class="fw-bold">Regular Price</h5>
+              <p class="card-text text-muted">Before</p>
+              </div>
+              <h5 class="fw-bolder text-muted" style="font-size: 40px">&#8369; 2,000</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow rounded border border-3 border-primary">
+          <div class="card-body" style="width: 525px;">
+            <div class=" d-flex justify-content-between">
+              <div>
+              <h5 class="fw-bold">Discounted</h5>
+              <p class="card-text text-muted">Now</p>
+              </div>
+              <h5 class="fw-bolder" style="font-size: 40px">&#8369; 300</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="background-color: #E5E4E2;">
+    <div class="card" style="width: 90%; margin-left: 3.5%; margin-right: 5%; margin-top: 9%; margin-bottom: 6%">
+      <div class="card-body p-5">
+        <h4 class="text-center px-3">Get the most <strong>complete</strong>, <strong>comprehensive</strong>, <strong>flexible</strong>, and <strong>highly affordable</strong> CSE review that has helped thousands of individuals pass and excel in the actual Civil Service Examination.</h4>
+        <hr>
+        <div class="row">
+          <div class="col-4 my-4 d-flex justify-content-end">
+            <i style="font-size: 50px; margin-right: 40px" class="fa-brands fa-creative-commons-zero text-warning"></i>
+          </div>
+          <div class="col-6 my-4">
+            <h5 class="fw-bold" style="color: #004AAD">We employ a zero-based approach</h5>
+            <p>(we understand that not everyone has the same stock knowledge).</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 my-4 d-flex justify-content-end">
+            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-lightbulb text-warning"></i>
+          </div>
+          <div class="col-6 py-4">
+            <h5 class="fw-bold" style="color: #004AAD">We utilize strategies to simplify difficult problems</h5>
+            <p>(topics are explained in detail to ensure a complete grasp of the concept).</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 my-4 d-flex justify-content-end">
+            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-video text-warning"></i>
+          </div>
+          <div class="col-6 my-4">
+            <h5 class="fw-bold" style="color: #004AAD">We offer up-to-date video discussions, reading materials
+              and a plethora of practice exercises.</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 my-4 d-flex justify-content-end">
+            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-file-circle-plus text-warning"></i>
+          </div>
+          <div class="col-6 my-4">
+            <h5 class="fw-bold" style="color: #004AAD">Thousands of test questions based on the actual Civil Service Exams</h5>
+            <p>to help you improve in your examination preparation.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 my-4 d-flex justify-content-end">
+            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-magnifying-glass-chart text-warning"></i>
+          </div>
+          <div class="col-6 my-4">
+            <h5 class="fw-bold" style="color: #004AAD">Test Analytics</h5>
+            <p>to help you improve in your examination preparation.</p>
+          </div>
+        </div>
+        <hr><br>
+        <h3 class="text-danger text-center fw-bold mb-3">Plus, you can have your review anytime and anywhere you want!!!</h3>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <h1 class="text-center fw-bolder mt-5">Enrollment Proccess</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4" style="width: 90%; margin-left: 3.5%; margin-right: 5%; margin-top: 0; margin-bottom: 7%">
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/form.png" class="card-img-top m-4" alt="..." style="width: 120px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title bg-warning fw-bold p-2 rounded-3 w-50 text-center">STEP 1</h5>
+            <p class="card-text fw-bold text-center my-4" style="color: #004AAD; font-size: 25px">Fill up the Form</p>
+            <div class="text-center">
+              <a href="#" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Step 1: Fill up the form</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/cashless-payment.png" class="card-img-top m-4" alt="..." style="width: 120px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title bg-warning fw-bold p-2 rounded-3 w-50 text-center">STEP 2</h5>
+            <p class="card-text fw-bold text-center my-4" style="color: #004AAD; font-size: 25px">Pay the Review Fee</p>
+            <div class="row">
+              <div class="col-md-4">
+                <a href="" class="thumbnail">
+                  <img src="assets/images/GCash-Logo.png" class="rounded " alt="..." style="width: 80px;">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="" class="thumbnail">
+                  <img src="assets/images/maya.jpg" class="rounded " alt="..." style="width: 80px;">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="" class="thumbnail">
+                  <img src="assets/images/Bank_of_the_Philippine_Islands_logo.svg.png" style="width: 80px;" class="rounded" alt="...">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Step 2: Pay the Review Fee</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow">
+          <div class="text-center">
+            <img src="assets/images/tick.png" class="card-img-top m-4" alt="..." style="width: 120px">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title bg-warning fw-bold p-2 rounded-3 w-50 text-center">STEP 3</h5>
+            <p class="card-text fw-bold text-center my-4" style="color: #004AAD; font-size: 25px">Check your email for confirmation</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Step 3: Check your email for confirmation</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row bg-primary">
+    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<button type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</button></p>
+  </div>
+  <div class="row">
+    <div class="bg-warning">
+      <p class="text-center p-2">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
+    </div>
   </div>
 </div>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop='static'>
-  <div class="modal-dialog modal-lg">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header" style="background-color: #4084C3; color: #F7D965">
         <h5 class="modal-title" id="exampleModalLabel"><i class="fa-solid fa-lightbulb"></i>&nbsp; We have something special just for you!</h5>
       </div>
       <div class="modal-body p-4 text-center">
-        <h1 class="py-5">Ace the actual <b>CSE</b> for <b class="bg-danger text-white px-1">75% OFF!</b></h1>
-        <button type="button" class="btn btn-primary btn-lg mb-5" data-bs-dismiss="modal" aria-label="Close">Check details here</button>
+        <h2 class="fw-bold py-5">Do you want to surely PASS the Civil Service Exam?</h1>
+          <button type="button" class="btn btn-primary btn-lg mb-5" data-bs-dismiss="modal" aria-label="Close">Check details here</button>
       </div>
     </div>
   </div>
 </div>
-
-
 
 <?php include("includes/footer.php"); ?>
 <script type="text/javascript">

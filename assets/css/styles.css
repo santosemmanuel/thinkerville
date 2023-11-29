@@ -10916,6 +10916,17 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   height: 300px;
 }
 
+#endoresepic {
+  width: 550px; 
+  height: 380px
+}
+
+#promoSection {
+  z-index: 1; 
+  position: absolute; 
+  margin-top: -4%
+}
+
 @media only screen and (max-width: 414px) {
   #sidebar-wrapper {
     margin-left: 0;
@@ -10970,7 +10981,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: 5%;
     margin-right: 5%; 
   }
-
+  
 }
 
 @media only screen and (max-width: 360px) {
@@ -11123,7 +11134,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
   #header_Logo {
     width:200px; 
-    height: 40px;
+    height: 30px;
   }
 
   #promo_off{
@@ -11155,6 +11166,18 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: 6%;
     margin-right: 6%; 
     padding: 0;
+  }
+
+  #endoresepic {
+    width: 300px;
+    height: 250px;
+    margin-top: 15%
+  }
+
+  #promoSection {
+    z-index: none; 
+    position: relative;
+    margin-top: 0%
   }
 
 }
@@ -11199,12 +11222,13 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
 
   #header_Logo {
-    width:400px; 
-    height: 60px;
+    margin-left: 7%;
+    width:200px; 
+    height: 50px;
   }
 
   #promo_off{
-    font-size: 98px; 
+    font-size: 80px; 
     font-weight: 1000;
   }
   
