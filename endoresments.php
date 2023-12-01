@@ -31,10 +31,10 @@
           <div class="card-body" style="width: 525px;">
             <div class=" d-flex justify-content-between">
               <div>
-              <h5 class="fw-bold">Regular Price</h5>
-              <p class="card-text text-muted">Before</p>
+                <h5 class="fw-bold">Regular Price</h5>
+                <p class="card-text text-muted">Before</p>
               </div>
-              <h5 class="fw-bolder text-muted" style="font-size: 40px">&#8369; 2,000</h5>
+              <h5 class="fw-bolder text-muted" style="font-size: 40px"><del>&#8369; 2,000</h5>
             </div>
           </div>
         </div>
@@ -44,8 +44,8 @@
           <div class="card-body" style="width: 525px;">
             <div class=" d-flex justify-content-between">
               <div>
-              <h5 class="fw-bold">Discounted</h5>
-              <p class="card-text text-muted">Now</p>
+                <h5 class="fw-bold">Discounted</h5>
+                <p class="card-text text-muted">Now</p>
               </div>
               <h5 class="fw-bolder" style="font-size: 40px">&#8369; 300</h5>
             </div>
@@ -107,6 +107,43 @@
         </div>
         <hr><br>
         <h3 class="text-danger text-center fw-bold mb-3">Plus, you can have your review anytime and anywhere you want!!!</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row bg-warning p-5">
+    <h1 class="text-center fw-bolder mb-4">Video Discussions</h1>
+    <ul class="nav nav-pills mb-3 justify-content-center mb-4" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active fw-bolder" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-language"></i>&nbsp; Vocabulary</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link fw-bolder" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square-root-variable"></i>&nbsp; PEMDAS</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link fw-bolder" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fa-solid fa-scale-balanced"></i>&nbsp; Article 1: The National Territory</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <center>
+          <div class="ratio ratio-21x9" style="width: 650px; height: 400px">
+            <iframe src="https://drive.google.com/file/d/1B1qjG5GkgEneDBTDkqE8DGhKkU2jX1gb/preview" title="YouTube video" allowfullscreen></iframe>
+          </div>
+        </center>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <center>
+          <div class="ratio ratio-21x9" style="width: 650px; height: 400px">
+            <iframe src="https://drive.google.com/file/d/1Nn-VE7PQ4c-Xiy85IlsG-dw6m8T1w9P1/preview" title="YouTube video" allowfullscreen></iframe>
+          </div>
+        </center>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <center>
+        <div class="ratio ratio-21x9" style="width: 650px; height: 400px">
+          <iframe src="assets/vids/Article 1.mp4" title="YouTube video" allowfullscreen></iframe>
+        </div>
+          </center>
       </div>
     </div>
   </div>
