@@ -16,7 +16,7 @@
         <h1 id="promo_off" class="text-white">85% OFF!!</h1>
       </div>
       <p style="font-size:15px; margin-left: 5%" class="text-muted mb-5">Get the most thorough, Detailed, Adaptable, <br>and Cost-effective CSE online review.</p>
-      <button style="margin-left: 5%" type="button" class="btn btn-lg btn-warning fw-bold">Learn more</button>
+      <a href="#promoSection" style="margin-left: 5%" type="button" class="btn btn-lg btn-warning fw-bold">Learn more</a>
     </div>
     <div class="col-md-6">
       <img src="assets/images/endorsement_pic.png" alt="endoresepic" srcset="" id="endoresepic">
@@ -161,7 +161,7 @@
             <h5 class="card-title bg-warning fw-bold p-2 rounded-3 w-50 text-center">STEP 1</h5>
             <p class="card-text fw-bold text-center my-4" style="color: #004AAD; font-size: 25px">Fill up the Form</p>
             <div class="text-center">
-              <a href="#" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
+              <a href="https://thinkerville.net/login/signup.php" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
             </div>
           </div>
           <div class="card-footer">
@@ -219,7 +219,7 @@
 
 
   <div class="row bg-primary">
-    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<button type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</button></p>
+    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<a href="https://thinkerville.net/login/signup.php" type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</a></p>
   </div>
   <div class="row">
     <div class="bg-warning">
