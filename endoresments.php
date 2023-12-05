@@ -60,49 +60,51 @@
       <div class="card-body p-5">
         <h4 class="text-center px-3">Get the most <strong>complete</strong>, <strong>comprehensive</strong>, <strong>flexible</strong>, and <strong>highly affordable</strong> CSE review that has helped thousands of individuals pass and excel in the actual Civil Service Examination.</h4>
         <hr>
-        <div class="row">
-          <div class="col-4 my-4 d-flex justify-content-end">
-            <i style="font-size: 50px; margin-right: 40px" class="fa-brands fa-creative-commons-zero text-warning"></i>
+        <div class="container">
+          <div class="row">
+            <div class="col-md my-3 align-content-end">
+              <i style="margin-left: 40%; font-size: 50px;" class="fa-brands fa-creative-commons-zero text-warning"></i>
+            </div>
+            <div class="col-md my-3">
+              <h5 class="fw-bold" style="color: #004AAD">We employ a zero-based approach</h5>
+              <p>(we understand that not everyone has the same stock knowledge).</p>
+            </div>
           </div>
-          <div class="col-6 my-4">
-            <h5 class="fw-bold" style="color: #004AAD">We employ a zero-based approach</h5>
-            <p>(we understand that not everyone has the same stock knowledge).</p>
+          <div class="row">
+            <div class="col-sm my-3">
+              <i style="margin-left: 40%; font-size: 50px;" class="fa-solid fa-lightbulb text-warning"></i>
+            </div>
+            <div class="col-sm my-3">
+              <h5 class="fw-bold" style="color: #004AAD">We utilize strategies to simplify difficult problems</h5>
+              <p>(topics are explained in detail to ensure a complete grasp of the concept).</p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-4 my-4 d-flex justify-content-end">
-            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-lightbulb text-warning"></i>
+          <div class="row">
+            <div class="col-sm my-5">
+              <i style="margin-left: 40%; font-size: 50px;" class="fa-solid fa-video text-warning"></i>
+            </div>
+            <div class="col-sm my-5">
+              <h5 class="fw-bold" style="color: #004AAD">We offer up-to-date video discussions, reading materials
+                and a plethora of practice exercises.</h5>
+            </div>
           </div>
-          <div class="col-6 py-4">
-            <h5 class="fw-bold" style="color: #004AAD">We utilize strategies to simplify difficult problems</h5>
-            <p>(topics are explained in detail to ensure a complete grasp of the concept).</p>
+          <div class="row">
+            <div class="col-sm my-3">
+              <i style="margin-left: 40%; font-size: 50px;" class="fa-solid fa-file-circle-plus text-warning"></i>
+            </div>
+            <div class="col-sm my-3">
+              <h5 class="fw-bold" style="color: #004AAD">Thousands of test questions based on the actual Civil Service Exams</h5>
+              <p>to help you improve in your examination preparation.</p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-4 my-4 d-flex justify-content-end">
-            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-video text-warning"></i>
-          </div>
-          <div class="col-6 my-4">
-            <h5 class="fw-bold" style="color: #004AAD">We offer up-to-date video discussions, reading materials
-              and a plethora of practice exercises.</h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4 my-4 d-flex justify-content-end">
-            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-file-circle-plus text-warning"></i>
-          </div>
-          <div class="col-6 my-4">
-            <h5 class="fw-bold" style="color: #004AAD">Thousands of test questions based on the actual Civil Service Exams</h5>
-            <p>to help you improve in your examination preparation.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4 my-4 d-flex justify-content-end">
-            <i style="font-size: 50px; margin-right: 40px" class="fa-solid fa-magnifying-glass-chart text-warning"></i>
-          </div>
-          <div class="col-6 my-4">
-            <h5 class="fw-bold" style="color: #004AAD">Test Analytics</h5>
-            <p>to help you improve in your examination preparation.</p>
+          <div class="row">
+            <div class="col-sm my-3">
+              <i style="margin-left: 40%; font-size: 50px;" class="fa-solid fa-magnifying-glass-chart text-warning"></i>
+            </div>
+            <div class="col-sm my-3">
+              <h5 class="fw-bold" style="color: #004AAD">Test Analytics</h5>
+              <p>to help you improve in your examination preparation.</p>
+            </div>
           </div>
         </div>
         <hr><br>
@@ -110,6 +112,7 @@
       </div>
     </div>
   </div>
+  
   <div class="row bg-warning p-5">
     <h1 class="text-center fw-bolder mb-4">Video Discussions</h1>
     <ul class="nav nav-pills mb-3 justify-content-center mb-4" id="pills-tab" role="tablist">
@@ -226,6 +229,7 @@
       <p class="text-center p-2">&copy <?= date('Y') ?> Copyright - Thinker Ville</p>
     </div>
   </div>
+
 </div>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop='static'>
