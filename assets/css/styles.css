@@ -10927,6 +10927,19 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   margin-top: -4%
 }
 
+.video_discuss{
+  width: 650px;
+  height: 400px
+}
+
+.card-price-width {
+  width: 525px;
+}
+
+.card-price-font {
+  font-size: 40px;
+}
+
 @media only screen and (max-width: 414px) {
   #sidebar-wrapper {
     margin-left: 0;
@@ -10980,6 +10993,14 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   .cse-content {
     margin-left: 5%;
     margin-right: 5%; 
+  }
+
+    .card-price-width {
+    width: 315px;
+  }
+
+  .card-price-font {
+    font-size: 30px;
   }
   
 }
@@ -11178,6 +11199,19 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     z-index: none; 
     position: relative;
     margin-top: 0%
+  }
+
+  .video_discuss{
+    width: 250px;
+    height: 170px;
+  }
+
+  .card-price-width {
+    width: 315px;
+  }
+
+  .card-price-font {
+    font-size: 30px;
   }
 
 }

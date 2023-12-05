@@ -100,7 +100,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
-                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="https://thinkerville.net/course/view.php?id=8"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="endoresments.php"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
                         <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="https://www.facebook.com/ThinkerVilleEducation" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>
@@ -505,7 +505,7 @@
         </div>
         <div class="my-5">
             <center>
-                <a class="btn btn-lg mt-3" type="button" href="https://thinkerville.net/login/signup.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965; font-size: 30px; padding: 12px 60px">
+                <a class="btn btn-lg mt-3" type="button" href="endoresments.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965; font-size: 30px; padding: 12px 60px">
                     <i class="fa-regular fa-circle-check" style="margin-right: 12px;"></i><strong>PASS the CSE</strong>
                 </a>
             </center>

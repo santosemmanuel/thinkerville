@@ -28,26 +28,26 @@
     <div class="row" id="promoSection">
       <div class="col-md-6">
         <div class="card shadow rounded border border-3">
-          <div class="card-body" style="width: 525px;">
+          <div class="card-body card-price-width">
             <div class=" d-flex justify-content-between">
               <div>
                 <h5 class="fw-bold">Regular Price</h5>
                 <p class="card-text text-muted">Before</p>
               </div>
-              <h5 class="fw-bolder text-muted" style="font-size: 40px"><del>&#8369; 2,000</h5>
+              <h5 class="fw-bolder text-muted card-price-font"><del>&#8369; 2,000</h5>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card shadow rounded border border-3 border-primary">
-          <div class="card-body" style="width: 525px;">
+          <div class="card-body card-price-width">
             <div class=" d-flex justify-content-between">
               <div>
                 <h5 class="fw-bold">Discounted</h5>
                 <p class="card-text text-muted">Now</p>
               </div>
-              <h5 class="fw-bolder" style="font-size: 40px">&#8369; 300</h5>
+              <h5 class="fw-bolder card-price-font">&#8369; 300</h5>
             </div>
           </div>
         </div>
@@ -126,22 +126,22 @@
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
         <center>
-          <div class="ratio ratio-21x9" style="width: 650px; height: 400px">
-            <iframe src="https://drive.google.com/file/d/1B1qjG5GkgEneDBTDkqE8DGhKkU2jX1gb/preview" title="YouTube video" allowfullscreen></iframe>
+          <div class="ratio ratio-21x9 video_discuss" >
+            <iframe src="https://drive.google.com/file/d/1B1qjG5GkgEneDBTDkqE8DGhKkU2jX1gb/preview" allowfullscreen></iframe>
           </div>
         </center>
       </div>
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
         <center>
-          <div class="ratio ratio-21x9" style="width: 650px; height: 400px">
-            <iframe src="https://drive.google.com/file/d/1Nn-VE7PQ4c-Xiy85IlsG-dw6m8T1w9P1/preview" title="YouTube video" allowfullscreen></iframe>
+          <div class="ratio ratio-21x9 video_discuss">
+            <iframe src="https://drive.google.com/file/d/1Nn-VE7PQ4c-Xiy85IlsG-dw6m8T1w9P1/preview" allowfullscreen></iframe>
           </div>
         </center>
       </div>
       <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
       <center>
-        <div class="ratio ratio-21x9" style="width: 650px; height: 400px">
-          <iframe src="assets/vids/Article 1.mp4" title="YouTube video" allowfullscreen></iframe>
+        <div class="ratio ratio-21x9 video_discuss">
+          <iframe src="assets/vids/Article 1.mp4" title="YouTube video" allowfullscreen ></iframe>
         </div>
           </center>
       </div>
@@ -161,7 +161,7 @@
             <h5 class="card-title bg-warning fw-bold p-2 rounded-3 w-50 text-center">STEP 1</h5>
             <p class="card-text fw-bold text-center my-4" style="color: #004AAD; font-size: 25px">Fill up the Form</p>
             <div class="text-center">
-              <a href="https://thinkerville.net/login/signup.php" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
             </div>
           </div>
           <div class="card-footer">
@@ -219,7 +219,7 @@
 
 
   <div class="row bg-primary">
-    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<a href="https://thinkerville.net/login/signup.php" type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</a></p>
+    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform" type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</a></p>
   </div>
   <div class="row">
     <div class="bg-warning">
