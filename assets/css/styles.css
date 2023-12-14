@@ -10928,8 +10928,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 }
 
 .video_discuss{
-  width: 650px;
-  height: 400px
+  width: 340px;
+  height: 230px
 }
 
 .card-price-width {
@@ -11001,6 +11001,11 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   .card-price-font {
     font-size: 30px;
+  }
+
+  .video_discuss{
+    width: 250px;
+    height: 150px;
   }
   
 }
@@ -11203,7 +11208,7 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   .video_discuss{
     width: 250px;
-    height: 170px;
+    height: 150px;
   }
 
   .card-price-width {
