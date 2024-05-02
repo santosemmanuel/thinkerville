@@ -111,13 +111,16 @@
         <div class="" style="background-image: url('assets/images/White and Orange Modern Abstract Banner.jpg'); background-size: cover;">
             <div class="row d-flex align-item-center justify-content-center">
                 <div class="col-sm-12 col-md-6">
-                    <div class="card shadow-lg rounded" style="margin-top: 17%; margin-bottom: 20%">
+                    <div class="card shadow-lg rounded" style="margin-top: 10%; margin-bottom: 20%">
                         <div class="card-body p-5 text-center">
                             <h2 class="card-title fw-bolder">Civil Service Exam Practice Test</h2>
                             <p class="card-text text-muted">Based on Actual Civil Service Examination Questions</p>
                             <div class="d-grid">
                                 <a class="btn btn-lg mt-3" type="button" id="StartQuiz1" href="assesment.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965;">
                                     <i class="fa fa-circle-play" style="margin-right: 12px;"></i><strong>START QUIZ</strong>
+                                </a>
+                                <a class="btn btn-lg mt-4" type="button" id="LearnMore" href="#AboutCSE1" aria-expanded="false" style="background-color: #F7D965; color:#28282B;">
+                                    <i class="fa fa-chevron-right" style="margin-right: 12px;"></i><strong>LEARN MORE</strong>
                                 </a>
                             </div>
                         </div>
@@ -505,7 +508,7 @@
         </div>
         <div class="my-5">
             <center>
-                <a class="btn btn-lg mt-3" type="button" href="endoresments.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965; font-size: 30px; padding: 12px 60px">
+                <a class="btn btn-lg mt-3" type="button" href="endorsements.php" aria-expanded="false" style="background-color: #4084C3; color:#F7D965; font-size: 30px; padding: 12px 60px">
                     <i class="fa-regular fa-circle-check" style="margin-right: 12px;"></i><strong>PASS the CSE</strong>
                 </a>
             </center>

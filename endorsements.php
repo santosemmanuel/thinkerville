@@ -13,7 +13,7 @@
       <h1 style="font-size: 30px; margin-left: 5%" class="fw-bold mt-3">Pass the actual Civil Service Exam!</h1>
       <p style="font-size: 20px; margin-left: 5%" class="mt-4">Avail our Year-end Sale for</p>
       <div class="bg-danger" style="margin-left: 5%; padding-left: 20px; padding-left: 20px; margin-right: 24%; margin-bottom: 1%">
-        <h1 id="promo_off" class="text-white">85% OFF!!</h1>
+        <h1 id="promo_off" class="text-white">75% OFF!!</h1>
       </div>
       <p style="font-size:15px; margin-left: 5%" class="text-muted mb-5">Get the most thorough, Detailed, Adaptable, <br>and Cost-effective CSE online review.</p>
       <a href="#promoSection" style="margin-left: 5%" type="button" class="btn btn-lg btn-warning fw-bold">Learn more</a>
@@ -47,7 +47,7 @@
                 <h5 class="fw-bold">Discounted</h5>
                 <p class="card-text text-muted">Now</p>
               </div>
-              <h5 class="fw-bolder card-price-font">&#8369; 300</h5>
+              <h5 class="fw-bolder card-price-font">&#8369; 500</h5>
             </div>
           </div>
         </div>
