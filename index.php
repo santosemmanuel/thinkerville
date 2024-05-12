@@ -100,7 +100,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="assesment.php"><i class="fa-regular fa-circle-play mt-1" style="font-size: 17.5px;"></i> Take a Quiz</a></li>
-                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="endoresments.php"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
+                        <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="endorsements.php"><i class="fa-regular fa-circle-check mt-1" style="font-size: 17.5px;"></i> Pass the CSE</a></li>
                         <li class="nav-item"><a class="nav-link fw-bold" style="color: #4084C3;" href="https://www.facebook.com/ThinkerVilleEducation" target="_blank"><i class="fa-solid fa-users mt-1"></i> Join Community</a></li>
                     </ul>
                 </div>
@@ -143,7 +143,8 @@
                             <hr>
                             <li><a href="https://www.csc.gov.ph/examination-advisories/exam-announcements-no-04-s-2023">Examination Announcement No. 04 s. 2023 - CSE PPT Exam Calendar CY 2024</a></li>
                             <hr>
-                            <li><a href="https://ocseas.csc.gov.ph/home">Get your Civil Service Exam slot here</a></li>
+                            <li><a href="https://ocseas.csc.gov.ph/home" style="font-weight: bold;">
+                                GET YOUR CIVIL SERVICE EXAM SLOT HERE</a></li>
                             </ul>
                         </div>
                     </div>

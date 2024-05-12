@@ -152,7 +152,7 @@
             <h5 class="card-title bg-warning fw-bold p-2 rounded-3 w-50 text-center">STEP 1</h5>
             <p class="card-text fw-bold text-center my-4" style="color: #004AAD; font-size: 25px">Fill up the Form</p>
             <div class="text-center">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4JokccX44_IVx6n-KIXhwl4g_7f90M0iSQAfuQqo9mZ2I6w/viewform" type="button" class="btn btn-link" style="font-size: 16px;">Click Here</a>
             </div>
           </div>
           <div class="card-footer">
