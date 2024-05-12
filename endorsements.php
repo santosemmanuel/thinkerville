@@ -210,7 +210,7 @@
 
 
   <div class="row bg-primary">
-    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSctA-E2f84JFiisREonzui8YqMqrmsuua0MfePQf900K9DryA/viewform" type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</a></p>
+    <p class="p-3 fw-bold text-white fs-3 text-center">What are you waiting for? &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSd4JokccX44_IVx6n-KIXhwl4g_7f90M0iSQAfuQqo9mZ2I6w/viewform" type="button" class="btn btn-light fw-bold ml-1">Click here to enroll!</a></p>
   </div>
   <div class="row">
     <div class="bg-warning">
