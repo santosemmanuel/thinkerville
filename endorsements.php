@@ -11,7 +11,7 @@
   <div class="row" style="margin-bottom: 10%;">
     <div class="col-md-6">
       <h1 style="font-size: 30px; margin-left: 5%" class="fw-bold mt-3">Pass the actual Civil Service Exam!</h1>
-      <p style="font-size: 20px; margin-left: 5%" class="mt-4">Avail our Year-end Sale for</p>
+      <p style="font-size: 20px; margin-left: 5%" class="mt-4">Avail our Summer Sale for</p>
       <div class="bg-danger" style="margin-left: 5%; padding-left: 20px; padding-left: 20px; margin-right: 24%; margin-bottom: 1%">
         <h1 id="promo_off" class="text-white">75% OFF!!</h1>
       </div>
